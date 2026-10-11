@@ -78,7 +78,8 @@ class WorkflowTests(unittest.TestCase):
         expected = {
             "core": ["zh_patch.json"],
             "extensions": ["ext_patch.json", "pkg_patch.json", "extjs_patch.json"],
-            "chat": [*(f"chat_patch_{i}.json" for i in range(1, 5)), "chat_patch_review.json"],
+            "chat": [*(f"chat_patch_{i}.json" for i in range(1, 6)), "chat_patch_review.json"],
+            "app": ["ui_patch.json"],
         }
         for group, names in expected.items():
             for name in names:
@@ -155,7 +156,8 @@ class WorkflowTests(unittest.TestCase):
         js.write_text(json.dumps(js_en, ensure_ascii=False), encoding="utf-8")
         chat = self.app / "node_modules/@exa/chat-client/index.js"
         chat.parent.mkdir(parents=True)
-        original_chat = 'englishOverrides:JSON.parse(\'{}\')});addResourceBundle("en","translation",t,!0,!0),Uo}'
+        original_chat = ('englishOverrides:JSON.parse(\'{}\')});'
+                         't&&Uo.addResourceBundle("en","translation",t,!0,!0),Uo}')
         chat.write_text(original_chat, encoding="utf-8")
         self.run_script("build_chat_dict.py", paths={"EXTRACTED_DIR": ROOT / "data/extracted"})
         self.run_script("patch_app.py")
@@ -166,6 +168,118 @@ class WorkflowTests(unittest.TestCase):
         before = {path: path.read_bytes() for path in (package, js, chat)}
         self.run_script("patch_app.py")
         self.assertEqual(before, {path: path.read_bytes() for path in before})
+
+    def _make_chat_bundle(self, tail):
+        return ('englishOverrides:JSON.parse(\'{"transcript":{"keepMe":"ORIG"}}\')});'
+                + tail
+                + '"Available with Pro",x="Off",label:"Off",category:"Off",id:"Off",'
+                  'labelKey:"Off",y==="Off",z:"Off",w:{"Off":1},label:"Daily quota usage"'
+                + 'useOnboardingBridges must be used inside <OnboardingBridgeProvider> "Off"')
+
+    def test_bundle_pipeline_covers_all_chat_copies(self):
+        paths = {}
+        for rel, tail in (
+            ("node_modules/@exa/chat-client/index.js",
+             't&&Uo.addResourceBundle("en","translation",t,!0,!0),Uo}'),
+            ("out/vs/workbench/windsurf-chat-client/index.js",
+             't&&Uo.addResourceBundle("en","translation",t,!0,!0),Uo}'),
+            ("out/vs/sessions/sessions.desktop.main.js",
+             'o&&RL.addResourceBundle("en","translation",o,!0,!0),RL}'),
+        ):
+            f = self.app / rel
+            f.parent.mkdir(parents=True, exist_ok=True)
+            f.write_text(self._make_chat_bundle(tail), encoding="utf-8")
+            paths[rel] = f
+        wb = self.app / "out/vs/workbench/workbench.desktop.main.js"
+        wb.parent.mkdir(parents=True, exist_ok=True)
+        wb.write_text('q="On";getWorkspaceSettings(){return[{id:"x",label:"On",'
+                      'category:"User Interface",label:"Daily quota usage"}]}'
+                      '_readNativeStorageCompletionMode(){let e=1', encoding="utf-8")
+        self.run_script("build_chat_dict.py", paths={"EXTRACTED_DIR": ROOT / "data/extracted"})
+        self.run_script("patch_app.py", "chat")
+        for rel, f in paths.items():
+            text = f.read_text(encoding="utf-8")
+            inst = "RL" if "sessions" in rel else "Uo"
+            self.assertIn(f'{inst}.addResourceBundle("en","review",JSON.parse(', text)
+            self.assertIn('"keepMe":"ORIG"', text)  # original overrides preserved by merge
+            self.assertIn('"每日配额用量"', text)
+            self.assertIn('label:"关"', text)
+            self.assertIn('category:"Off"', text)
+            self.assertIn('x="Off"', text)
+            self.assertIn('id:"Off"', text)
+            self.assertIn('labelKey:"Off"', text)
+            self.assertIn('y==="Off"', text)
+            self.assertIn('{"Off":1}', text)
+            self.assertTrue(text.endswith('"Off"/*devin-zh*/'))  # outside region untouched
+            self.assertNotIn("/*devin-zh*/", (f.parent / (f.name + ".devin-zh.bak")).read_text(encoding="utf-8"))
+        wb_text = wb.read_text(encoding="utf-8")
+        self.assertIn('label:"开"', wb_text)
+        self.assertIn('category:"User Interface"', wb_text)
+        self.assertTrue(wb_text.startswith('q="On";'))
+        before = {f: f.read_bytes() for f in (*paths.values(), wb)}
+        self.run_script("patch_app.py", "chat")
+        self.assertEqual(before, {f: f.read_bytes() for f in before})
+
+    def test_product_json_checksums_updated(self):
+        import base64
+        import hashlib
+
+        def digest(b):
+            return base64.b64encode(hashlib.sha256(b).digest()).decode().rstrip("=")
+
+        chat = self.app / "out/vs/workbench/windsurf-chat-client/index.js"
+        chat.parent.mkdir(parents=True, exist_ok=True)
+        chat.write_text(self._make_chat_bundle(
+            't&&Uo.addResourceBundle("en","translation",t,!0,!0),Uo}'), encoding="utf-8")
+        untouched = self.app / "out/vs/workbench/other.js"
+        untouched.write_text("plain", encoding="utf-8")
+        product = (
+            '{\n\t"nameShort": "Devin",\n\t"checksums": {\n'
+            '\t\t"vs/workbench/windsurf-chat-client/index.js": "' + digest(chat.read_bytes()) + '",\n'
+            '\t\t"vs/workbench/other.js": "' + digest(untouched.read_bytes()) + '"\n\t},\n\t"zig": 1\n}')
+        pj = self.app / "product.json"
+        pj.write_text(product, encoding="utf-8")
+        self.run_script("build_chat_dict.py", paths={"EXTRACTED_DIR": ROOT / "data/extracted"})
+        self.run_script("patch_app.py", "chat")
+        new_text = pj.read_text(encoding="utf-8")
+        data = json.loads(new_text)
+        self.assertEqual(data["checksums"]["vs/workbench/windsurf-chat-client/index.js"],
+                         digest(chat.read_bytes()))
+        self.assertEqual(data["checksums"]["vs/workbench/other.js"],
+                         digest(untouched.read_bytes()))
+        self.assertEqual(data["nameShort"], "Devin")
+        self.assertEqual(data["zig"], 1)
+        # only the hash value differs from the original text
+        import re
+        stripped = re.sub(r'"[A-Za-z0-9+/]{40,}"', '"X"', product)
+        stripped_new = re.sub(r'"[A-Za-z0-9+/]{40,}"', '"X"', new_text)
+        self.assertEqual(stripped, stripped_new)
+        self.assertEqual(pj.with_name("product.json.devin-zh.bak").read_text(encoding="utf-8"),
+                         product)
+        self.run_script("patch_app.py", "chat")
+        self.assertEqual(pj.read_text(encoding="utf-8"), new_text)
+
+    def test_bundle_patch_reapplies_updated_translations(self):
+        import shutil
+        tr_dir = self.work / "translations"
+        shutil.copytree(TRANSLATIONS, tr_dir)
+        chat = self.app / "out/vs/workbench/windsurf-chat-client/index.js"
+        chat.parent.mkdir(parents=True, exist_ok=True)
+        chat.write_text(self._make_chat_bundle(
+            't&&Uo.addResourceBundle("en","translation",t,!0,!0),Uo}'), encoding="utf-8")
+        self.run_script("build_chat_dict.py",
+                        paths={"TRANSLATIONS_DIR": tr_dir, "EXTRACTED_DIR": ROOT / "data/extracted"})
+        self.run_script("patch_app.py", "chat", paths={"TRANSLATIONS_DIR": tr_dir})
+        self.assertIn('label:"关"', chat.read_text(encoding="utf-8"))
+        ui = tr_dir / "app/ui_patch.json"
+        ui.write_text(ui.read_text(encoding="utf-8").replace('"Off": "关"', '"Off": "XX"'),
+                      encoding="utf-8")
+        self.run_script("patch_app.py", "chat", paths={"TRANSLATIONS_DIR": tr_dir})
+        text = chat.read_text(encoding="utf-8")
+        self.assertIn('label:"XX"', text)
+        self.assertIn('"keepMe":"ORIG"', text)
+        self.assertNotIn("/*devin-zh*/",
+                         chat.with_name(chat.name + ".devin-zh.bak").read_text(encoding="utf-8"))
 
     def test_legacy_install_reads_relocated_translations(self):
         self.run_script("install.py")
