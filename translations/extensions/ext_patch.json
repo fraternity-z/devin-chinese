@@ -1,0 +1,74 @@
+{
+ "vscode.configuration-editing": {
+  "bundle": {
+   "The name of the folder opened in Devin Desktop without any slashes (/)": "在 Devin Desktop 中打开的文件夹名称(不含斜杠 /)",
+   "The path of the folder opened in Devin Desktop": "在 Devin Desktop 中打开的文件夹的路径",
+   "e.g. Devin Desktop": "例如 Devin Desktop"
+  }
+ },
+ "vscode.extension-editing": {
+  "bundle": {
+   "This activation event can be removed as Devin Desktop generates these automatically from your package.json contribution declarations.": "此激活事件可以移除，因为 Devin Desktop 会根据你的 package.json 贡献声明自动生成这些事件。",
+   "This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the Devin team.": "无法使用此提案，因为对于此扩展，产品定义了一组固定的 API 提案。你可以测试扩展，但发布前必须联系 Devin 团队。"
+  }
+ },
+ "vscode.git": {
+  "package": {
+   "config.showDevinWorktrees": "启用后，在源代码管理视图中显示 Devin 工作树存储库。"
+  },
+  "bundle": {
+   "Already on branch {0}": "已在分支 {0} 上",
+   "Checking out...": "正在签出...",
+   "Choose the local clone to check out {0} in": "选择要在其中签出 {0} 的本地克隆",
+   "Failed to checkout {0}: could not fetch from {1} — {2}": "签出 {0} 失败: 无法从 {1} 获取 — {2}",
+   "Failed to checkout {0}: no remotes configured": "签出 {0} 失败: 未配置远程",
+   "Failed to checkout {0}: {1}": "签出 {0} 失败: {1}",
+   "Failed to pull latest for {0}.": "拉取 {0} 的最新内容失败。",
+   "Fetching from {0}...": "正在从 {0} 获取...",
+   "Pulling latest...": "正在拉取最新内容...",
+   "Would you like to open {0}, or add it to the current workspace?": "要打开 {0}，还是将其添加到当前工作区？",
+   "Would you like to open {0}?": "要打开 {0} 吗？",
+   "{0} is not open in this workspace. Open the repository and try again.": "{0} 未在此工作区中打开。请打开该存储库后重试。"
+  }
+ },
+ "vscode.html-language-features": {
+  "bundle": {
+   "Devin Desktop now has built-in support for auto-renaming tags. Do you want to enable it?": "Devin Desktop 现在内置支持自动重命名标签。要启用它吗？"
+  }
+ },
+ "vscode.media-preview": {
+  "bundle": {
+   "Open file using Devin Desktop's standard text/binary editor?": "使用 Devin Desktop 的标准文本/二进制编辑器打开文件？"
+  }
+ },
+ "vscode.merge-conflict": {
+  "bundle": {
+   "{0}: Current Changes ↔ Incoming Changes": "{0}: 当前更改 ↔ 传入更改"
+  }
+ },
+ "ms-vscode.js-debug-companion": {
+  "bundle": {
+   "Unable to find a {0} installation on your system. Try installing it, or providing an absolute path to the browser in the \"runtimeExecutable\" in your launch.json.": "在系统中找不到 {0} 安装。请尝试安装，或在 launch.json 的“runtimeExecutable”中提供浏览器的绝对路径。",
+   "Unable to find {0} version {1}. Available auto-discovered versions are: {2}. You can set the \"runtimeExecutable\" in your launch.json to one of these, or provide an absolute path to the browser executable.": "找不到 {0} 版本 {1}。可用的自动发现版本为: {2}。你可以在 launch.json 中将“runtimeExecutable”设置为其中之一，或提供浏览器可执行文件的绝对路径。"
+  }
+ },
+ "vscode.simple-browser": {
+  "bundle": {
+   "Devin Desktop Preview": "Devin Desktop 预览"
+  }
+ },
+ "vscode.typescript-language-features": {
+  "package": {
+   "configuration.suggest.completeJSDocs": "启用/禁用补全 JSDoc 注释的建议。"
+  },
+  "bundle": {
+   "Devin Desktop's tsserver was deleted by another application such as a misbehaving virus detection tool. Please reinstall Devin Desktop.": "Devin Desktop 的 tsserver 已被其他应用程序(如行为异常的病毒检测工具)删除。请重新安装 Devin Desktop。",
+   "Please open a folder in Devin Desktop to use a TypeScript or JavaScript project": "请在 Devin Desktop 中打开文件夹以使用 TypeScript 或 JavaScript 项目",
+   "The JS/TS language service crashed 5 times in the last 5 Minutes.\nThis may be caused by a plugin contributed by one of these extensions: {0}\nPlease try disabling these extensions before filing an issue against Devin Desktop.": "JS/TS 语言服务在最近 5 分钟内崩溃了 5 次。\n这可能是由以下扩展之一提供的插件导致的: {0}\n在向 Devin Desktop 提交问题之前，请尝试禁用这些扩展。",
+   "The JS/TS language service crashed.\nThis may be caused by a plugin contributed by one of these extensions: {0}.\nPlease try disabling these extensions before filing an issue against Devin Desktop.": "JS/TS 语言服务已崩溃。\n这可能是由以下扩展之一提供的插件导致的: {0}。\n在向 Devin Desktop 提交问题之前，请尝试禁用这些扩展。",
+   "The JS/TS language service immediately crashed 5 times. The service will not be restarted.\nThis may be caused by a plugin contributed by one of these extensions: {0}.\nPlease try disabling these extensions before filing an issue against Devin Desktop.": "JS/TS 语言服务连续崩溃了 5 次，将不再重启。\n这可能是由以下扩展之一提供的插件导致的: {0}。\n在向 Devin Desktop 提交问题之前，请尝试禁用这些扩展。",
+   "TypeScript Task in tasks.json contains \"\\\\\\\\\". TypeScript tasks tsconfig must use \"/\"": "tasks.json 中的 TypeScript 任务包含“\\\\\\\\”。TypeScript 任务的 tsconfig 必须使用“/”",
+   "Use Devin Desktop's Version": "使用 Devin Desktop 的版本"
+  }
+ }
+}

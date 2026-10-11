@@ -1,0 +1,81 @@
+{
+ "vscode.configuration-editing": {
+  "package": [],
+  "bundle": [
+   "The name of the folder opened in Devin Desktop without any slashes (/)",
+   "The path of the folder opened in Devin Desktop",
+   "e.g. Devin Desktop"
+  ]
+ },
+ "vscode.extension-editing": {
+  "package": [],
+  "bundle": [
+   "This activation event can be removed as Devin Desktop generates these automatically from your package.json contribution declarations.",
+   "This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the Devin team."
+  ]
+ },
+ "vscode.git": {
+  "package": [
+   "config.showDevinWorktrees"
+  ],
+  "bundle": [
+   "Already on branch {0}",
+   "Checking out...",
+   "Choose the local clone to check out {0} in",
+   "Failed to checkout {0}: could not fetch from {1} \\u2014 {2}",
+   "Failed to checkout {0}: no remotes configured",
+   "Failed to checkout {0}: {1}",
+   "Failed to pull latest for {0}.",
+   "Fetching from {0}...",
+   "Pulling latest...",
+   "Would you like to open {0}, or add it to the current workspace?",
+   "Would you like to open {0}?",
+   "{0} is not open in this workspace. Open the repository and try again."
+  ]
+ },
+ "vscode.html-language-features": {
+  "package": [],
+  "bundle": [
+   "Devin Desktop now has built-in support for auto-renaming tags. Do you want to enable it?"
+  ]
+ },
+ "vscode.media-preview": {
+  "package": [],
+  "bundle": [
+   "Open file using Devin Desktop's standard text/binary editor?"
+  ]
+ },
+ "vscode.merge-conflict": {
+  "package": [],
+  "bundle": [
+   "{0}: Current Changes \\u2194 Incoming Changes"
+  ]
+ },
+ "ms-vscode.js-debug-companion": {
+  "package": [],
+  "bundle": [
+   "Unable to find a {0} installation on your system. Try installing it, or providing an absolute path to the browser in the \"runtimeExecutable\" in your launch.json.",
+   "Unable to find {0} version {1}. Available auto-discovered versions are: {2}. You can set the \"runtimeExecutable\" in your launch.json to one of these, or provide an absolute path to the browser executable."
+  ]
+ },
+ "vscode.simple-browser": {
+  "package": [],
+  "bundle": [
+   "Devin Desktop Preview"
+  ]
+ },
+ "vscode.typescript-language-features": {
+  "package": [
+   "configuration.suggest.completeJSDocs"
+  ],
+  "bundle": [
+   "Devin Desktop's tsserver was deleted by another application such as a misbehaving virus detection tool. Please reinstall Devin Desktop.",
+   "Please open a folder in Devin Desktop to use a TypeScript or JavaScript project",
+   "The JS/TS language service crashed 5 times in the last 5 Minutes.\nThis may be caused by a plugin contributed by one of these extensions: {0}\nPlease try disabling these extensions before filing an issue against Devin Desktop.",
+   "The JS/TS language service crashed.\nThis may be caused by a plugin contributed by one of these extensions: {0}.\nPlease try disabling these extensions before filing an issue against Devin Desktop.",
+   "The JS/TS language service immediately crashed 5 times. The service will not be restarted.\nThis may be caused by a plugin contributed by one of these extensions: {0}.\nPlease try disabling these extensions before filing an issue against Devin Desktop.",
+   "TypeScript Task in tasks.json contains \"\\\\\\\\\". TypeScript tasks tsconfig must use \"/\"",
+   "Use Devin Desktop's Version"
+  ]
+ }
+}

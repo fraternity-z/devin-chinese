@@ -1,0 +1,1082 @@
+{
+ "vs/platform/environment/node/argv": {
+  "cliPrompt": "提示"
+ },
+ "vs/platform/native/electron-main/nativeHostMainService": {
+  "sourceMissing": "在 \"{0}\" 中找不到 shell 脚本"
+ },
+ "vs/platform/theme/common/colors/editorColors": {
+  "diffEditor.unchangedCodeBackground": "差异编辑器中未更改代码的背景色。",
+  "diffEditor.unchangedRegionBackground": "差异编辑器中未更改块的背景色。",
+  "diffEditor.unchangedRegionForeground": "差异编辑器中未更改块的前景色。",
+  "diffEditorRemovedLineGutter": "删除行的边距的背景色。"
+ },
+ "vs/platform/theme/common/colors/listColors": {
+  "editorActionListFocusBackground": "聚焦项目的操作列表背景色。"
+ },
+ "vs/server/node/remoteExtensionHostAgentCli": {
+  "remotecli": "远程 CLI"
+ },
+ "vs/server/node/serverEnvironmentService": {
+  "acceptLicenseTerms": "如果已设置，则用户接受服务器许可条款，并将在没有用户提示的情况下启用服务器。",
+  "agent-host-bridge-connection-token": "Connection token required by the externally-running agent host when used with --agent-host-bridge-port.",
+  "agent-host-bridge-host": "Host the externally-running agent host is reachable at when used with --agent-host-bridge-port. Defaults to localhost.",
+  "agent-host-bridge-path": "Bridge renderer agent-host traffic to an already-running agent host listening on this socket path. Does not spawn an agent host.",
+  "agent-host-bridge-port": "Bridge renderer agent-host traffic to an already-running agent host listening on this port. Does not spawn an agent host.",
+  "agent-host-path": "The path to a socket file for the agent host WebSocket server to listen on.",
+  "agent-host-port": "The port the agent host WebSocket server should listen on.",
+  "connection-token": "必须包含在所有请求中的机密。",
+  "connection-token-file": "包含连接令牌的文件的路径。",
+  "default-folder": "未在浏览器 URL 中指定输入时要打开的工作区文件夹。已针对当前工作目录解析相对或绝对路径。",
+  "default-workspace": "未在浏览器 URL 中指定输入时要打开的工作区。已针对当前工作目录解析相对或绝对路径。",
+  "host": "服务器应侦听的主机名或 IP 地址。如果未设置，则默认为 “localhost”。",
+  "port": "服务器应侦听的端口。如果传递了 0，则会选取一个随机的空闲端口。如果传递了采用 num-num 格式的范围，则将从范围中选择(包含结束)空闲端口。",
+  "reconnection-grace-time": "替代重新连接宽限期窗口(秒)。默认值为 10800 秒(3 小时)。",
+  "server-base-path": "提供 Web UI 和代码服务器的路径。默认为 “/”。`",
+  "serverDataDir": "指定保存服务器数据的目录。",
+  "socket-path": "服务器要侦听的套接字文件的路径。",
+  "start-server": "安装或卸载扩展时启动服务器。将与 “install-extension”、“install-builtin-extension” 和 “uninstall-extension” 结合使用。",
+  "telemetry-level": "设置初始遥测级别。有效级别为: “off”、 crash”、“error” 和 “all”。如果未指定，服务器将在客户端连接之前发送遥测数据，然后将使用客户端遥测设置。将此项设置为 “off” 等效于 --disable-telemetry",
+  "without-connection-token": "在没有连接令牌的情况下运行。仅当通过其他方式保护连接时才使用此项。"
+ },
+ "vs/server/node/serverServices": {
+  "remoteExtensionLog": "服务器"
+ },
+ "vs/sessions/contrib/agentHost/browser/agentHostSessionBranchActions": {
+  "copySessionBranchName": "复制会话分支名称"
+ },
+ "vs/sessions/contrib/agentHost/browser/agentHostSettings.contribution": {
+  "agentHostSettings.label": "主机设置",
+  "openHostSettings": "打开主机设置"
+ },
+ "vs/sessions/contrib/agentHost/browser/agentHostSettingsFileSystemProvider": {
+  "agentHostSettings.header": "代理主机设置。",
+  "agentHostSettings.notObject": "代理主机设置必须为 JSON 对象。",
+  "agentHostSettings.parseError": "未能将代理主机设置解析为 JSON。",
+  "agentHostSettings.saveHint": "编辑以下值并保存以应用。未知属性将被忽略。"
+ },
+ "vs/sessions/contrib/agentHost/browser/agentHostSkillButtons": {
+  "agentSessions.runSkill.createDraftPR": "创建草稿拉取请求",
+  "agentSessions.runSkill.createPR": "创建拉取请求",
+  "agentSessions.runSkill.merge": "合并更改",
+  "agentSessions.runSkill.updatePR": "同步拉取请求"
+ },
+ "vs/sessions/contrib/agentHost/browser/agentSessionSettings.contribution": {
+  "agentSessionSettings.label": "会话设置",
+  "openSessionSettings": "打开会话设置"
+ },
+ "vs/sessions/contrib/agentHost/browser/agentSessionSettingsFileSystemProvider": {
+  "agentSessionSettings.header": "此代理主机会话的会话设置。",
+  "agentSessionSettings.notObject": "代理会话设置必须为 JSON 对象。",
+  "agentSessionSettings.parseError": "未能将代理会话设置解析为 JSON。",
+  "agentSessionSettings.saveHint": "编辑以下值并保存以应用。未知或不可变属性将被忽略。"
+ },
+ "vs/sessions/contrib/agentHost/browser/baseAgentHostSessionsProvider": {
+  "noAgents": "智能体主机尚未发布任智能体。",
+  "notConnectedSend": "无法发送请求: 未连接到智能体主机。"
+ },
+ "vs/sessions/contrib/agentHost/browser/localAgentHostSessionsProvider": {
+  "localAgentHostLabel": "本地智能体主机",
+  "localAgentHostSessionTypeLocation": "本地"
+ },
+ "vs/sessions/contrib/agentHost/browser/openSessionEventsFileActions": {
+  "openSessionEventsFile": "打开 Copilot CLI 状态文件",
+  "openSessionEventsFile.noHome": "远程智能体主机“{0}”未报告主目录。",
+  "openSessionEventsFile.noSession": "没有活动的 Copilot CLI 会话。",
+  "openSessionEventsFile.notConnected": "未找到远程智能体主机“{0}”的活动连接。",
+  "openSessionEventsFile.unsupported": "当前活动聊天会话不是 Copilot CLI 会话。"
+ },
+ "vs/sessions/contrib/agentHost/electron-browser/exportDebugLogsAction": {
+  "exportAgentHostDebugLogs": "导出智能体主机调试日志...",
+  "exportDebugLogs.noFiles": "未找到活动会话的日志文件。",
+  "exportDebugLogs.noHome": "远程智能体主机“{0}”未报告主目录。",
+  "exportDebugLogs.noSession": "没有活动的 Copilot CLI 会话。",
+  "exportDebugLogs.notConnected": "未找到远程智能体主机“{0}”的活动连接。",
+  "exportDebugLogs.saveDialogTitle": "导出智能体主机调试日志",
+  "exportDebugLogs.saveError": "保存调试日志失败: {0}",
+  "exportDebugLogs.unsupported": "当前活动聊天会话不是 Copilot CLI 会话。",
+  "exportDebugLogs.zipFilter": "Zip 存档"
+ },
+ "vs/sessions/contrib/configuration/browser/configuration.contribution": {
+  "sessions.experimental.shellGradientBackground": "是否在会话窗口中启用实验性强调色 shell 背景。"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/branchPicker": {
+  "branchPicker.ariaLabel": "分支选取器",
+  "branchPicker.filter": "筛选分支...",
+  "branchPicker.select": "分支",
+  "branchPicker.triggerAriaLabel": "选择分支，{0}"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/claudePermissionModePicker": {
+  "claude.permissionMode.acceptEdits": "自动编辑",
+  "claude.permissionMode.acceptEdits.description": "Claude 无需询问即可编辑文件",
+  "claude.permissionMode.default": "编辑前询问",
+  "claude.permissionMode.default.description": "Claude 在进行更改前请求批准",
+  "claude.permissionMode.plan": "计划模式",
+  "claude.permissionMode.plan.description": "Claude 在进行更改前创建计划",
+  "claudePermissionModePicker.ariaLabel": "权限模式",
+  "claudePermissionModePicker.triggerAriaLabel": "选择权限模式，{0}"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/copilotChatSessions.contribution": {
+  "sessions.chat.claudeAgent.enabled": "在智能体窗口中启用 Claude Agent 会话。直接启动和恢复由 Anthropic Claude Agent SDK 驱动的智能体编码会话。使用你现有的 Copilot 订阅。",
+  "sessions.chat.localAgent.enabled": "在智能体窗口中启用本地 VS Code 聊天会话。",
+  "sessions.github.copilot.multiChatSessions": "是否在 Copilot 对话助手会话提供程序中启用单个会话内的多个聊天。"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/copilotChatSessionsActions": {
+  "branchPicker": "分支",
+  "claudePermissionModePicker": "权限模式",
+  "cloudModelPicker": "模型",
+  "deleteSession": "删除...",
+  "isolationPicker": "隔离模式",
+  "localModelPicker": "模型",
+  "modePicker": "模式",
+  "permissionPicker": "权限"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/copilotChatSessionsProvider": {
+  "copilotChatSessionsProvider": "Copilot 对话助手",
+  "deleteChat.confirm": "是否确定要删除此聊天?",
+  "deleteChat.delete": "删除",
+  "deleteChat.detail": "此操作不能撤消。",
+  "deleteSession.confirm": "是否确实要删除此会话?",
+  "deleteSession.delete": "删除",
+  "deleteSession.detail": "此操作不能撤消。",
+  "deleteSession.detailMultiple": "这将删除此会话中的全部 {0} 个聊天。此操作无法撤消。",
+  "new chat": "新建聊天",
+  "new session": "新会话",
+  "repositories": "存储库",
+  "sessionWorkspaceGroup.github": "GitHub"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/isolationPicker": {
+  "isolationMode.folder": "文件夹",
+  "isolationMode.worktree": "工作树",
+  "isolationPicker.ariaLabel": "隔离模式",
+  "isolationPicker.triggerAriaLabel": "选择隔离模式，{0}"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/mobilePermissionPicker": {
+  "permissionPicker.title": "审批",
+  "permissions.autoApprove": "绕过审批",
+  "permissions.autoApprove.subtext": "所有工具调用均自动批准",
+  "permissions.autopilot": "Autopilot (预览版)",
+  "permissions.autopilot.subtext": "从头到尾自主迭代",
+  "permissions.default": "默认审批",
+  "permissions.default.subtext": "Copilot 使用你配置的设置",
+  "permissions.learnMore": "了解有关权限的详细信息"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/modelPicker": {
+  "modelPicker.ariaLabel": "模型选取器",
+  "modelPicker.auto": "自动",
+  "modelPicker.filter": "筛选模型...",
+  "modelPicker.triggerAriaLabel": "选取模型，{0}"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/modePicker": {
+  "configureCustomAgents": "配置自定义智能体...",
+  "modePicker.ariaLabel": "模式选取器",
+  "modePicker.triggerAriaLabel": "选择模式，{0}"
+ },
+ "vs/sessions/contrib/copilotChatSessions/browser/permissionPicker": {
+  "permissionPicker.ariaLabel": "权限选取器",
+  "permissionPicker.triggerAriaLabel": "选择权限级别，{0}",
+  "permissions.autoApprove": "绕过审批",
+  "permissions.autoApprove.label": "绕过审批",
+  "permissions.autoApprove.subtext": "所有工具调用均自动批准",
+  "permissions.autopilot": "Autopilot (预览版)",
+  "permissions.autopilot.label": "Autopilot (预览版)",
+  "permissions.autopilot.subtext": "从头到尾自主迭代",
+  "permissions.default": "默认审批",
+  "permissions.default.label": "默认审批",
+  "permissions.default.subtext": "Copilot 使用你配置的设置",
+  "permissions.learnMore": "了解有关权限的详细信息"
+ },
+ "vs/sessions/contrib/git/browser/git.contribution": {
+  "agentSessionGitHasUpstreamBranch": "当活动代理会话工作树有上游分支时，为 True。",
+  "synchronizeChanges": "与 Git 同步更改(落后 {0}领先 {1})",
+  "synchronizeChangesTitle": "同步更改"
+ },
+ "vs/sessions/contrib/localAgentHost/browser/localAgentHostSessionsProvider": {
+  "cannotChangeExistingSessionType": "无法更改现有本地智能体主机会话的会话类型。",
+  "folders": "文件夹",
+  "localAgentHostDescription": "本地",
+  "localAgentHostLabel": "本地代理主机",
+  "localAgentHostSessionType": "{0} [{1}]",
+  "localAgentHostSessionTypeLocation": "本地",
+  "noAgents": "本地智能体主机尚未播发任何智能体。",
+  "selectLocalFolder": "选择文件夹",
+  "unknownSessionType": "会话类型“{0}”在本地智能体主机上不可用。"
+ },
+ "vs/sessions/contrib/logs/browser/logs.contribution": {
+  "logs": "日志",
+  "sessionsLogsViewIcon": "在会话窗口中查看日志视图图标。"
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/manageRemoteAgentHosts": {
+  "manageHosts.actionsHeader": "添加或管理",
+  "manageHosts.placeholder": "选择要管理的远程代理或选择操作",
+  "manageHosts.remoteHostsHeader": "远程代理主机",
+  "manageHosts.removeTooltip": "移除",
+  "manageHosts.title": "管理远程代理主机",
+  "manageRemoteAgentHosts": "管理远程代理主机..."
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHost.contribution": {
+  "chat.agentHost.forwardSSHAgent": "启用后，在 SSH 代理主机连接到其 SSH 配置包含 `ForwardAgent yes` 的主机时，将本地 SSH 代理转发到远程计算机。仅对受信任主机启用此功能。必须重启远程代理主机进程，此设置才能生效。",
+  "chat.agentHost.localFilePermissions": "远程代理主机的每主机文件系统授权。将远程代理主机地址映射到 URI 字符串及主机已获授权的访问模式(`r` 表示读取，`rw` 表示读取和写入)。主机未经提示无法读取或写入授权 URI 之外的任何文件；URI 授权包含子级。此设置通常由代理主机权限提示维护，极少手动编辑。",
+  "chat.agentHost.localFilePermissions.read": "只读权限。",
+  "chat.agentHost.localFilePermissions.readWrite": "读取和写入权限。",
+  "chat.remoteAgentHosts": "要连接的远程代理主机地址列表(例如 \"localhost:3000\")。",
+  "chat.remoteAgentHosts.address": "远程代理主机的地址(例如 \"localhost:3000\")。",
+  "chat.remoteAgentHosts.autoConnect": "启动时自动连接到在线开发隧道和 SSH 配置的远程代理主机。禁用后，仍会显示缓存会话，但仅在需要时建立连接。",
+  "chat.remoteAgentHosts.connectionToken": "用于远程代理主机身份验证的可选连接令牌。",
+  "chat.remoteAgentHosts.enabled": "启用到远程代理主机的连接。",
+  "chat.remoteAgentHosts.name": "此远程代理主机的显示名称。",
+  "chat.remoteAgentHosts.sshConfigHost": "用于通过 SSH 隧道自动重新连接的 SSH 配置主机别名。",
+  "chat.remoteAgentTunnels": "连接到远程智能体主机时要查找的其他开发隧道名称。除了从你的帐户自动枚举的隧道外，还会查找这些隧道。",
+  "chat.sshRemoteAgentHostCommand": "用于开发: 覆盖通过 SSH 启动远程代理主机所用的命令。设置后，将跳过 CLI 自动安装并改为运行此命令。此命令必须向 stdout 或 stderr 输出匹配 ws://127.0.0.1:PORT (可选择性带有 ?tkn=TOKEN)的 WebSocket URL。/"
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHostActions": {
+  "addNewSSHHost": "添加新的 SSH 主机...",
+  "addRemoteAgentHost": "添加远程代理主机...",
+  "addRemoteFailed": "未能连接到远程代理主机 {0}。",
+  "addRemotePrompt": "粘贴主机、host:port 或 WebSocket URL。示例: {0}",
+  "addRemoteTitle": "添加远程代理主机",
+  "addRemoteValidationEmpty": "输入远程代理主机地址。",
+  "addRemoteValidationInvalid": "输入有效的主机、host:port 或 WebSocket URL。",
+  "configureSSHHosts": "配置 SSH 主机...",
+  "connectViaSSH": "通过 SSH 连接到远程代理主机",
+  "connectViaSSHShort": "SSH...",
+  "connectViaTunnel": "通过开发隧道连接到远程智能体主机",
+  "connectViaTunnelShort": "隧道...",
+  "nameRemotePlaceholder": "我的远程",
+  "nameRemotePrompt": "输入此远程代理主机的显示名称。",
+  "nameRemoteTitle": "为远程代理主机命名",
+  "nameRemoteValidationEmpty": "为此远程代理主机输入一个名称。",
+  "sshAddNewHost": "添加新的 SSH 主机...",
+  "sshAuthAgent": "SSH 代理",
+  "sshAuthAgentDesc": "使用正在运行的 SSH 代理进行身份验证",
+  "sshAuthKey": "私钥文件",
+  "sshAuthKeyDesc": "使用私钥文件进行身份验证",
+  "sshAuthPassword": "密码",
+  "sshAuthPasswordDesc": "使用密码进行身份验证",
+  "sshAuthPlaceholder": "选择对 {0} 进行身份验证的方式",
+  "sshAuthTitle": "身份验证方法",
+  "sshConfigCreateFailed": "创建 SSH 配置文件失败: {0}",
+  "sshConfigListFailed": "列出 SSH 配置文件失败: {0}",
+  "sshConfigOpenFailed": "打开 SSH 配置文件失败: {0}",
+  "sshConfigPickPlaceholder": "选择 SSH 配置文件",
+  "sshConfigPickTitle": "选择要编辑的 SSH 配置文件",
+  "sshConfigureHosts": "配置 SSH 主机...",
+  "sshConnectFailed": "未能通过 SSH 连接到 {0}: {1}",
+  "sshConnecting": "正在通过 SSH 连接到 {0}...",
+  "sshHostEmpty": "输入 SSH 主机。",
+  "sshHostInvalid": "SSH 主机无效。",
+  "sshHostInvalidPort": "请输入一个有效的端口号。",
+  "sshHostMissingAfterAt": "请在 \"@\" 后输入主机名。",
+  "sshHostPickerPlaceholder": "选择已配置的 SSH 主机或输入 user@host",
+  "sshHostTitle": "通过 SSH 连接",
+  "sshKeyEmpty": "请输入密钥文件路径。",
+  "sshKeyPrompt": "输入 SSH 私钥的路径。",
+  "sshKeyTitle": "私钥路径",
+  "sshNameEmpty": "输入名称。",
+  "sshNamePlaceholder": "我的远程代理",
+  "sshNamePrompt": "请为此 SSH 远程代理输入显示名称。",
+  "sshNameTitle": "命名远程代理",
+  "sshPasswordEmpty": "请输入密码。",
+  "sshPasswordPrompt": "请输入 {0}@{1} 的密码。",
+  "sshPasswordTitle": "SSH 密码",
+  "sshResolveConfigFailed": "未能解析 {0} 的 SSH 配置: {1}",
+  "sshUsernameEmpty": "输入用户名。",
+  "sshUsernameMissingInHost": "请在 \"@\" 前输入用户名。",
+  "sshUsernamePrompt": "请输入 {0} 的用户名。",
+  "sshUsernameTitle": "SSH 用户名",
+  "tunnelAuthFailed": "身份验证失败。请重试。",
+  "tunnelAuthGitHub": "GitHub",
+  "tunnelAuthGitHubDesc": "使用 GitHub 帐户登录",
+  "tunnelAuthMicrosoft": "Microsoft 帐户",
+  "tunnelAuthMicrosoftDesc": "使用 Microsoft 帐户登录",
+  "tunnelAuthPlaceholder": "选择身份验证提供商",
+  "tunnelAuthTitle": "登录开发隧道",
+  "tunnelConnectFailed": "未能连接到隧道“{0}”: {1}",
+  "tunnelConnecting": "正在连接到隧道“{0}”...",
+  "tunnelListFailed": "未能列出开发隧道: {0}",
+  "tunnelNoneFound": "未找到支持智能体主机的开发隧道。请在另一台计算机上使用 \"code tunnel\" 启动隧道。",
+  "tunnelPickPlaceholder": "选择要连接的开发隧道",
+  "tunnelPickTitle": "通过开发隧道连接"
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHostCustomizationHarness": {
+  "remoteAgentHost.addPlugin": "添加远程插件",
+  "remoteAgentHost.addPluginTooltip": "添加此远程代理主机上已存在的插件文件夹。",
+  "remoteAgentHost.pluginAlreadyConfigured": "“{0}”已在 {1} 上配置。",
+  "remoteAgentHost.removeConfiguredPlugin": "从远程主机移除",
+  "remoteAgentHost.selectPluginFolder": "选择 {0} 上的插件文件夹"
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHostSessionsProvider": {
+  "connectFailed": "连接到远程代理主机“{0}”失败: {1}",
+  "folders": "文件夹",
+  "noAgents": "远程智能体主机“{0}”尚未播发任何智能体。",
+  "notConnected": "无法连接到远程代理主机“{0}”。",
+  "notConnectedSend": "无法发送请求: 未连接到远程代理主机“{0}”。",
+  "notConnectedSession": "无法创建会话: 未连接到远程代理主机“{0}”。",
+  "selectRemoteFolder": "选择 {0} 上的文件夹"
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHostTerminal.contribution": {
+  "agentHostTerminal.channelRemote": "智能体主机终端({0})"
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/remoteHostOptions": {
+  "workspacePicker.copyAddress": "复制地址",
+  "workspacePicker.hoverConnected": "远程代理主机已连接且准备就绪。",
+  "workspacePicker.hoverConnectedAddr": "远程代理主机已连接且准备就绪。\r\n\r\n地址: {0}",
+  "workspacePicker.hoverConnecting": "正在尝试连接到远程代理主机...",
+  "workspacePicker.hoverConnectingAddr": "正在尝试连接到远程代理主机...\r\n\r\n地址: {0}",
+  "workspacePicker.hoverDisconnected": "远程代理主机已断开连接。",
+  "workspacePicker.hoverDisconnectedAddr": "远程代理主机已断开连接。\r\n\r\n地址: {0}",
+  "workspacePicker.hoverIncompatible": "无法连接到远程代理主机: {0}\r\n\r\n此客户端使用协议版本 {1}。",
+  "workspacePicker.hoverIncompatibleAddr": "无法连接到远程代理主机: {0}\r\n\r\n此客户端使用协议版本 {1}。\r\n\r\n地址: {2}",
+  "workspacePicker.incompatibleValidationClient": "协议版本不兼容。我们使用 {0}。来自 {1} 的错误: {2}\r\n\r\n 请确保 {3} 和 {1} 均为最新版本。",
+  "workspacePicker.incompatibleValidationServer": "协议版本不兼容。我们使用 {0}，但 {1} 使用 {2}。请确保 {3} 和 {1} 均为最新版本。",
+  "workspacePicker.openSettings": "打开设置",
+  "workspacePicker.reconnect": "重新连接",
+  "workspacePicker.remoteOptionsTitle": "{0} 的选项",
+  "workspacePicker.removeRemote": "移除远程代理",
+  "workspacePicker.showOutput": "显示输出",
+  "workspacePicker.statusConnecting": "正在连接",
+  "workspacePicker.statusIncompatible": "不兼容",
+  "workspacePicker.statusOffline": "离线",
+  "workspacePicker.statusOnline": "在线"
+ },
+ "vs/sessions/contrib/remoteAgentHost/browser/tunnelAgentHost.contribution": {
+  "tunnelConnecting": "正在连接到隧道“{0}”..."
+ },
+ "vs/sessions/contrib/welcome/browser/sessionsWalkthrough": {
+  "walkthrough.aria": "代理入门演练",
+  "walkthrough.canceledError": "已取消登录。请重试。",
+  "walkthrough.disclaimer.end": " 随时。",
+  "walkthrough.disclaimer.final": " 建议并使用你的数据改进产品。你可以更改这些 ",
+  "walkthrough.disclaimer.middle": " 和 ",
+  "walkthrough.disclaimer.prefix": "继续操作即表示你同意 GitHub 的 ",
+  "walkthrough.disclaimer.privacy": "隐私声明",
+  "walkthrough.disclaimer.publicCode": "公共代码",
+  "walkthrough.disclaimer.settings": "设置",
+  "walkthrough.disclaimer.suffix": "。GitHub Copilot 可能显示 ",
+  "walkthrough.disclaimer.terms": "条款",
+  "walkthrough.finishingSubtitle": "正在为你准备一切。",
+  "walkthrough.loading": "正在加载",
+  "walkthrough.poweredBy": "请在浏览器中完成授权。",
+  "walkthrough.restart": "正在完成代理设置",
+  "walkthrough.settingUp": "正在登录…",
+  "walkthrough.signInError": "出现问题，请重试。",
+  "walkthrough.signin.apple": "使用 Apple 继续",
+  "walkthrough.signin.enterprise": "使用 {0} 继续",
+  "walkthrough.signin.github": "使用 GitHub 登录",
+  "walkthrough.signin.google": "使用 Google 继续",
+  "walkthrough.signingIn": "正在完成安装…",
+  "walkthrough.theme.ariaLabel": "选择颜色主题",
+  "walkthrough.theme.continue": "继续",
+  "walkthrough.theme.subtitle": "选择一个颜色主题，让它成为你的专属。稍后可随时更改此项。",
+  "walkthrough.theme.title": "选择主题",
+  "walkthrough.theme.useVSCodeTheme": "使用我的 {0} 主题 · {1}",
+  "walkthrough.welcome.getStarted": "入门",
+  "walkthrough.welcome.subtitle": "由 AI 驱动的应用程序，智能体与你一同探索、构建和迭代。",
+  "walkthrough.welcome.tagline": "智能体编码愉快!",
+  "walkthrough.welcome.title": "欢迎使用 {0}"
+ },
+ "vs/sessions/contrib/welcome/browser/welcome.contribution": {
+  "resetSessionsWelcome": "重置代理欢迎界面"
+ },
+ "vs/workbench/api/browser/mainThreadMcp": {
+  "allow": "允许(&&A)",
+  "confirmLogin": "MCP 服务器定义“{0}”要求向 {1} 进行身份验证。",
+  "confirmRelogin": "MCP 服务器定义“{0}”要求向 {1} 进行身份验证。",
+  "incorrectAccount": "检测到不正确的帐户",
+  "incorrectAccountDetail": "所选帐户 {0} 与请求的帐户 {1} 不匹配。",
+  "keep": "保留 {0}",
+  "loginWith": "使用 {0} 登录",
+  "mcp.enterpriseManaged.issuerInvalid": "企业管理的 MCP 身份验证要求 `mcp.enterpriseManagedAuth.idp.issuer` 是有效的 URL；收到了 \"{0}\"。",
+  "mcp.enterpriseManaged.issuerMissing": "企业管理的 MCP 身份验证要求配置 `mcp.enterpriseManagedAuth.idp.issuer`。通过企业策略(Windows 组策略/macOS 托管首选项/Linux `/etc/vscode/policy.json`)设置；或在用于本地测试时，通过手动编辑 `settings.json` 进行设置。",
+  "mcp.enterpriseManaged.issuerNotHttp": "企业管理的 MCP 身份验证要求 `mcp.enterpriseManagedAuth.idp.issuer` 使用 `https` 或 `http` 方案；收到了 \"{0}\"。",
+  "mcp.enterpriseManaged.missingAS": "企业管理的 MCP 服务器 \"{0}\" 未在其受保护资源元数据中播发 `authorization_servers` 条目。",
+  "mcp.enterpriseManaged.missingResource": "企业管理的 MCP 服务器 \"{0}\" 未播发带有 \"resource\" 标识符的受保护资源元数据文档。",
+  "mcpAuthSessionRemoved": "已移除 {0} 的身份验证会话，正在停止服务器"
+ },
+ "vs/workbench/browser/actions/helpActions": {
+  "askVScode": "询问 @vscode"
+ },
+ "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
+  "auxiliaryBarHidden": "辅助侧边栏已隐藏",
+  "auxiliaryBarVisible": "辅助侧边栏已显示",
+  "toggleAuxiliaryIconLeft": "用于在其左侧位置切换辅助侧栏的图标。"
+ },
+ "vs/workbench/browser/parts/auxiliarybar/auxiliaryBarPart": {
+  "activity bar position": "活动栏位置"
+ },
+ "vs/workbench/browser/parts/editor/editorGroupView": {
+  "ariaLabelGroupActions": "空编辑器组操作"
+ },
+ "vs/workbench/browser/parts/editor/editorGroupWatermark": {
+  "watermark.findInFiles": "在文件中查找",
+  "watermark.newUntitledFile": "新的无标题文本文件",
+  "watermark.openChat": "打开聊天",
+  "watermark.openFile": "打开文件",
+  "watermark.openFileFolder": "打开文件或文件夹",
+  "watermark.openFolder": "打开文件夹",
+  "watermark.openRecent": "打开最近的文件",
+  "watermark.openSettings": "打开“设置”",
+  "watermark.quickAccess": "转到文件",
+  "watermark.showCommands": "显示所有命令",
+  "watermark.startDebugging": "开始调试",
+  "watermark.toggleTerminal": "切换终端"
+ },
+ "vs/workbench/browser/parts/statusbar/statusbarPart": {
+  "hideStatusBar": "隐藏状态栏"
+ },
+ "vs/workbench/contrib/accountEntitlements/browser/accountsEntitlements.contribution": {
+  "workbench.accounts.showEntitlements": "When enabled, available entitlements for the account will be shown in the accounts menu."
+ },
+ "vs/workbench/contrib/agentsVoice/browser/agentsVoice.contribution": {
+  "agents.voice.alwaysOnTop": "Keep the Voice Mode window always on top of other windows.",
+  "agents.voice.backendUrl": "Voice backend WebSocket URL. Leave empty to use the default hosted backend. Set to e.g. `ws://localhost:8000/api/v1/realtime/voice` to point at a backend running on your machine.",
+  "agents.voice.enabled": "Enable the Voice Mode panel in the chat view for voice-driven coding conversations.",
+  "agents.voice.showTranscript": "Show the voice transcript overlay in the chat input area while voice mode is active.",
+  "agents.voice.textToSpeech": "When enabled, the assistant reads responses aloud. When disabled, responses appear as text transcripts only.",
+  "agentsVoice.connecting": "Connecting...",
+  "agentsVoice.disconnect": "Disconnect Voice Mode",
+  "agentsVoice.pttStopInChat": "Voice Mode: Stop Recording",
+  "agentsVoice.simulateConnection": "Voice: Simulate Connection (Dev)",
+  "agentsVoice.startVoiceInChat": "Voice Mode",
+  "agentsVoiceConfigurationTitle": "Voice Mode",
+  "agentsVoicePushToTalk": "Voice Mode: Push to Talk",
+  "resetAgentsVoiceOnboarding": "Voice: Reset Onboarding",
+  "toggleAgentsVoiceWindow": "Voice Mode"
+ },
+ "vs/workbench/contrib/agentsVoice/browser/transcriptsView/voiceTranscripts.contribution": {
+  "agentsVoice.showTranscripts": "Show Voice Transcripts",
+  "agentsVoice.showTranscripts.menu": "Show Voice Transcripts",
+  "agentsVoiceCategory": "Agents Voice",
+  "voiceTranscripts.archiveAll": "Archive All",
+  "voiceTranscripts.deleteAll": "Delete All",
+  "voiceTranscripts.deleteAllConfirm": "Delete all voice transcripts?",
+  "voiceTranscripts.deleteAllConfirmButton": "Delete",
+  "voiceTranscripts.deleteAllDetail": "This permanently deletes the local transcript file for your user. There is no server-side copy.",
+  "voiceTranscripts.focus": "Focus Voice Transcripts View",
+  "voiceTranscripts.refresh": "Refresh",
+  "voiceTranscriptsContainer": "Voice Transcripts",
+  "voiceTranscriptsView": "Voice Transcripts",
+  "voiceTranscriptsViewIcon": "View icon of the Voice Transcripts view."
+ },
+ "vs/workbench/contrib/agentsVoice/browser/transcriptsView/voiceTranscriptsView": {
+  "voiceTranscripts.archivedNote": "{0} archived turn{1} hidden.",
+  "voiceTranscripts.earlierMonth": "Earlier this month",
+  "voiceTranscripts.earlierWeek": "Earlier this week",
+  "voiceTranscripts.empty": "No transcripts yet. Start a voice conversation to populate this view.",
+  "voiceTranscripts.older": "Older",
+  "voiceTranscripts.today": "Today",
+  "voiceTranscripts.yesterday": "Yesterday"
+ },
+ "vs/workbench/contrib/audioCues/browser/audioCues.contribution": {
+  "audioCues.chatRequestSent": "发出聊天请求时播放声音。",
+  "audioCues.chatResponsePending": "在响应挂起时循环播放声音。",
+  "audioCues.chatResponseReceived": "在收到响应时循环播放声音。",
+  "audioCues.clear": "在清除功能（例如终端、调试控制台或输出通道）时播放声音。当禁用此功能时，aria 警报将宣布“已清除”。",
+  "audioCues.debouncePositionChanges": "是否应停用位置更改",
+  "audioCues.diffLineDeleted": "当焦点移到可访问差异查看器下的已删除行或下一/上一个更改时播放声音。",
+  "audioCues.diffLineInserted": "当焦点移到可访问差异查看器下的已插入行或下一/上一个更改时播放声音。",
+  "audioCues.diffLineModified": "当焦点移到可访问差异查看器下的已修改行或下一/上一个更改时播放声音。",
+  "audioCues.enabled.auto": "附加屏幕阅读器时，启用音频提示。",
+  "audioCues.enabled.off": "禁用音频提示。",
+  "audioCues.enabled.on": "启用音频提示。",
+  "audioCues.format": "在格式化文件或笔记本时播放声音。另请参阅 {0}",
+  "audioCues.format.always": "每次文件格式化(包括将其设置为在保存、键入、粘贴或运行单元格时格式化)时播放音频提示。",
+  "audioCues.format.never": "从不播放音频提示。",
+  "audioCues.format.userGesture": "在用户显式保存文件时播放音频提示。",
+  "audioCues.lineHasBreakpoint": "当有效行具有断点时播放声音。",
+  "audioCues.lineHasError": "当有效行出现错误时播放声音。",
+  "audioCues.lineHasFoldedArea": "当有效行具有可展开的折叠区域时播放声音。",
+  "audioCues.lineHasInlineSuggestion": "当有效行具有内联建议时播放声音。",
+  "audioCues.lineHasWarning": "当有效行出现警告时播放声音。",
+  "audioCues.noInlayHints": "尝试读取包含无内嵌提示的内嵌提示的行时播放声音。",
+  "audioCues.notebookCellCompleted": "在成功完成笔记本单元格执行时播放声音。",
+  "audioCues.notebookCellFailed": "在笔记本单元格执行失败时播放声音。",
+  "audioCues.onDebugBreak": "当调试程序在断点上停止时播放声音。",
+  "audioCues.save": "保存文件时播放声音。另请参阅 {0}",
+  "audioCues.save.always": "每次保存文件(包括自动保存)时播放音频提示。",
+  "audioCues.save.never": "从不播放音频提示。",
+  "audioCues.save.userGesture": "在用户显式保存文件时播放音频提示。",
+  "audioCues.taskCompleted": "任务完成时播放声音。",
+  "audioCues.taskFailed": "任务失败时播放声音(非零退出代码)。",
+  "audioCues.terminalCommandFailed": "当终端命令失败时播放声音(非零退出代码)。",
+  "audioCues.terminalQuickFix": "当终端快速修复可用时播放声音。",
+  "audioCues.volume": "音频提示音量百分比(0-100)。"
+ },
+ "vs/workbench/contrib/audioCues/browser/commands": {
+  "accessibility.alert.help": "帮助：列出警报",
+  "alerts.help.placeholder": "检查并配置警报的状态",
+  "alerts.help.settings": "启用/禁用音频提示",
+  "audioCues.help": "帮助: 列出音频提示",
+  "audioCues.help.placeholder": "选择要播放的音频提示",
+  "audioCues.help.settings": "启用/禁用音频提示",
+  "disabled": "已禁用"
+ },
+ "vs/workbench/contrib/chat/browser/actions/chatActions": {
+  "generateCode": "生成代码"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostPermissionUiContribution": {
+  "agentHost.permission.allow": "允许",
+  "agentHost.permission.allowAlways": "始终允许",
+  "agentHost.permission.deny": "拒绝",
+  "agentHost.permission.morePending": "+ 另有 {0} 个请求等待中",
+  "agentHost.permission.oneMorePending": "+ 另有 1 个请求等待中",
+  "agentHost.permission.read": "远程智能体主机“{0}”想要读取 {1}",
+  "agentHost.permission.write": "远程智能体主机“{0}”想要写入 {1}"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/agentSessions.contribution": {
+  "agentSessionsQuickAccessHelp": "显示所有智能体会话",
+  "agentSessionsQuickAccessPlaceholder": "按名称搜索代理会话",
+  "filterAgentSessions": "筛选智能体会话"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/agentSessionsQuickAccess": {
+  "noAgentSessionResults": "没有匹配的智能体会话"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/experiments/agentSessionProjection": {
+  "chatInAgentSessionProjection": "如果 workbench 处于用于查看智能体会话的智能体会话投影模式，则为 True。"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/experiments/agentSessionProjectionActions": {
+  "enterAgentSessionProjection": "输入智能体会话投影",
+  "exitAgentSessionProjection": "退出智能体会话投影",
+  "toggle.agentQuickInput": "智能体快速输入",
+  "toggle.agentQuickInputDescription": "切换智能体快速输入，替换经典命令中心搜索框。"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/experiments/agentSessionProjectionService": {
+  "agentSessionProjection.changes.title": "{0} - 所有更改"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/experiments/agentSessionsExperiments.contribution": {
+  "agentsControl": "智能体",
+  "openChat": "打开聊天",
+  "title4": "聊天",
+  "toggleAgentQuickInput": "智能体快速输入(实验性)"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/experiments/agentTitleBarStatusWidget": {
+  "activeSessionsTooltip": "{0} 个会话正在进行中",
+  "activeSessionsTooltip1": "{0} 个会话正在进行中",
+  "agentSessionProjection": "智能体会话投影",
+  "agentSessionProjectionTooltip": "智能体会话投影: {0}",
+  "agentSessionReady": "审阅更改",
+  "agentSessionReadyGeneric": "查看智能体会话更改",
+  "agentSessionReadyTooltip": "查看来自以下位置的更改: {0}",
+  "agentStatus.sparkle.dropdown": "更多操作",
+  "agentStatusToolbarLabel": "智能体状态",
+  "agentStatusWidget.search": "搜索",
+  "askAnythingPlaceholder": "提出问题或描述要生成的内容",
+  "askTooltip": "打开快速访问({0})",
+  "askTooltip2": "打开快速访问",
+  "enterAgentSessionProjection": "输入智能体会话投影",
+  "enterAgentSessionProjectionTooltip": "审阅更改({0})",
+  "enterAgentSessionProjectionTooltipNoKey": "审阅更改",
+  "exitAgentSessionProjection": "退出智能体会话投影",
+  "exitAgentSessionProjectionTooltip": "退出智能体会话投影(Esc)",
+  "label1": "{0} {1}",
+  "label2": "{0} {1}",
+  "needsInputSessionsTooltip": "{0} 个会话需要输入",
+  "needsInputSessionsTooltip1": "{0} 个会话需要输入",
+  "openQuickAccess": "打开快速访问",
+  "openQuickOpen": "打开 Quick Open",
+  "openQuickOpenTooltip": "转到“文件”({0})",
+  "openQuickOpenTooltip2": "转到“文件”",
+  "review": "审阅",
+  "toggleChat": "切换聊天",
+  "unreadSessionsTooltip": "{0} 个未读会话",
+  "unreadSessionsTooltip1": "{0} 个未读会话"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/experiments/unifiedQuickAccess": {
+  "agentSessionsPlaceholder": "搜索会话或键入消息...",
+  "agentSessionsTab": "会话",
+  "agentSessionsTooltip": "搜索会话或向智能体发送消息",
+  "commandsPlaceholder": "搜索命令...",
+  "commandsTab": "命令",
+  "commandsTooltip": "运行命令",
+  "filesPlaceholder": "搜索文件...",
+  "filesTab": "文件",
+  "filesTooltip": "转到文件",
+  "noProvider": "没有提供程序可用于此选项卡",
+  "openChat": "打开聊天",
+  "openChatTooltipNoKeybinding": "打开聊天",
+  "openChatTooltipWithKeybinding": "打开聊天({0})",
+  "pressSendOrEnter": "按 Enter 或单击“发送”以创建新的智能体会话",
+  "send": "发送",
+  "sendToAgentAria": "向智能体发送消息: {0}",
+  "sendToAgentLabel": "发送给智能体",
+  "sendTooltipNoKeybinding": "将消息发送到新的智能体会话"
+ },
+ "vs/workbench/contrib/chat/browser/agentSessions/experiments/unifiedQuickAccessActions": {
+  "showAgentQuickAccess": "显示智能体快速访问",
+  "showAgentSessionsQuickAccess": "显示智能体会话",
+  "showCommandsQuickAccess": "显示命令(统一)",
+  "showFilesQuickAccess": "显示文件(统一)"
+ },
+ "vs/workbench/contrib/chat/browser/chatParticipant.contribution": {
+  "miToggleChat": "聊天(&&C)"
+ },
+ "vs/workbench/contrib/codeEditor/browser/emptyTextEditorHint/emptyTextEditorHint": {
+  "defaultHintAriaLabelWithInlineChat": "执行 {0} 以提出问题，执行 {1} 以选择语言并开始使用。开始输入以关闭。",
+  "defaultHintAriaLabelWithoutInlineChat": "执行 {0} 以选择语言并开始使用。开始输入以关闭。",
+  "disableEditorEmptyHint": "禁用空编辑器提示",
+  "emptyTextEditorHintWithInlineChat": "[[生成代码]]({0})，或[[选择语言]]({1})。开始输入以关闭或[[不再显示]]此信息。",
+  "emptyTextEditorHintWithoutInlineChat": "[[选择语言]]({0})以开始使用。开始输入以关闭或[[不再显示]]此信息。"
+ },
+ "vs/workbench/contrib/deprecatedExtensionMigrator/browser/deprecatedExtensionMigrator.contribution": {
+  "bracketPairColorizer.notification": "扩展“括号对着色器”已禁用，因为它已被弃用。",
+  "bracketPairColorizer.notification.action.enableNative": "启用本机括号对着色",
+  "bracketPairColorizer.notification.action.showMoreInfo": "详细信息",
+  "bracketPairColorizer.notification.action.uninstall": "卸载扩展"
+ },
+ "vs/workbench/contrib/editSessions/browser/editSessionsStorageService": {
+  "sign in badge": "打开云更改... (1)"
+ },
+ "vs/workbench/contrib/experiments/browser/experiments.contribution": {
+  "workbench.enableExperiments": "从 Microsoft 联机服务中获取要进行的实验。"
+ },
+ "vs/workbench/contrib/extensions/browser/extensionsActions": {
+  "VS Code for Web": "{0} Web 版"
+ },
+ "vs/workbench/contrib/feedback/browser/feedback": {
+  "character left": "剩余字符",
+  "characters left": "剩余字符",
+  "close": "关闭",
+  "feedbackTextInput": "告诉我们您的反馈意见",
+  "frownCaption": "负面反馈情绪",
+  "label.sendASmile": "通过 Tweet 向我们发送反馈。",
+  "other ways to contact us": "联系我们的其他方式",
+  "patchedVersion1": "安装已损坏。",
+  "patchedVersion2": "如果提交了 bug，请指定此项。",
+  "request a missing feature": "请求缺失功能",
+  "sentiment": "您的体验如何?",
+  "showFeedback": "在状态栏中显示反馈图标",
+  "smileCaption": "正面反馈情绪",
+  "submit a bug": "提交 bug",
+  "tell us why": "告诉我们原因?",
+  "tweet": "推文",
+  "tweetFeedback": "Tweet 反馈"
+ },
+ "vs/workbench/contrib/feedback/browser/feedbackStatusbarItem": {
+  "status.feedback": "Tweet 反馈",
+  "status.feedback.name": "反馈"
+ },
+ "vs/workbench/contrib/inlineCompletions/browser/inlineCompletionLanguageStatusBarContribution": {
+  "inlineCompletionAvailable": "内联完成可用",
+  "inlineEditAvailable": "内联编辑可用",
+  "inlineSuggestionLoading": "正在加载...",
+  "inlineSuggestions": "内联建议",
+  "inlineSuggestionsSmall": "内联建议",
+  "noInlineSuggestionAvailable": "无内联建议可用"
+ },
+ "vs/workbench/contrib/interactiveEditor/browser/interactiveEditorActions": {
+  "accept": "发出请求",
+  "actions.interactiveSession.accessibiltyHelpEditor": "交互式会话编辑器辅助功能帮助",
+  "apply1": "接受更改",
+  "apply2": "接受",
+  "arrowDown": "光标向下",
+  "arrowUp": "光标向上",
+  "cancel": "取消",
+  "cat": "交互式编辑器",
+  "contractMessage": "协定消息",
+  "copyRecordings": "(开发人员)将 Exchange 写入剪贴板",
+  "discard": "放弃",
+  "discardMenu": "放弃...",
+  "expandMessage": "展开消息",
+  "feedback.helpful": "有用",
+  "feedback.unhelpful": "无用",
+  "focus": "聚焦输入",
+  "label": "'{0}' 和 {1} 跟进({2})",
+  "nextFromHistory": "历史记录中的下一个",
+  "previousFromHistory": "历史记录中的上一个",
+  "run": "开始代码聊天",
+  "stop": "停止请求",
+  "toggleDiff": "切换差异",
+  "toggleDiff2": "显示内联差异",
+  "undo.clipboard": "放弃到剪贴板",
+  "undo.newfile": "放弃到新文件",
+  "unstash": "继续上次关闭的代码聊天",
+  "viewInChat": "在聊天中查看"
+ },
+ "vs/workbench/contrib/interactiveEditor/browser/interactiveEditorController": {
+  "create.fail": "无法启动编辑器聊天",
+  "create.fail.detail": "请查阅错误日志，稍后重试。",
+  "default.placeholder": "提问",
+  "default.placeholder.history": "{0} ({1}，{2} (针对历史记录))",
+  "empty": "无结果，请优化输入并重试",
+  "err.apply": "无法应用更改。",
+  "err.discard": "无法放弃更改。",
+  "thinking": "思考中...",
+  "welcome.1": "AI 生成的代码可能不正确"
+ },
+ "vs/workbench/contrib/interactiveEditor/browser/interactiveEditorStrategies": {
+  "lines.0": "未更改任何内容",
+  "lines.1": "已更改 1 行",
+  "lines.N": "已更改 {0} 行"
+ },
+ "vs/workbench/contrib/interactiveEditor/browser/interactiveEditorWidget": {
+  "aria-label": "交互式编辑器输入",
+  "interactiveEditor.accessibilityHelp": "交互式编辑器输入，使用 {0} 来获取交互式编辑器辅助功能帮助。",
+  "interactiveSessionInput.accessibilityHelpNoKb": "交互式编辑器输入，运行交互式编辑器辅助功能帮助命令了解详细信息。",
+  "modified": "已修改",
+  "original": "原始版本"
+ },
+ "vs/workbench/contrib/interactiveEditor/common/interactiveEditor": {
+  "editMode": "配置是将在交互式编辑器中创建的更改直接应用到文档还是先预览它们。",
+  "editMode.live": "更改直接应用到文档，但可通过内联差异突出显示。结束会话将保留更改。",
+  "editMode.livePreview": "更改直接应用到文档，但可通过内联差异或并排差异在视觉上突出显示。结束会话将保留更改。",
+  "editMode.preview": "仅预览更改，但需要通过“应用”按钮接受这些更改。结束会话将放弃更改。",
+  "interactiveEditor.border": "交互式编辑器小组件的边框颜色",
+  "interactiveEditor.regionHighlight": "当前交互区域的背景突出显示。必须是透明的。",
+  "interactiveEditor.shadow": "交互式编辑器小组件的阴影颜色",
+  "interactiveEditorDidEdit": "交互式编辑器是否更改了任何代码",
+  "interactiveEditorDiff": "交互式编辑器是否显示更改差异",
+  "interactiveEditorDiff.inserted": "交互式编辑器输入中已插入文本的背景色",
+  "interactiveEditorDiff.removed": "交互式编辑器输入中已删除文本的背景色",
+  "interactiveEditorDocumentChanged": "文档是否已同时更改",
+  "interactiveEditorEmpty": "交互式编辑器输入是否为空",
+  "interactiveEditorFocused": "是否聚焦交互式编辑器输入",
+  "interactiveEditorHasActiveRequest": "交互式编辑器是否有活动请求",
+  "interactiveEditorHasProvider": "交互式编辑器的提供程序是否存在",
+  "interactiveEditorHasStashedSession": "交互式编辑器是否已保留会话以进行快速还原",
+  "interactiveEditorInnerCursorFirst": "迭代活动编辑器输入的光标是否在第一行",
+  "interactiveEditorInnerCursorLast": "迭代活动编辑器输入的光标是否在最后一行",
+  "interactiveEditorInput.background": "交互式编辑器输入的背景色",
+  "interactiveEditorInput.border": "交互式编辑器输入的边框颜色",
+  "interactiveEditorInput.focusBorder": "聚焦时交互式编辑器输入的边框颜色",
+  "interactiveEditorInput.placeholderForeground": "交互式编辑器输入占位符的前景色",
+  "interactiveEditorLastFeedbackKind": "提供的最后一种反馈",
+  "interactiveEditorMarkdownMessageCropState": "交互式编辑器消息是否裁剪还是展开",
+  "interactiveEditorOuterCursorPosition": "外部编辑器的光标位于交互式编辑器输入的上方还是下方",
+  "interactiveEditorResponseType": "当前交互式编辑器会话的最后一个响应类型是什么",
+  "interactiveEditorVisible": "交互式编辑器输入是否可见"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/actions/interactiveSessionActions": {
+  "actions.ineractiveSession.acceptInput": "交互式会话接受输入",
+  "actions.interactiveSession.focus": "聚焦交互式会话",
+  "interactiveSession.category": "交互式会话",
+  "interactiveSession.clear.label": "清除",
+  "interactiveSession.clearHistory.label": "清除输入历史记录",
+  "interactiveSession.focusInput.label": "聚焦输入",
+  "interactiveSession.history.label": "显示历史记录",
+  "interactiveSession.history.pick": "选择要还原的聊天会话",
+  "interactiveSession.open": "打开编辑器({0})"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/actions/interactiveSessionCodeblockActions": {
+  "interactive.copyCodeBlock.label": "复制",
+  "interactive.insertCodeBlock.label": "在光标处插入",
+  "interactive.insertIntoNewFile.label": "插入到新文件中",
+  "interactive.runInTerminal.label": "在终端中运行"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/actions/interactiveSessionCopyActions": {
+  "interactive.copyAll.label": "全部复制",
+  "interactive.copyItem.label": "复制"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/actions/interactiveSessionExecuteActions": {
+  "interactive.cancel.label": "取消",
+  "interactive.submit.label": "提交"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/actions/interactiveSessionTitleActions": {
+  "interactive.voteDown.label": "投反对票",
+  "interactive.voteUp.label": "投赞成票"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/contrib/interactiveSessionInputEditorContrib": {
+  "interactive.input.placeholderNoCommands": "提问",
+  "interactive.input.placeholderWithCommands": "提问或键入主题的 \"/\""
+ },
+ "vs/workbench/contrib/interactiveSession/browser/interactiveSession.contribution": {
+  "interactiveSession": "交互式会话",
+  "interactiveSession.editor.fontFamily": "控制交互式会话中的字体系列。",
+  "interactiveSession.editor.fontSize": "控制交互式会话中的字号(以像素为单位)。",
+  "interactiveSession.editor.fontWeight": "控制交互式会话中的字体粗细。",
+  "interactiveSession.editor.lineHeight": "控制交互式会话中的行高(以像素为单位)。使用 0 根据字号计算行高。",
+  "interactiveSession.editor.wordWrap": "控制是否应在交互式会话中换行。",
+  "interactiveSessionConfigurationTitle": "交互式会话"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/interactiveSessionContributionServiceImpl": {
+  "vscode.extension.contributes.interactiveSession": "为交互式会话提供程序做出贡献",
+  "vscode.extension.contributes.interactiveSession.icon": "此交互式会话提供程序的图标。",
+  "vscode.extension.contributes.interactiveSession.id": "此交互式会话提供程序的唯一标识符。",
+  "vscode.extension.contributes.interactiveSession.label": "此交互式会话提供程序的显示名称。",
+  "vscode.extension.contributes.interactiveSession.when": "条件必须为 true 才能启用此交互式会话提供程序。"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/interactiveSessionEditorInput": {
+  "interactiveSessionEditorName": "交互式会话"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/interactiveSessionInputPart": {
+  "interactiveSessionInput": "交互式会话输入"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/interactiveSessionListRenderer": {
+  "interactiveSession": "交互式会话"
+ },
+ "vs/workbench/contrib/interactiveSession/browser/interactiveSessionWidget": {
+  "clear": "清除会话"
+ },
+ "vs/workbench/contrib/interactiveSession/common/interactiveSessionColors": {
+  "interactive.requestBackground": "交互式请求的背景色。",
+  "interactive.requestBorder": "交互式请求的边框颜色。"
+ },
+ "vs/workbench/contrib/interactiveSession/common/interactiveSessionContextKeys": {
+  "hasInteractiveSessionProvider": "注册某些交互式会话提供程序时为 True。",
+  "inInteractiveInput": "当焦点位于交互式输入中时为 true，否则为 false。",
+  "inInteractiveSession": "当焦点位于交互式会话小组件中时为 true，否则为 false。",
+  "interactiveInputHasText": "当交互式输入包含文本时为 True。",
+  "interactiveSessionRequestInProgress": "当前请求仍在进行时为 True。",
+  "interactiveSessionResponseHasProviderId": "当提供程序已向此响应分配 ID 时为 True。",
+  "interactiveSessionResponseVote": "对响应投赞成票后，其设置为 \"up\"。投反对票时，设置为 \"down\"。否则为空字符串。"
+ },
+ "vs/workbench/contrib/interactiveSession/common/interactiveSessionServiceImpl": {
+  "emptyResponse": "提供程序返回了 null 响应"
+ },
+ "vs/workbench/contrib/interactiveSession/common/interactiveSessionViewModel": {
+  "thinking": "思考中"
+ },
+ "vs/workbench/contrib/issue/browser/baseIssueReporterService": {
+  "vscode": "Visual Studio Code"
+ },
+ "vs/workbench/contrib/issue/common/issue.contribution": {
+  "miReportIssue": "使用英文报告问题(&&I)",
+  "reportIssueInEnglish": "报告问题…"
+ },
+ "vs/workbench/contrib/mcp/browser/mcpServersView": {
+  "mcp": "MCP 服务器",
+  "mcp servers": "MCP 服务器",
+  "mcp-installed": "MCP 服务器 - 已安装",
+  "mcp.gallery.enableDialog.cancel": "取消",
+  "mcp.gallery.enableDialog.enable": "启用",
+  "mcp.gallery.enableDialog.setting": "此功能目前为预览版。可以随时通过设置 {0} 将其禁用。",
+  "mcp.gallery.enableDialog.title": "是否启用 MCP 服务器商城?",
+  "mcp.welcome.descriptionWithLink": "直接从 VS Code 浏览并安装[模型上下文协议(MCP)服务器](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)，以通过用于连接数据库、调用 API 和执行专门任务的额外工具扩展智能体模式。",
+  "mcp.welcome.enableGalleryButton": "启用 MCP 服务器商城",
+  "mcp.welcome.settings.tooltip": "打开“设置”",
+  "mcp.welcome.title": "MCP 服务器",
+  "no extensions found": "找不到 MCP 服务器。"
+ },
+ "vs/workbench/contrib/notebook/browser/controller/chat/notebook.chat.contribution": {
+  "notebookActions.addOutputToChat": "将单元格输出添加到聊天"
+ },
+ "vs/workbench/contrib/offline/browser/offline.contribution": {
+  "offline": "网络似乎处于脱机状态，某些功能可能不可用。",
+  "statusBarOfflineBackground": "工作台脱机时的状态栏背景色。状态栏显示在窗口底部",
+  "statusBarOfflineBorder": "工作台脱机时用来与侧边栏和编辑器区分的状态栏边框颜色。状态栏显示在窗口底部。",
+  "statusBarOfflineForeground": "工作台脱机时的状态栏前景色。状态栏显示在窗口底部"
+ },
+ "vs/workbench/contrib/scm/browser/scm.contribution": {
+  "scmEditorResolveMergeConflict": "使用 AI 解决冲突"
+ },
+ "vs/workbench/contrib/scm/browser/scmInput": {
+  "scmInputGenerateCommitMessage": "生成提交消息"
+ },
+ "vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+  "runInTerminal.allowNetwork.deferredRetry.reason": "The model requested unrestricted network access in the sandbox.",
+  "runInTerminal.unsandboxed.deferredRetry.reason": "The model requested unsandboxed execution."
+ },
+ "vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
+  "agentSandbox.forceFirstExecutionInSandbox": "Controls whether agent mode terminal commands first run with the sandbox's configured restrictions before honoring a request for execution outside the sandbox or unrestricted network access. The user is prompted to approve the requested additional access only if that sandboxed command fails. This applies only when {0} is enabled."
+ },
+ "vs/workbench/contrib/terminalContrib/inlineHint/browser/terminal.initialHint.contribution": {
+  "copilotCliHint": "键入 [[copilot]] 以使用 Copilot CLI。",
+  "copilotCliHintAriaLabel": "键入 copilot 以使用 Copilot CLI。",
+  "disableHint": " 在设置中切换 {0} 以禁用此提示。",
+  "disableInitialHint": "禁用初始提示",
+  "emptyHintText": "打开聊天 {0}。",
+  "hintTextDismiss": "不再[[显示]]此消息。",
+  "hintTextDismissAriaLabel": "开始键入以关闭或不再显示此信息。",
+  "hintTextDismissCompact": "[[不再显示此消息]]",
+  "hintTextDismissProse": " 开始输入以关闭或 ",
+  "inlineChatHint": "[[打开聊天]]或开始键入以关闭。",
+  "openChatHint": "打开聊天或开始键入以关闭。",
+  "showSuggestHint": "显示建议 {0}。"
+ },
+ "vs/workbench/contrib/terminalContrib/inlineHint/common/terminalInitialHintConfiguration": {
+  "terminal.integrated.initialHint": "控制第一个没有输入的终端是否在聚焦时显示有关可用操作的提示。此提示仅在 {0} 被禁用时显示。",
+  "terminal.integrated.initialHintCopilotCli": "启用后，终端初始提示将建议通过键入 {0} 使用 Copilot CLI，而非打开 Copilot 对话助手。"
+ },
+ "vs/workbench/contrib/update/browser/update": {
+  "updateIsReady": "有新的 {0} 的更新可用。"
+ },
+ "vs/workbench/contrib/watermark/browser/watermark": {
+  "tips.enabled": "启用后，当没有打开编辑器时将显示水印提示。",
+  "watermark.findInFiles": "在文件中查找",
+  "watermark.newUntitledFile": "新的无标题文本文件",
+  "watermark.openFile": "打开文件",
+  "watermark.openFileFolder": "打开文件或文件夹",
+  "watermark.openFolder": "打开文件夹",
+  "watermark.openRecent": "打开最近的文件",
+  "watermark.quickAccess": "转到文件",
+  "watermark.showCommands": "显示所有命令",
+  "watermark.showSettings": "显示设置",
+  "watermark.startDebugging": "开始调试",
+  "watermark.toggleFullscreen": "切换全屏",
+  "watermark.toggleTerminal": "切换终端"
+ },
+ "vs/workbench/contrib/welcomeDialog/browser/welcomeDialog.contribution": {
+  "workbench.welcome.dialog": "启用后，编辑器中会显示欢迎小组件"
+ },
+ "vs/workbench/contrib/welcomeDialog/browser/welcomeWidget": {
+  "dialogClose": "关闭对话框"
+ },
+ "vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.contribution": {
+  "welcome.goBack": "后退",
+  "workbench.welcomePage.experimentalOnboarding": "启用后，首次启动时显示新的载入体验，而非经典演练。"
+ },
+ "vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent": {
+  "gettingStarted.copilotSetup.description": "可以使用 [Copilot]({0}) 通过自然语言执行跨多个文件生成代码、修复错误、询问代码相关问题等操作。",
+  "gettingStarted.copilotSetup.terms": "继续使用 {0} Copilot 即表示你同意 {1} 的[条款]({2})和[隐私声明]({3})",
+  "gettingStarted.copilotSetup.title": "通过免费版 Copilot 使用 AI 功能",
+  "gettingStarted.newWorkspaceChat.description": "聊天以创建新工作区",
+  "gettingStarted.newWorkspaceChat.title": "生成新工作区...",
+  "settings": "{0} Copilot 可能会显示 [公共代码]({1})建议并使用你的数据来改进产品。你可以随时更改这些 [设置]({2})。",
+  "setupCopilotButton.chatWithCopilot": "开始聊天",
+  "setupCopilotButton.setup": "使用 AI 功能"
+ },
+ "vs/workbench/contrib/welcomeOnboarding/browser/onboardingVariationA": {
+  "onboarding.a.aria": "欢迎使用 Visual Studio Code",
+  "onboarding.aiPref.hint": "你可随时在设置中更改此项。",
+  "onboarding.aiPref.label": "选择你的 AI 协作风格",
+  "onboarding.aiPref.selected.alert": "已选择 {0}",
+  "onboarding.back": "返回",
+  "onboarding.close": "关闭",
+  "onboarding.continue": "继续",
+  "onboarding.continueWithoutSignIn": "继续而不登录",
+  "onboarding.getStarted": "入门",
+  "onboarding.keymap.installError": "无法安装 {0} 键盘映射。稍后可从扩展安装。",
+  "onboarding.keymap.selected.alert": "已选择 {0} 键盘映射",
+  "onboarding.next": "继续",
+  "onboarding.personalize.keymap": "键盘映射",
+  "onboarding.personalize.keymapHint": "来自其他编辑器?导入键盘映射，即刻上手。",
+  "onboarding.personalize.keymapLabel": "选择键盘映射",
+  "onboarding.personalize.theme": "颜色主题",
+  "onboarding.personalize.themeHint": "稍后可从扩展视图浏览并安装更多主题。",
+  "onboarding.personalize.themeLabel": "选择颜色主题",
+  "onboarding.personalize.tip.modifier": "{0}",
+  "onboarding.personalize.tip.p": "P",
+  "onboarding.personalize.tip.prefix": "提示: 按 ",
+  "onboarding.personalize.tip.shift": "Shift",
+  "onboarding.personalize.tip.suffix": " 以访问所有 VS Code 命令。",
+  "onboarding.sessions.agentMode": "智能体",
+  "onboarding.sessions.agentMode.desc": "描述一个目标。智能体规划方法、编辑文件、运行命令并自我纠正。你全程审核并批准。",
+  "onboarding.sessions.agentsTutorial": "智能体教程",
+  "onboarding.sessions.customize": "自定义你的智能体",
+  "onboarding.sessions.customize.desc": "通过自定义指令、智能体、技能、可重用提示和连接你所依赖工具和上下文的 MCP 服务器，让 Copilot 适配你的项目。",
+  "onboarding.sessions.group.chat": "Agents made for the task",
+  "onboarding.sessions.group.more": "Agents that work your way",
+  "onboarding.sessions.planMode": "计划",
+  "onboarding.sessions.planMode.desc": "Produce a structured implementation plan before any code changes, then hand it off to an agent to execute.",
+  "onboarding.sessions.runAnywhere": "随处运行智能体",
+  "onboarding.sessions.runAnywhere.desc": "在本地运行智能体进行交互工作，通过 Copilot CLI 在后台运行，或使用云智能体在云端运行并创建团队可审阅的拉取请求。",
+  "onboarding.sessions.signInNudge": "Sign in to use GitHub Copilot",
+  "onboarding.signIn.apple": "使用 Apple 继续",
+  "onboarding.signIn.disclaimer.copilotPrefix": "。{0} Copilot 可能会显示 ",
+  "onboarding.signIn.disclaimer.improveSuffix": " 建议并使用你的数据改进产品。",
+  "onboarding.signIn.disclaimer.middle": " 和 ",
+  "onboarding.signIn.disclaimer.prefix": "登录即表示你同意 {0} 的 ",
+  "onboarding.signIn.disclaimer.privacy": "隐私声明",
+  "onboarding.signIn.disclaimer.publicCode": "公共代码",
+  "onboarding.signIn.disclaimer.settings": "设置",
+  "onboarding.signIn.disclaimer.settingsPrefix": "你可以更改这些 ",
+  "onboarding.signIn.disclaimer.suffix": " 随时。",
+  "onboarding.signIn.disclaimer.terms": "条款",
+  "onboarding.signIn.enterprise.continue": "继续",
+  "onboarding.signIn.enterprise.error": "GitHub Enterprise 登录失败。请检查实例 URL 并重试。",
+  "onboarding.signIn.enterprise.invalid": "必须输入有效的 {0} 实例(即 \"octocat\" 或 \"https://octocat.ghe.com\")",
+  "onboarding.signIn.enterprise.placeholder": "即\"octocat\" 或 \"https://octocat.ghe.com\"...",
+  "onboarding.signIn.enterprise.progress": "正在等待 {0} 登录完成...",
+  "onboarding.signIn.enterprise.prompt": "你的 {0} 实例是什么?",
+  "onboarding.signIn.enterprise.resolve": "将解析为 {0}",
+  "onboarding.signIn.error": "登录失败。稍后可从“帐户”菜单重试。",
+  "onboarding.signIn.ghe": "GHE",
+  "onboarding.signIn.ghe.aria": "使用 GitHub Enterprise 继续",
+  "onboarding.signIn.github": "继续使用 GitHub",
+  "onboarding.signIn.github.aria": "继续使用 GitHub",
+  "onboarding.signIn.google": "使用 Google 继续",
+  "onboarding.signIn.heroSubtitle": "Sign in to use GitHub Copilot.",
+  "onboarding.signIn.heroTitle": "欢迎使用 VS Code",
+  "onboarding.signIn.signedIn": "你已登录。可以继续执行下一步。",
+  "onboarding.step.agentSessions.subtitle.before": "随时使用以下方式打开聊天 ",
+  "onboarding.step.aria": "第 {0} 步(共 {1} 步): {2}",
+  "onboarding.stepOf": "{0}/{1}",
+  "onboarding.theme.selected.alert": "已选择 {0} 主题"
+ },
+ "vs/workbench/contrib/welcomeOnboarding/browser/welcomeOnboarding.contribution": {
+  "welcomeOnboarding2026": "2026 欢迎载入"
+ },
+ "vs/workbench/contrib/welcomeOnboarding/common/onboardingTypes": {
+  "onboarding.aiPref.agentForward": "AI 主导",
+  "onboarding.aiPref.agentForward.desc": "让智能体主导 - 描述你的需求并查看结果。非常适合框架搭建和探索。",
+  "onboarding.aiPref.balanced": "并排",
+  "onboarding.aiPref.balanced.desc": "内联建议加聊天面板，实现更深度协作。编写与委托兼顾。",
+  "onboarding.aiPref.codeFirst": "我编写代码",
+  "onboarding.aiPref.codeFirst.desc": "AI 提供建议辅助并在你提问时解答问题。你掌控每一次编辑。",
+  "onboarding.step.agentSessions": "使用 AI 智能体构建",
+  "onboarding.step.agentSessions.subtitle": "随时使用 {0} 打开聊天",
+  "onboarding.step.aiPreference": "你的 AI 风格",
+  "onboarding.step.aiPreference.subtitle": "选择适合你工作流的 AI 协作程度",
+  "onboarding.step.personalize": "自定义",
+  "onboarding.step.personalize.subtitle": "选择主题和键盘映射",
+  "onboarding.step.signIn": "登录",
+  "onboarding.step.signIn.subtitle": "同步设置、解锁 AI 功能并连接到 GitHub"
+ },
+ "vs/workbench/contrib/welcomeOverlay/browser/welcomeOverlay": {
+  "hideWelcomeOverlay": "隐藏界面概述",
+  "welcomeOverlay": "用户界面概览",
+  "welcomeOverlay.commandPalette": "查找并运行所有命令",
+  "welcomeOverlay.debug": "启动和调试",
+  "welcomeOverlay.explorer": "文件资源管理器",
+  "welcomeOverlay.extensions": "管理扩展",
+  "welcomeOverlay.git": "源代码管理",
+  "welcomeOverlay.notifications": "显示通知",
+  "welcomeOverlay.problems": "查看错误和警告",
+  "welcomeOverlay.search": "跨文件搜索",
+  "welcomeOverlay.terminal": "切换集成终端",
+  "welcomeOverlayBackground": "welcomeOverlay 背景色。"
+ },
+ "vs/workbench/services/activity/common/activity": {
+  "activityErrorBadge.background": "错误活动徽章的背景色",
+  "activityErrorBadge.foreground": "错误活动徽章的前景色",
+  "activityWarningBadge.background": "警告活动徽章的背景色",
+  "activityWarningBadge.foreground": "警告活动徽章的前景色"
+ },
+ "vs/workbench/services/clipboard/browser/clipboardService": {
+  "clipboardError": "无法从浏览器的剪贴板中读取。请确保你已授予此网站从剪贴板中读取的访问权限。",
+  "learnMore": "了解详细信息",
+  "retry": "重试"
+ },
+ "vs/workbench/services/extensionManagement/common/extensionManagementService": {
+  "VS Code for Web": "{0} Web 版"
+ },
+ "vs/workbench/services/host/browser/browserHostService": {
+  "retry": "重试(&&R)",
+  "unableToOpenExternal": "浏览器阻止打开新选项卡或窗口。按“重试”以重试。",
+  "unableToOpenExternalWorkspace": "浏览器阻止打开“{0}”的新选项卡或窗口。按“重试”以重试。",
+  "unableToOpenWindowDetail": "请在 [浏览器设置]({0})中允许此网站的弹出窗口。"
+ },
+ "vs/workbench/services/hover/browser/hoverWidget": {
+  "hoverhint": "按住 {0} 键将鼠标悬停"
+ },
+ "vs/workbench/services/issue/browser/issueTroubleshoot": {
+  "I cannot reproduce": "我无法重现",
+  "Stop": "停止",
+  "This is Bad": "我可以重现",
+  "ask to download insiders": "请尝试下载并重现{0}预览体验成员中的问题。",
+  "ask to reproduce issue": "请尝试重现{0}预览体验成员中的问题，并确认问题是否存在。",
+  "bad": "我可以重现",
+  "detail.start": "问题疑难解答过程有助于确定问题的原因。问题可能是由配置不当、扩展或 {0} 本身引起的。\r\n\r\n在此过程中，窗口会不断重载。每次都必须确认是否仍看到此问题。",
+  "download insiders": "下载{0}预览体验成员",
+  "empty.profile": "问题疑难解答处于活动状态，并且已将配置暂时重置为默认值。检查是否仍可以重现问题，然后从这些选项中进行选择。",
+  "good": "我无法重现",
+  "issue is in core": "问题疑难解答已确定该问题与{0}有关。",
+  "issue is with configuration": "问题疑难解答已确定此问题是由配置导致的。请使用“导出配置文件”命令导出配置来报告问题，并共享问题报告中的文件。",
+  "msg": "&&排查问题",
+  "profile.extensions.disabled": "问题疑难解答处于活动状态，并暂时禁用了所有已安装的扩展。检查是否仍可以重现问题，然后从这些选项中进行选择。",
+  "report anyway": "仍然报告问题",
+  "stop": "停止",
+  "title.stop": "停止排查问题",
+  "troubleshoot issue": "排查问题",
+  "troubleshootIssue": "排查问题...",
+  "use insiders": "这可能意味着问题已解决，将在即将发布的版本中可用。你可以安全地使用{0}预览体验成员，直到新的稳定版本可用。"
+ },
+ "vs/workbench/services/lifecycle/browser/lifecycleService": {
+  "lifecycleVeto": "可能无法保存所做的更改。请按“取消”，然后重试。"
+ },
+ "vs/workbench/services/voiceRecognition/electron-sandbox/workbenchVoiceRecognitionService": {
+  "voiceTranscription": "语音听录",
+  "voiceTranscriptionError": "语音听录失败: {0}",
+  "voiceTranscriptionGettingReady": "正在准备麦克风...",
+  "voiceTranscriptionRecording": "正在从麦克风录制..."
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "dist/extension.js": [
+  "Are you sure you want to permanently delete the distro \"${t}\" including all its data?",
+  "Could not establish connection to WSL distro \"${i}\""
+ ]
+}

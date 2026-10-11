@@ -1,0 +1,60 @@
+{
+ "vscode.configuration-editing": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\configuration-editing",
+  "has_pack_file": true,
+  "package_missing": [],
+  "bundle_missing_count": 3
+ },
+ "vscode.extension-editing": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\extension-editing",
+  "has_pack_file": true,
+  "package_missing": [],
+  "bundle_missing_count": 2
+ },
+ "vscode.git": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\git",
+  "has_pack_file": true,
+  "package_missing": [
+   "config.showDevinWorktrees"
+  ],
+  "bundle_missing_count": 12
+ },
+ "vscode.html-language-features": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\html-language-features",
+  "has_pack_file": true,
+  "package_missing": [],
+  "bundle_missing_count": 1
+ },
+ "vscode.media-preview": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\media-preview",
+  "has_pack_file": true,
+  "package_missing": [],
+  "bundle_missing_count": 1
+ },
+ "vscode.merge-conflict": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\merge-conflict",
+  "has_pack_file": true,
+  "package_missing": [],
+  "bundle_missing_count": 1
+ },
+ "ms-vscode.js-debug-companion": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\ms-vscode.js-debug-companion",
+  "has_pack_file": false,
+  "package_missing": [],
+  "bundle_missing_count": 2
+ },
+ "vscode.simple-browser": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\simple-browser",
+  "has_pack_file": true,
+  "package_missing": [],
+  "bundle_missing_count": 1
+ },
+ "vscode.typescript-language-features": {
+  "ext_dir": "E:\\Devin\\resources\\app\\extensions\\typescript-language-features",
+  "has_pack_file": true,
+  "package_missing": [
+   "configuration.suggest.completeJSDocs"
+  ],
+  "bundle_missing_count": 7
+ }
+}

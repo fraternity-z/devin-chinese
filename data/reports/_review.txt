@@ -1,0 +1,1108 @@
+tabs.changes | Changes
+tabs.bugs | Bugs
+tabs.description | Description
+tabs.discussion | Discussion
+tabs.commits | Commits
+tabs.checks | Checks
+tabs.reviewers | Reviewers
+tabs.analysis | Analysis
+tabs.chat | Chat
+tabs.info | Info
+tabs.information | Information
+diffViewer.largeDiffHidden | Large diff hidden by default
+diffViewer.loadDiff | Load diff
+diffViewer.noChangesToDisplay | No changes to display
+diffViewer.viewFile | View file
+diffViewer.loading | Loading...
+diffViewer.expandFile | Expand file
+diffViewer.collapseFile | Collapse file
+diffViewer.copyFilePath | Copy file path
+diffViewer.expandLines_one | {{count}} line
+diffViewer.expandLines_other | {{count}} lines
+diffViewer.expandLinesAbove_one | Expand {{count}} line above
+diffViewer.expandLinesAbove_other | Expand {{count}} lines above
+diffViewer.expandLinesBelow_one | Expand {{count}} line below
+diffViewer.expandLinesBelow_other | Expand {{count}} lines below
+diffViewer.allLines_one | All {{count}} line
+diffViewer.allLines_other | All {{count}} lines
+diffViewer.expandAll | Expand all lines
+diffViewer.noFilesInSection | No files in this section
+diffViewer.loadingDiff | Loading diff...
+diffViewer.noFileChangesFound | No file changes found.
+diffViewer.viewRenderedMarkdownDiff | View rendered markdown diff
+diffViewer.viewRawDiff | View code
+diffViewer.fileRenamed | Renamed
+diffViewer.loadingRenderedDiff | Loading rendered diff…
+diffViewer.failedToLoadRenderedDiff | Failed to load rendered diff.
+diffViewer.diffContentNotLoaded | Diff content not loaded
+diffViewer.failedToLoadDiff | Failed to load diff.
+diffViewer.copied | Copied!
+diffViewer.viewed | Mark as viewed
+diffViewer.viewedShort | Viewed
+diffViewer.moreActions | More actions
+diffViewer.viewOldRawFile | View old raw file
+diffViewer.viewNewRawFile | View new raw file
+diffViewer.fileNotOnMachine | This file isn't on Devin's machine
+diffViewer.loadingLines | Loading {{count}} lines
+diffViewer.prCommenting | PR commenting
+diffViewer.commentOnThisPr | comment on this pull request
+ide.workingTree | working tree
+ide.openingDiff | Opening diff…
+ide.viewFile | View file
+landmarks.reviewSidebar | Pull request review navigation
+sidebar.changes | Changes
+sidebar.files | Files
+sidebar.reviewers | Reviewers
+sidebar.assignees | Assignees
+sidebar.labels | Labels
+sidebar.addReviewer | Add reviewer
+sidebar.addReviewers | Add reviewers
+sidebar.addAssignee | Add assignee
+sidebar.addLabel | Add label
+sidebar.searchLabels | Search labels...
+sidebar.noLabelsFound | No labels found
+sidebar.fixWithDevin | Fix with Devin
+sidebar.allChecksPassed | All checks passed
+sidebar.checksPassed | {{count}} passed
+sidebar.checksSkipped | {{count}} skipped
+sidebar.checksFailed | {{count}} failed
+sidebar.checksRunning | {{count}} running
+sidebar.sectionFiles_one | {{count}} file
+sidebar.sectionFiles_other | {{count}} files
+sidebar.allLinesReviewed | All lines reviewed
+sidebar.analysis | Analysis
+sidebar.analysisNotTriggered | Devin's AI analysis wasn't auto-triggered for this commit. Run it manually to organize diffs, detect moved code, and flag potential bugs.
+sidebar.analysisNotTriggeredTitle | Devin's AI analysis not triggered
+sidebar.autoReviewSpendLimitReached | Auto-review spend limit reached
+sidebar.autoReviewSpendLimitDescription | This pull request reached its auto-review spend limit, so auto-review was turned off. It can be re-enabled from auto-review settings.
+sidebar.bug | Bug
+sidebar.changesInPR | Changes in PR
+sidebar.checks | Checks
+sidebar.connectProviderAccount | Connect your {{provider}} account
+sidebar.connectGitDescription | to enable auto-triggered reviews, or run it manually to organize diffs, detect moved code, and flag potential bugs.
+sidebar.connectGithubAccount | Connect your GitHub account
+sidebar.connectGithubDescription | to enable auto-triggered reviews, or run it manually to organize diffs, detect moved code, and flag potential bugs.
+sidebar.contactAdminAcus | Contact your billing admin to add more ACUs.
+sidebar.contactAdminCredits | Contact your billing admin to add more on-demand credits.
+sidebar.creditsAvailable | You have credits available
+sidebar.draftPr | Draft PR
+sidebar.draftPrDescription | Devin's AI analysis will run automatically when this PR is marked as ready for review to organize diffs, detect moved code, and flag potential bugs. You can also run it manually now.
+sidebar.failed | Failed
+sidebar.flaggedForReview | Flagged for review
+sidebar.flagsCount | {{count}} Flags
+sidebar.getMoreAcus | Get more ACUs
+sidebar.getMoreCredits | Get more on-demand credits
+sidebar.hasComments | Has comments
+sidebar.increaseAcuLimit | Increase the ACU limit
+sidebar.orgAcuLimitReachedTitle | Organization ACU limit reached
+sidebar.orgAcuLimitDescription | Your organization has reached its ACU limit, so Devin can't run a full analysis.
+sidebar.orgGroupAcuLimitDescription | Your organization's group has reached its ACU limit, so Devin can't run a full analysis.
+sidebar.orgAcuLimitDescriptionWithOrg | {{orgName}} has reached its ACU limit, so Devin can't run a full analysis.
+sidebar.orgAcuLimitDescriptionWithUsage | {{orgName}} has used {{used}} of its {{cap}} ACU limit this billing cycle, so Devin can't run a full analysis.
+sidebar.orgGroupAcuLimitDescriptionWithUsage | {{orgName}}'s organization group has used {{used}} of its {{cap}} ACU limit this billing cycle, so Devin can't run a full analysis.
+sidebar.orgGroupAcuLimitDescriptionWithOrg | {{orgName}}'s organization group has reached its ACU limit, so Devin can't run a full analysis.
+sidebar.orgAcuLimitContactAdmin | An enterprise admin must increase the ACU limit for your organization.
+sidebar.orgGroupAcuLimitContactAdmin | An enterprise admin must increase the ACU limit for your organization's group.
+sidebar.info | Info
+sidebar.informational | Informational
+sidebar.investigate | Investigate
+sidebar.linesLeft_one | {{formatted}} line left
+sidebar.linesLeft_other | {{formatted}} lines left
+sidebar.linesReviewed | {{viewed}} of {{total}} lines reviewed
+sidebar.loadingLabels | Loading labels...
+sidebar.loadingUsers | Loading users...
+sidebar.markAllUnviewed | Mark all as unviewed
+sidebar.markAllViewed | Mark all as viewed
+sidebar.moreFiles_one | +{{count}} more file
+sidebar.moreFiles_other | +{{count}} more files
+sidebar.noAssignees | No assignees
+sidebar.noAvailableLabels | No available labels
+sidebar.noAvailableReviewers | No available reviewers
+sidebar.noAvailableUsers | No available users
+sidebar.noLabels | No labels assigned
+sidebar.noReviewPermission | You don't have permission to use Devin Review. Contact your admin to request access.
+sidebar.noReviewers | No reviewers
+sidebar.noUsersFound | No users found
+sidebar.partial | Partial
+sidebar.passed | Passed
+sidebar.potentialBug | Potential bug
+sidebar.potentialBugsCount | {{count}} Potential bugs
+sidebar.reRequestReview | Re-request review
+sidebar.readExplanation | Read explanation
+sidebar.requestedAsCodeOwner | Requested as code owner
+sidebar.required | Required
+sidebar.requiredReviewerCount | ({{count}} required)
+sidebar.reviewAccessRequired | Review access required
+sidebar.reviewSettings | review settings
+sidebar.reviewSettingsDescription | didn't auto-trigger Devin's AI analysis for this commit. Run it manually to organize diffs, detect moved code, and flag potential bugs.
+sidebar.runAnalysis | Run Devin's AI analysis
+sidebar.runAnalysisDescription | Run Devin's AI analysis to organize diffs, detect moved code, and flag potential bugs.
+sidebar.running | Running
+sidebar.runningEllipsis | Running...
+sidebar.searchUsers | Search users...
+sidebar.showLess | Show less
+jobProgress.analysisInProgress | PR analysis in progress
+jobProgress.analysisComplete | Analysis complete
+jobProgress.spinningUpAgent | Spinning up agent
+jobProgress.finalizing | Finalizing
+jobProgress.thinking | Thinking...
+jobProgress.done | Done
+jobProgress.file | file
+jobProgress.viewResults | View results
+jobProgress.fetchingPR | Fetching PR
+jobProgress.fetchedPR | Fetched PR
+jobProgress.reading | Reading
+jobProgress.read | Read
+jobProgress.readFile | Read file
+jobProgress.running | Running
+jobProgress.ran | Ran
+jobProgress.searchingFor | Searching for
+jobProgress.searchedFor | Searched for
+jobProgress.findingFiles | Finding files
+jobProgress.foundFiles | Found files
+jobProgress.reportingBugs | Reporting bugs
+jobProgress.reportedBugs | Reported bugs
+jobProgress.consolidatingBugs | Consolidating bugs
+jobProgress.consolidatedBugs | Consolidated bugs
+jobProgress.findingFlags | Finding flags
+jobProgress.foundFlags | Found flags
+jobProgress.reportingFlags | Reporting flags
+jobProgress.reportedFlags | Reported flags
+jobProgress.reportingSecurityIssues | Reporting security issues
+jobProgress.reportedSecurityIssues | Reported security issues
+jobProgress.findingSecurityIssues | Finding security issues
+jobProgress.foundSecurityIssues | Found security issues
+jobProgress.readReviewMd | {{verb}} REVIEW.md
+jobProgress.noReviewMdFound | No REVIEW.md found
+jobProgress.addReviewMdTip | Add a REVIEW.md to your repository with repository-specific instructions for code review.
+jobProgress.readRulesFiles_one | {{verb}} {{count}} rules file
+jobProgress.readRulesFiles_other | {{verb}} {{count}} rules files
+jobProgress.noReviewMd | No REVIEW.md found
+jobProgress.readRulesFiles | rules files
+jobProgress.fetchingPr | Fetching PR
+jobProgress.fetchedPr | Fetched PR
+jobProgress.runningCmd | Running
+jobProgress.addReviewMd | Add a REVIEW.md to your repository with repository-specific instructions for code review.
+jobError.analysisFailed | Analysis failed
+jobError.regenerate | Regenerate
+errors.prNotFound | Pull Request Not Found
+errors.prNotFoundDescription | The pull request #{{prNumber}} in <repoLink>{{repoName}}</repoLink> could not be found. It may have been deleted, or this Devin organization may not have access to view it.
+errors.prNotFoundDescription_public | The pull request #{{prNumber}} in public repository <repoLink>{{repoName}}</repoLink> could not be found. It may have been deleted, or this Devin organization may not have access to view it.
+errors.genericErrorDescription | Something went wrong while loading pull request #{{prNumber}} in <repoLink>{{repoName}}</repoLink>.
+errors.viewOnProvider | View on {{provider}}
+errors.goBack | Go Back
+errors.signIn | Sign in
+errors.unableToLoadPRShort | Unable to load PR.
+errors.openOnHost | Open on {{host}}
+errors.failedToGroupFiles | Failed to group files - PR may be too large
+errors.prMalformed | The PR content appears to be malformed. Please try again.
+errors.unableToLoad | Unable to load pull request
+agent.welcomeMessage | Hey! I'm Devin. I've reviewed this PR and I'm ready to help. Ask me about the changes, or request edits directly.
+agent.newChat | New chat
+agent.readFile | Read {{fileName}}
+agent.greppedCodebase | Grepped codebase
+agent.greppedFor | Grepped {{pattern}}
+agent.searchedKnowledgeBase | Searched knowledge base
+agent.sendMessage | Send message
+agent.reviewMessageComposer | Review message composer
+agent.stopGenerating | Stop generating
+agent.editFailed | Edit failed
+agent.thinkingEllipsis | Thinking...
+agent.waitingForQuestions | Waiting for questions
+agent.addToChat | Add to Chat
+agent.analyzingPr | Devin is analyzing your PR...
+agent.applyEditsDefault | Apply {{edits}} across {{files}}
+agent.askDevin | Ask Devin
+agent.askDevinShortcut | Ask Devin anything about this PR ({{shortcut}})
+agent.askQuestionsPrompt | Ask questions or request edits in the chat.
+agent.chat | Chat
+agent.chatHistory | Chat history
+agent.deleteChat | Delete chat
+agent.chatDeleted | Chat deleted
+agent.newChatStarted | New chat started
+agent.chatBillingTooltip | Chats are billed to the billing org of the displayed job.
+agent.checkedCiStatus | Checked CI status
+agent.checkingCiStatus | Checking CI status
+agent.closeIntro | Close intro
+agent.commentPosted | Comment posted
+agent.commit | Commit
+agent.commitChanges | Commit Changes
+agent.commitMessage | Commit message
+agent.committing | Committing...
+agent.contactAdminAcus | Contact your billing admin to add more ACUs.
+agent.contactAdminCredits | Contact your billing admin to add more on-demand credits.
+agent.discard | Discard
+agent.editCountAcrossFiles | {{edits}} across {{files}}
+agent.editLabel_one | {{count}} edit
+agent.editLabel_other | {{count}} edits
+agent.fileLabel_one | {{count}} file
+agent.fileLabel_other | {{count}} files
+agent.editFile | Edit {{fileName}}
+agent.editedFile | Edited {{fileName}}
+agent.editing | Editing {{fileName}}
+agent.enterCommitMessage | Enter commit message...
+agent.explainArchitecture | Explain architecture
+agent.failedToApplyEdits | Failed to apply edits
+agent.failedToPostComment | Failed to post comment
+agent.feature1Description | Groups changes into logical sections with clear explanations
+agent.feature1Title | Intelligently organizes your diff
+agent.feature2Description | Keeps the diff clean by highlighting copy-pasted or moved code
+agent.feature2Title | Detects moved or copied code
+agent.feature3Description | Highlights potential bugs and flags areas that deserve extra careful review
+agent.feature3Title | Analyzes your PR
+agent.fetchedCiLogs | Fetched CI logs for job {{jobId}}
+agent.fetchingCiLogs | Fetching CI logs for job {{jobId}}
+agent.fileCount_one | {{count}} file
+agent.fileCount_other | {{count}} files
+agent.fixBugs | Fix bugs
+agent.getMoreAcus | Get more ACUs
+agent.getMoreCredits | Get more on-demand credits
+agent.greppingCodebase | Grepping codebase
+agent.greppingFor | Grepping {{pattern}}
+agent.increaseAcuLimit | Increase the ACU limit
+agent.introDescription | Devin Review is an intelligent PR review tool that helps you better understand your team's code before you ship it.
+agent.introducingDevinReview | Introducing Devin Review
+agent.maxIterationsReached | Reached max tool calls — send another message to continue
+agent.noNetChanges | No net changes to apply
+agent.openPlayground | Open playground
+agent.orgAcuLimitContactAdmin | An enterprise admin must increase the ACU limit for your organization.
+agent.orgGroupAcuLimitContactAdmin | An enterprise admin must increase the ACU limit for your organization's group.
+agent.orgAcuLimitDescriptionChat | Your organization has reached its ACU limit, so Devin can't chat about this PR.
+agent.orgAcuLimitDescriptionChatWithUsage | {{orgName}} has used {{used}} of its {{cap}} ACU limit this billing cycle, so Devin can't chat about this PR.
+agent.orgGroupAcuLimitDescriptionChat | Your organization's group has reached its ACU limit, so Devin can't chat about this PR.
+agent.orgGroupAcuLimitDescriptionChatWithUsage | {{orgName}}'s organization group has used {{used}} of its {{cap}} ACU limit this billing cycle, so Devin can't chat about this PR.
+agent.orgAcuLimitReachedTitle | Organization ACU limit reached
+agent.placeholder | Ask anything about this PR...
+agent.playground | Playground
+agent.postingComment | Posting comment
+agent.purchaseAcusChat | Purchase more to chat with Devin about this PR.
+agent.purchaseCreditsChat | Purchase more on-demand credits to chat with Devin about this PR.
+agent.readingFile | Reading {{fileName}}
+agent.review | Review
+agent.searchingKnowledgeBase | Searching knowledge base
+agent.suggestedPrompts | Suggested prompts
+agent.summarizeChanges | Summarize changes
+agent.viewBugs | View bugs
+agent.viewJobOnGithub | View job {{jobId}} on GitHub
+agent.viewOnGithub | View on GitHub
+agent.wellLetYouKnow | We'll let you know when it's ready
+collapsedToolbar.bugs | Bugs
+collapsedToolbar.flags | Flags
+collapsedToolbar.info | PR info
+collapsedToolbar.vulns | Vulnerabilities
+checksPanel.back | Back to information
+checksPanel.close | Close
+checksPanel.pending | pending
+checksPanel.failed | failed
+checksPanel.successful | successful
+checksPanel.skipped | skipped
+checksPanel.required | Required
+checksPanel.showAll | Show all
+headerActions.selectPreviewState | Select preview state
+headerActions.prAndSessionLinks | Pull request and session links
+headerActions.collapseSidebar | Collapse sidebar
+headerActions.expandSidebar | Expand sidebar
+headerActions.connectGithub | Connect GitHub
+headerActions.signIn | Sign in
+headerActions.comment | Comment
+headerActions.approve | Approve
+headerActions.requestChanges | Request changes
+headerActions.submitReview | Submit review
+headerActions.discardReview | Discard review
+headerActions.pendingComments_one | {{count}} pending comment
+headerActions.pendingComments_other | {{count}} pending comments
+headerActions.reviewBody | Review body
+headerActions.leaveAComment | Leave a comment...
+headerActions.submittingReview | Submitting review...
+headerActions.discardingReview | Discarding review...
+headerActions.allChecksPassed | All checks passed
+headerActions.someChecksFailed | Some checks failed
+headerActions.someChecksPending | Some checks are pending
+headerActions.noChecksReported | No checks reported
+headerActions.checksPassedCount | {{passed}} / {{total}} checks passed
+headerActions.required | Required
+headerActions.copyLink | Copy link
+headerActions.openInProvider | Open in {{provider}}
+headerActions.openInWindsurf | Open in Windsurf
+headerActions.autoReviewSettings | Auto-review settings
+headerActions.autoReviewEnabled | Auto-review enabled
+headerActions.autoReviewDisabled | Auto-review disabled
+headerActions.autoReviewDescription | Automatically run Devin Review when PRs are opened or updated.
+headerActions.enableAutoReview | Enable auto-review
+headerActions.disableAutoReview | Disable auto-review
+headerActions.discussions | Discussions
+headerActions.refreshAnalysis | Refresh analysis
+headerActions.refresh | Refresh
+headerActions.refreshForLatest | Refresh for latest
+headerActions.newVersion | New version
+headerActions.newChangesAvailable | New changes available
+headerActions.newerVersionAvailable | A newer version of the analysis is available
+headerActions.switchToLatest | Switch to latest
+headerActions.pinnedOlderAnalysis | This link shows the analysis for commit {{sha}}, not the latest commit on this PR
+headerActions.copied | Copied!
+headerActions.linkCopied | Link copied to clipboard
+headerActions.selectMergeMethod | Select merge method
+headerActions.moreActions | More actions
+headerActions.morePRActions | More pull request actions
+headerActions.additionalSettings | Additional settings
+headerActions.all | All
+headerActions.allDiscussionsResolved | All discussions resolved
+headerActions.analysisComplete | Analysis complete
+headerActions.analysisInProgress | Analysis in progress...
+headerActions.analysisNeeded | Analysis needed
+headerActions.analysisUpToDate | Analysis is up to date
+headerActions.analyze | Analyze
+headerActions.approveDescription | Submit feedback and approve merging these changes
+headerActions.autoReviewAllPrsOn | Auto-review all PRs on
+headerActions.autoReviewBillingNote | Running automatic PR reviews in the background will increase billing costs
+headerActions.autoReviewMyPrs | Auto-review all PRs I create or am added to
+headerActions.autoReviewThisPr | Auto-review this PR
+headerActions.autofixDescription | Allow Devin to iterate on Devin Review feedback
+headerActions.autofixEnabledForAll | Autofix is enabled for all bots. Change this in {{settingsPage}} settings.
+headerActions.cannotApproveOwn | You cannot approve your own pull request
+headerActions.cannotRequestChangesOwn | You cannot request changes on your own pull request
+headerActions.closeReview | Close review
+headerActions.closed | Closed
+headerActions.closedState | closed
+headerActions.commentDescription | Submit general feedback without explicit approval
+headerActions.commitStatus | Commit status
+headerActions.configurePersonalSettings | Configure personal settings
+headerActions.configureReviewSettings | Review settings
+headerActions.connectProvider | Connect {{provider}}
+headerActions.copyLinkToPr | Copy link to PR
+headerActions.copyPrBranchName | Copy PR branch name
+headerActions.current | Current
+headerActions.customizationSettings | customization
+headerActions.deletePendingComment | Delete comment
+headerActions.discarding | Discarding
+headerActions.enableAutofix | Enable Autofix
+headerActions.filter | Filter
+headerActions.filterComments | Filter comments
+headerActions.meUsername | Me (@{{username}})
+headerActions.merged | Merged
+headerActions.mergedState | merged
+headerActions.needEnterpriseAdmin | You need enterprise admin permissions to enable auto-review for repositories
+headerActions.needOrgAdmin | You need organization admin permissions to enable auto-review for repositories
+headerActions.newCommitsAvailable | New commits available
+headerActions.noCommentsFound | No comments found
+headerActions.noCreditsForAnalysis | You don't have credits available to run analysis
+headerActions.noPermissionAutoReview | Your permissions do not allow enabling auto-review
+headerActions.onlyOrgAdmins | Only organization admins can change this setting.
+headerActions.openDevinSession | Open Devin session
+headerActions.openSlackThread | Open Slack thread
+headerActions.slackThread | Slack thread
+headerActions.pendingComments | Pending comments
+headerActions.prClosedMessage | This pull request has been {{state}}. You can still leave comments.
+headerActions.prReviewing | PR Reviewing
+headerActions.providerNotConnected | {{provider}} user not connected
+headerActions.reAnalyze | Re-analyze
+headerActions.refreshToView | Refresh to view
+headerActions.refreshToViewLatest | Refresh to view latest
+headerActions.requestChangesDescription | Submit feedback that must be addressed before merging
+headerActions.resolved | Resolved
+headerActions.review | Review
+headerActions.reviewSettings | review
+headerActions.reviewThisPr | review this pull request
+headerActions.saved | Saved
+headerActions.savingCommentChanges | Saving comment changes...
+headerActions.searchComments | Search comments
+headerActions.session | Session
+headerActions.setupAutoReview | Set up PR auto-review
+headerActions.submit | Submit
+headerActions.submitting | Submitting
+headerActions.thisPullRequest | This pull request
+headerActions.thisRepository | This repository
+headerActions.unresolved | Unresolved
+headerActions.unresolvedComments | Unresolved comments
+headerActions.viewDevinSession | View session
+headerActions.viewResults | View results
+headerActions.writeComment | Write a comment
+headerActions.writeYourReview | Write your review
+headerActions.copy | Copy
+headerActions.copyBranchName | Branch name
+headerActions.copyNumber | Number
+headerActions.copyTitle | Title
+headerActions.copyDescription | Description
+headerActions.copyUrl | Copy URL
+headerActions.goToSession | Go to session
+headerActions.goToSlackThread | Go to Slack thread
+headerActions.goToPullRequest | Go to pull request
+headerActions.settings | Settings
+headerActions.runAnalysisOnLatest | Run analysis on latest
+headerActions.reviewTrigger | Review trigger
+headerActions.reviewHistory | Review history
+headerActions.latest | Latest
+headerActions.copyProviderUrl | {{provider}} URL
+merge.createMergeCommit | Create a merge commit
+merge.squashAndMerge | Squash and merge
+merge.rebaseAndMerge | Rebase and merge
+merge.merge | Merge
+merge.mergeCount | Merge {{count}}
+merge.squashAndMergeCount | Squash and merge {{count}}
+merge.rebaseAndMergeCount | Rebase and merge {{count}}
+merge.merging | Merging
+merge.pullRequestMerged | Pull request merged
+merge.queuedToMerge | Queued to merge
+merge.readyForReview | Ready for review
+merge.marking | Marking
+merge.inMergeQueue | In merge queue
+merge.autoMergeEnabledBy | Auto-merge enabled by {{login}}
+merge.autoMergeEnabled | Auto-merge enabled
+merge.disableAutoMerge | Disable auto-merge
+merge.disabling | Disabling
+merge.queueing | Queueing
+merge.enableAutoMerge | Enable auto-merge
+merge.ciChecksPending | CI checks pending
+merge.requiredCiChecksFailed | Required CI checks failed
+merge.awaitingApproval | Awaiting approval
+merge.enabling | Enabling
+merge.cannotMerge | Cannot merge
+merge.allChecksApprovalsMet | Ready to merge
+merge.requiredChecksNotPassed | Checks failing
+merge.waitingOnRequiredChecks | Checks pending
+merge.nonRequiredChecksFailing | Optional checks failing
+merge.branchHasConflicts | Merge conflicts
+merge.resolveConflictsToMerge | This branch has conflicts that must be resolved before merging
+merge.noPermissionToMerge | No merge permission
+merge.reviewRequired | Review required
+merge.approvingReviewsRequired_one | {{count}} approving review required
+merge.approvingReviewsRequired_other | {{count}} approving reviews required
+merge.approvalsOfRequired | {{approved}}/{{required}} approvals
+merge.checksStillRunning | Optional checks pending
+merge.checkingMergeStatus | Checking merge status...
+merge.mergeStatusUnavailable | Merge status unavailable
+merge.convertToDraft | Convert to draft
+merge.closePullRequest | Close pull request
+merge.providerNotConnected | {{provider}} user not connected
+merge.prMerging | PR Merging
+merge.mergeThisPr | merge this pull request
+merge.prReadyForReview | Ready for review
+merge.markThisPrReady | mark this pull request as ready for review
+merge.viewReviewersAndChecks | {{message}} — view reviewers and checks
+merge.viewReviewers | {{message}} — view reviewers
+merge.viewChecks | {{message}} — view checks
+merge.viewPrDetails | {{message}} — view checks, reviewers, assignees, and labels
+merge.draftCannotMerge | Draft PRs cannot be merged
+merge.changesRequested | Changes have been requested
+merge.blockedByBranchProtection | Blocked by branch protection
+merge.branchOutOfDate | Branch is out of date
+merge.notReadyToMerge | Not ready to merge
+merge.stackBlockedDownstack | A pull request below in the stack isn't ready to merge
+merge.waitingOnCodeOwnerReview | Waiting on code owner review
+merge.waitingOnCodeOwnerReviewFrom | Waiting on code owner review from {{reviewers}}
+merge.queuedToMergePosition | Queued to merge (position {{position}})
+merge.prStillDraft | Draft
+merge.moreActions | More actions
+merge.morePrActions | More pull request actions
+merge.moreMergeActions | More merge actions
+merge.selectMergeMethod | Select merge method
+merge.fixConflictsWithDevin | Fix conflicts with Devin
+merge.fixConflictsWithDevinTooltip | Ask the Devin session that opened this PR to resolve the merge conflicts
+merge.askingDevin | Asking Devin…
+merge.askedDevin | Asked Devin
+merge.askedDevinToFixConflicts | Asked Devin to resolve the merge conflicts
+merge.retryAskingDevin | Retry asking Devin
+merge.failedToAskDevinToFixConflicts | Couldn't reach the Devin session
+discussion.reply | Reply
+discussion.edit | Edit
+discussion.delete | Delete
+discussion.copyLink | Copy link
+discussion.addComment | Add file comment
+discussion.commentActions | Comment actions
+discussion.applySuggestion | Apply suggestion
+discussion.applySuggestionTitleCase | Apply Suggestion
+discussion.noDescription | No description
+discussion.addDescription | Add a description
+discussion.showLess | Show less
+discussion.addReaction | Add reaction
+discussion.addADescription | <button>Add a description</button> to this pull request
+discussion.addCommentPlaceholder | Add a comment...
+discussion.analysisFailed | Analysis failed
+discussion.andMore | and {{count}} more
+discussion.applied | Applied
+discussion.applySuggestionFor | Apply suggestion for {{filePath}}
+discussion.applying | Applying...
+discussion.approved | Approved
+discussion.askDevin | Ask Devin
+discussion.bots | Bots
+discussion.cannotApplyToFork | Cannot apply suggestions to this fork PR
+discussion.clearAll | Clear all
+discussion.commented | Commented
+discussion.commitMessage | Commit message
+discussion.connectToReact | Connect {{provider}} to react
+discussion.copied | Copied!
+discussion.copyCommitSha | Copy commit SHA
+discussion.copyMessage | Copy message
+discussion.copySha | Copy SHA
+discussion.moreActions | More actions
+discussion.reactionConfused | Confused
+discussion.reactionEyes | Eyes
+discussion.reactionThumbsUp | Thumbs up
+discussion.devinIsAnalyzing | Devin is analyzing...
+discussion.dismissed | Dismissed
+discussion.editCommentPlaceholder | Edit comment...
+discussion.editDescription | Edit description
+discussion.enterPrDescription | Enter PR description...
+discussion.extendedDescription | Extended description
+discussion.filter | Filter
+discussion.filtered | Filtered ({{count}})
+discussion.generateAnalysis | Generate analysis
+discussion.generatingAnalysis | Generating analysis
+discussion.goToInlineComment | Go to inline comment
+discussion.loadingComments | Loading comments...
+discussion.markedAsResolved | marked this conversation as resolved.
+discussion.newCommit | New commit
+discussion.openInProvider | Open in {{provider}}
+discussion.pendingReview | Pending review
+discussion.people | People
+discussion.addToReview | Add to review
+discussion.adding | Adding
+discussion.comment | Comment
+discussion.commenting | Commenting
+discussion.moreSubmitOptions | More options
+discussion.postCommentsToPr | post comments to this pull request
+discussion.postToProvider | Post to {{provider}}
+discussion.posting | Posting
+discussion.postingComments | Posting comments
+discussion.postingToProvider | Posting to {{provider}}...
+discussion.prIsClosed | PR is closed
+discussion.prIsMerged | PR is merged
+discussion.reAnalyzeCommit | Re-analyze commit
+discussion.showingCommits | Showing {{shown}} of {{total}} commits
+discussion.readMore | Read more
+discussion.regenerateDisabledPublic | Regenerating analysis is disabled for public examples
+discussion.replyPlaceholder | Reply to this thread...
+discussion.requestedChanges | Requested changes
+discussion.retryAnalysis | Retry analysis
+discussion.reviewersCount | Reviewers ({{count}})
+discussion.selectAll | Select all
+discussion.startAReview | Start a review
+discussion.suggestedChange | Suggested change
+discussion.suggestionOutdated | Suggestion is outdated
+discussion.optionalDescriptionPlaceholder | Add an optional description...
+overview.collapse | Collapse
+overview.devinAiAnalysis | Devin's AI analysis
+overview.expand | Expand
+overview.generating | Generating...
+overview.noAnalysisAvailable | No analysis available
+connections.gitConnections | Git connections
+connections.link | Link
+connections.linkAccountsDescription | Link your personal accounts to enable Devin Review for your repositories.
+connections.linking | Linking…
+connections.noProvidersAvailable | No git providers are available to link. Ask your organization admin to set up a GitHub or GitLab integration.
+connections.notConnected | Not connected
+connections.unlink | Unlink
+connections.unlinkAccountDescription | This will unlink your {{label}} account. You can re-link it at any time.
+connections.unlinkAccountTitle | Unlink account?
+connections.unlinking | Unlinking…
+onboarding.actions.back | Back
+onboarding.actions.close | Close
+onboarding.actions.connect | Connect
+onboarding.actions.done | Done
+onboarding.actions.link | Link
+onboarding.actions.next | Next
+onboarding.actions.skip | Skip
+onboarding.callout.subtitle | Connect your personal git accounts to make comments and approve pull requests
+onboarding.callout.title | Unlock the full experience
+onboarding.connect.connected | Connected
+onboarding.connect.notConnected | Not connected
+onboarding.connect.sectionLabel | Personal connections
+onboarding.connect.subtitle | Required to review comments, request changes, and approve pull requests.
+onboarding.connect.title | Connect personal accounts
+onboarding.connect.viewAllSettings | Edit in settings
+onboarding.intro.features | ['Catches bugs automatically, ranked by severity', 'Auto-fix and iterate', 'Intelligently organized code diffs']
+onboarding.intro.subtitle | Code review that organizes diffs, detects moved code, and flags potential bugs.
+onboarding.intro.title | Devin Review
+onboarding.language.followDisplay | Use your display language
+onboarding.language.followDisplayHint | Reviews follow your account's display language
+onboarding.language.searchPlaceholder | Search languages...
+onboarding.language.noResultsFound | No results found
+onboarding.language.noResultsDescription | Try a different search term.
+onboarding.language.subtitle | Choose the language Devin uses for review comments.
+onboarding.language.title | What language should Devin's review comments use?
+onboarding.language.viewAllSettings | Edit in settings
+onboarding.trigger.modes.auto.description | Runs when the PR is ready and on every subsequent push
+onboarding.trigger.modes.auto.title | Auto review
+onboarding.trigger.modes.manual.description | No automatic reviews
+onboarding.trigger.modes.manual.title | Manual
+onboarding.trigger.modes.on_creation.description | A single review is performed when the PR is ready, usually on creation
+onboarding.trigger.modes.on_creation.title | When the PR is ready
+onboarding.trigger.noPermission | Your review role doesn't allow this option
+onboarding.trigger.subtitle | Choose when reviews are triggered.
+onboarding.trigger.title | When should Devin review your PRs?
+onboarding.trigger.viewInSettings | Edit in settings
+upsell.upgradePlan | Upgrade plan
+upsell.increaseAcuLimit | Increase the ACU limit
+upsell.orgAcuLimitContactAdmin | An enterprise admin must increase the ACU limit for your organization to run a full analysis.
+upsell.orgGroupAcuLimitContactAdmin | An enterprise admin must increase the ACU limit for your organization's group to run a full analysis.
+upsell.betterFasterReview | Better, faster code review
+upsell.contactAdminCredits | Contact your billing admin to add more on-demand credits.
+upsell.contactAdminUpgrade | Contact your billing admin to upgrade your plan.
+upsell.bugDetection | Bug detection
+upsell.dismiss | Dismiss
+upsell.getMoreCredits | Get more on-demand credits
+upsell.noAnalysisAvailable | No analysis available
+upsell.noPermission | You don't have permission to use Devin Review. Contact your admin to request access.
+upsell.reorganizingChanges | Analyzing and generating smart diffs...
+upsell.runAnalysis | Run analysis
+upsell.runDevinAnalysis | Run Devin's AI analysis
+upsell.running | Running...
+upsell.smartDiffs | Smart diffs
+upsell.smartDiffsReady | Smart diffs ready
+upsell.switchToSmartDiffs | Switch to smart diffs
+digest.loading | Loading…
+digest.loadingPlain | Loading
+digest.noChecks | No checks
+digest.ciFailing | CI failing
+digest.ciPending | CI pending
+digest.ciPassing | CI passing
+digest.moreActions | More actions
+digest.readyForReview | Ready for review
+digest.convertToDraft | Convert to draft
+digest.closePullRequest | Close pull request
+digest.openInProvider | Open in {{provider}}
+digest.convertedToDraft | Converted to draft
+digest.failedToConvertToDraft | Failed to convert to draft
+digest.markedReadyForReview | Marked as ready for review
+digest.failedToMarkReady | Failed to mark ready for review
+digest.merged | Merged
+digest.closed | Closed
+digest.draft | Draft
+digest.open | Open
+digest.unresolvedBugs | Unresolved bugs
+digest.unresolvedFlags | Unresolved flags
+digest.ssoAuthRequired | GitHub SSO authorization required to list certain PRs. Please re-link your GitHub account to grant access.
+digest.relinkGitHub | Re-link GitHub
+digest.reviewAnyPrUrl | Review any GitHub PR URL
+digest.reviewAnyPrUrlGeneric | Review any PR URL
+digest.submitPrUrl | Submit PR URL
+digest.or | or
+digest.linkGitHubToViewPrs | Link your GitHub account to view your PRs
+digest.linkAccountToViewPrs | Link your account to view your PRs
+digest.addReposToViewPrs | Add repositories to view your PRs
+digest.connectGitProviderToViewPrs | Connect a git provider to view your PRs
+digest.contactAdminToAddRepos | Contact an admin to add repositories
+digest.createPrWithDevin | Create a PR with Devin
+digest.connectToGitHub | Connect to GitHub
+digest.connectToGitLab | Connect to GitLab
+digest.failedToConnectGhes | Failed to connect to GitHub Enterprise. Please try again.
+digest.selectGitHubInstance | Select a GitHub instance
+digest.redirecting | Redirecting…
+digest.connect | Connect
+digest.selectOrg | Select organization
+digest.searchOrgs | Search organizations…
+digest.noOrgsFound | No organizations found.
+digest.addOrganization | Add organization
+digest.selectOrgToViewPrs | Select an organization to view your PRs
+digest.installGitHubToViewPrs | Install the GitHub integration to view your PRs
+digest.installGitHubIntegration | Install GitHub Integration
+digest.noOrgsAvailableGhes | No organizations found. Check your GitHub Enterprise connection in settings.
+digest.allRepos | All repositories
+digest.selectRepos | Select repositories
+digest.selectReposToViewPrs | Select repositories to view your PRs
+digest.reposCount_one | {{count}} repository
+digest.reposCount_other | {{count}} repositories
+digest.searchRepos | Search repositories…
+digest.noReposFound | No repositories found.
+digest.selectOwner | Select owner
+digest.searchOwners | Search owners…
+digest.noOwnersFound | No owners found.
+digest.failedToLoadPrs | Failed to load pull requests
+digest.selectOrgFirst | Select an organization first
+digest.notSupportedWithCliTokens | Devin Review is not supported with CLI tokens
+digest.installGitHubAppToUseReview | Install the GitHub App to use Devin Review. You can manage your connections in Settings.
+digest.goToSettings | Go to Settings
+digest.gitConnections | Git connections
+digest.refresh | Refresh
+digest.githubAppSuspended | GitHub App installation is suspended
+digest.githubAppSuspendedDesc | The GitHub App installation for <orgName>{{org}}</orgName> has been suspended. Please unsuspend it to continue viewing PRs.
+digest.manageInGitHub | Manage in GitHub
+digest.categoryOpen | Open
+digest.categoryDrafts | Drafts
+digest.categoryRecentlyMerged | Recently merged
+digest.categoryClosed | Closed
+digest.categoryOpenedByDevin | Opened by Devin
+detail.copied | Copied!
+detail.openedAgo | Opened {{time}}
+detail.copyBranchName | Copy branch name
+detail.filesCount_one | {{count}} file
+detail.filesCount_other | {{count}} files
+detail.loadingDiffs | Loading diffs…
+detail.loadingDiffsDesc | This may take a few moments for large PRs
+detail.failedToAnalyzePr | Failed to analyze PR
+detail.somethingWentWrong | Something went wrong while processing this PR
+detail.connectionLostBanner | Connection lost. Some data may be outdated.
+detail.rateLimitedBanner | {{provider}} API rate limit exceeded. Checks, reviewers, and comments may be missing or outdated.
+detail.providerDataUnavailable | Couldn't load this from {{provider}}. Try again in a few minutes.
+detail.reviewThreadsUnavailable | Couldn't load review comments. Try again in a few minutes.
+detail.ciChecksUnavailable | Couldn't load CI checks. Try again in a few minutes.
+detail.descriptionUnavailable | Couldn't load the description from {{provider}}. Try again in a few minutes.
+detail.titleUnavailable | Title unavailable
+detail.retrying | Retrying
+detail.regenerate | Regenerate
+detail.viewPreviousChanges | View changes from previous analysis ({{sha}})
+detail.signIn | Sign in
+detail.merged | Merged
+detail.closed | Closed
+detail.draft | Draft
+detail.open | Open
+toasts.signInRequired | Sign in required
+toasts.cannotRunAnalysis | Cannot run analysis
+toasts.alreadyAnalyzed | Already analyzed
+toasts.analysisStarted | Analysis started
+toasts.failedToStartAnalysis | Failed to start analysis
+toasts.failedToSubmitReview | Failed to submit review
+toasts.failedToMerge | Failed to merge pull request
+toasts.stackMergeStillRunning | The stack merge is still in progress on GitHub
+toasts.failedToJoinOrg | Failed to join organization
+toasts.failedToApplySuggestion | Failed to apply suggested fix
+toasts.failedToAddComment | Failed to add comment
+toasts.failedToAddReply | Failed to add reply
+toasts.failedToDeleteComment | Failed to delete comment
+toasts.failedToDiscardReview | Failed to discard review
+toasts.failedToUpdateComment | Failed to update comment
+toasts.failedToUpdateDescription | Failed to update description
+toasts.failedToUpdateTitle | Failed to update title
+toasts.failedToRemoveReaction | Failed to remove reaction
+toasts.failedToAddAssignee | Failed to add assignee
+toasts.failedToRemoveAssignee | Failed to remove assignee
+toasts.failedToAddLabel | Failed to add label
+toasts.failedToRemoveLabel | Failed to remove label
+toasts.failedToRemoveReviewer | Failed to remove reviewer
+toasts.failedToResolveThread | Failed to resolve thread
+toasts.failedToUnresolveThread | Failed to unresolve thread
+toasts.alreadyAnalyzedCompleted | The latest commit already has a completed analysis.
+toasts.alreadyAnalyzedInProgress | An analysis is already in progress for the latest commit.
+toasts.analysisStartedDesc | Devin is now analyzing this pull request.
+toasts.approved | approved
+toasts.approvedPullRequest | Approved pull request
+toasts.approvedPullRequestDescription | PR #{{prNumber}}
+toasts.autoMergeDisabled | Auto-merge disabled
+toasts.autoMergeDisabledDescription | PR #{{prNumber}} will not automatically merge
+toasts.autoMergeEnabled | Auto-merge enabled
+toasts.autoMergeEnabledDescription | PR #{{prNumber}} will merge when all checks pass
+toasts.branchCopied | Branch name copied to clipboard
+toasts.commentedOn | commented on
+toasts.convertedToDraft | Converted to draft
+toasts.copyFailed | Copy failed
+toasts.copiedLink | Copied link
+toasts.copiedMessage | Copied message
+toasts.draftNotAvailable | Full analysis is not available for draft pull requests.
+toasts.failedToAddReaction | Failed to add reaction
+toasts.failedToDisableAutoMerge | Failed to disable auto-merge
+toasts.failedToMarkReady | Failed to mark pull request as ready for review
+toasts.failedToPostToProvider | Failed to post to {{providerName}}
+toasts.failedToRequestReview | Failed to request review
+toasts.ghesOauthFailed | Failed to start GitHub Enterprise OAuth flow
+toasts.ghesUnlinkFailed | Failed to unlink GitHub Enterprise account
+toasts.ghesUnlinked | GitHub Enterprise account unlinked
+toasts.gitlabSelfHostedOauthFailed | Failed to start GitLab OAuth flow
+toasts.gitlabSelfHostedUnlinkFailed | Failed to unlink GitLab account
+toasts.gitlabSelfHostedUnlinked | GitLab account unlinked
+toasts.linkCopied | Link copied to clipboard
+toasts.noAccessToAnalyze | You don't have access to analyze this repository.
+toasts.noReviewPermission | You don't have permission to use Devin Review. Contact your admin to request access.
+toasts.notEligible | You are not eligible to run a full analysis on this PR.
+toasts.orgAcuLimitReached | Your organization has reached its ACU limit, so Devin can't run a full analysis.
+toasts.contractExpired | Your organization's Devin contract has ended, so Devin can't run a full analysis. Contact your account team to renew.
+toasts.prNotFound | This pull request was not found.
+toasts.rateLimitExceeded | Rate limit exceeded. Please try again in a few minutes.
+toasts.requestedChangesOn | requested changes on
+toasts.signInRequiredDesc | You need to sign in to run a review analysis.
+toasts.somethingWentWrong | Something went wrong. Please try again.
+toasts.somethingWentWrongStartingAnalysis | Something went wrong while starting the analysis.
+toasts.submittedReviewOn | submitted review on
+toasts.successfullyAction | Successfully {{action}} this pull request
+toasts.suggestedFixApplied | Suggested fix applied successfully
+toasts.suggestionOutdated | The code has changed - this suggestion is outdated
+toasts.trialExpiredNoBalance | Your trial has expired and you have no remaining credits.
+toasts.spendLimitReached | This PR's auto-review spend limit has been reached.
+toasts.triggerModeManual | Auto-review is set to manual mode for this repository.
+common.retry | Retry
+common.cancel | Cancel
+common.save | Save
+common.close | Close
+common.collapse | Collapse
+common.expand | Expand
+common.splitView | Split view
+common.splitViewTooNarrow | Split view is unavailable when the panel is too narrow.
+common.unifiedView | Unified view
+common.loadingChecks | Loading checks...
+common.loadingReviewers | Loading reviewers...
+common.files_one | {{count}} file
+common.files_other | {{count}} files
+common.comments_one | {{count}} comment
+common.comments_other | {{count}} comments
+common.open | Open
+common.fullView | Full view
+common.fullViewTooltip | Open the full-screen Devin Review with checks, stack, and chat
+common.closed | Closed
+common.merged | Merged
+common.draft | Draft
+common.checkout | Checkout
+common.checkoutLocally | Checkout locally
+common.commentLocation | Comment location
+common.comments | Comments
+common.connect | Connect
+common.connectAccountTo | Connect your {{provider}} account to {{action}}.
+common.connectOrSignIn | Connect with {{provider}} or sign in to {{action}}.
+common.connectProvider | Connect {{provider}}
+common.copied | Copied!
+common.copiedNoBang | Copied
+common.copy | Copy
+common.copyDevinReviewLink | Copy Devin Review Link
+common.copyAll | Copy all
+common.codeDiffSettings | Code diff settings
+common.diffSettings | Diff settings
+common.diffView | Diff view
+common.dismiss | Dismiss
+common.featureNotAvailable | {{feature}} not available
+common.files | Files
+common.floating | Floating
+common.hideHighlights | Hide highlights
+common.hideWhitespace | Hide whitespace
+common.hybrid | Hybrid
+common.inline | Inline
+common.join | Join
+common.joinOrgWithAccess | Or join a Devin organization with access
+common.logIn | Log in
+common.manageIntegration | Manage {{provider}} Integration
+common.or | or
+common.orgConnectionUnsupported | {{feature}} is not supported with this organization's {{provider}} connection.
+common.providerWriteUnsupported | {{feature}} is not supported for {{provider}} pull requests yet. Devin can still review them.
+common.orgConnectionAdminHint | An organization admin can enable it by connecting through the Devin GitHub App.
+common.remove | Remove
+common.noRepoAccess | Your {{provider}} account does not have write access to this repository.
+common.sharedPatNotAvailable | GitHub interactions are not supported with your current git provider configuration.
+common.signIn | Sign in
+common.unknown | Unknown
+newVersionBanner.title | A newer version of the analysis is available
+newVersionBanner.viewLatestVersion | View latest version
+newVersionBanner.description | The bug analysis was updated after this version was opened.
+jobPage.viewPr | View {{owner}}/{{repo}}#{{prNumber}}
+jobPage.cliAuthRequired | To access this Devin Review, we need to authenticate with your local Devin CLI. Make sure the CLI is running, then click the button below.
+jobPage.connectToCli | Connect to CLI
+jobPage.reviewStillProcessing | Review Still Processing
+jobPage.reviewNotFound | Review Not Found
+jobPage.failedToLoadReview | Failed to Load Review
+jobPage.reviewProcessingDesc | The review is still being generated. Please wait…
+jobPage.cliRunningRequired | Make sure the Devin CLI is running for authentication.
+jobPage.couldNotFetchResult | Could not fetch review result: {{error}}
+jobPage.preview | Preview
+landing.justLaunched | Just launched: security review is now part of every Devin Review.
+landing.tagline | is the way to understand code.
+landing.subtitle | Code review that organizes diffs, detects moved code, and flags vulnerabilities and bugs.
+landing.tryNow | Try <devinReview>Devin Review</devinReview> now.
+landing.copyMoveDetection | Copy/move detection
+landing.copyMoveDesc | Automatically detects when code is moved or copied, and shows you where it came from.
+landing.organizedDiffs | Intelligently organized code diffs
+landing.organizedDiffsDesc | Automatically organizes PRs into logical sections with explanations
+landing.bugDetection | Vulnerability and bug detection
+landing.bugDetectionPlural | Vulnerability and bug detection
+landing.bugDetectionDesc | Identifies potential bugs and flags parts of the code worth reviewing more carefully.
+landing.askDevin | Ask Devin questions about your PR
+landing.askDevinDesc | Integrates with Devin's agentic reasoning harness to answer any question about the PR or larger codebase.
+landing.tryOnAnyPr | Review your next PR for <emphasis>vulnerabilities</emphasis>
+landing.chatAnnotation | Chat with Devin about this PR
+landing.changesInPr | Changes in PR
+landing.securitySectionTitle | Every code review is now a security review.
+landing.securitySectionCoverage | Automated vulnerability detection
+landing.securitySectionCoverageDesc | Devin automatically reviews every PR for vulnerabilities, reasoning across your entire codebase to catch the auth bypasses and logic flaws that pattern-matching scanners miss.
+landing.securitySectionTriaging | Severity ranking and CWE tagging
+landing.securitySectionTriagingDesc | Each finding is ranked by severity and tagged with a CWE ID for easy triaging.
+landing.securitySectionFixes | Merge-ready fixes
+landing.securitySectionFixesDesc | Beyond flagging issues, Devin writes the fix directly and opens it as a merge-ready PR, so it arrives ready for an engineer to review instead of a ticket that waits weeks in a queue.
+landing.securitySectionSocialProof | Trusted by teams at American Express
+analysis.allFlagsResolved | All flags resolved
+analysis.bug | Bug
+analysis.bugDetectionFailed | Bug detection failed
+analysis.copyBug | Copy bug
+analysis.copyFlag | Copy flag
+analysis.devinMarkedResolved | Devin marked this as resolved.
+analysis.informational | Informational
+analysis.investigate | Investigate
+analysis.markAllAsRead | Mark all as read
+analysis.markAsRead | Mark as read
+analysis.markAsUnread | Mark as unread
+analysis.noBugsFound | No bugs found
+analysis.noteworthyParts | Noteworthy parts of this PR
+analysis.outdated | Outdated
+analysis.potentialBug | Potential Bug
+analysis.learnMore | Learn more
+analysis.read | Read
+analysis.recommendation | Recommendation
+analysis.repoRule | Repo rule
+analysis.repoRuleTooltip | Flagged because it violates a repository rule file (AGENTS.md, REVIEW.md, etc.)
+analysis.resolve | Resolve
+analysis.resolved | Resolved
+analysis.unresolve | Unresolve
+analysis.suggestedFix | Suggested fix
+analysis.potentialBugCount_one | {{count}} Potential bug
+analysis.potentialBugCount_other | {{count}} Potential bugs
+analysis.resolvedBugCount_one | Resolved bug
+analysis.resolvedBugCount_other | Resolved bugs
+analysis.flagCount_one | {{count}} Flag
+analysis.flagCount_other | {{count}} Flags
+analysis.bugsHeader_one | {{count}} Bug
+analysis.bugsHeader_other | {{count}} Bugs
+analysis.vulnerabilitiesHeader_one | {{count}} Vulnerability
+analysis.vulnerabilitiesHeader_other | {{count}} Vulnerabilities
+analysis.flagsHeader_one | {{count}} Flag
+analysis.flagsHeader_other | {{count}} Flags
+analysis.noVulnerabilitiesFound | No vulnerabilities found
+analysis.noFlagsFound | No flags found
+analysis.securityFindingsTooltip | Security vulnerabilities and hardening suggestions
+analysis.noBugsToCopy | No unresolved bugs to copy
+analysis.noVulnerabilitiesToCopy | No unresolved vulnerabilities to copy
+analysis.noFlagsToCopy | No unresolved flags to copy
+analysis.outdatedBadgeTooltip | Findings are from a previous commit
+bugsTab.search_one | Search {{count}} finding
+bugsTab.search_other | Search {{count}} findings
+bugsTab.filter | Filter findings
+bugsTab.bugs | Bugs
+bugsTab.bugs_one | {{count}} bug
+bugsTab.bugs_other | {{count}} bugs
+bugsTab.flags | Flags
+bugsTab.flags_one | {{count}} flag
+bugsTab.flags_other | {{count}} flags
+bugsTab.notes_one | {{count}} note
+bugsTab.notes_other | {{count}} notes
+bugsTab.vulnerabilities | Vulnerabilities
+bugsTab.vulnerabilities_one | {{count}} vulnerability
+bugsTab.vulnerabilities_other | {{count}} vulnerabilities
+bugsTab.resolved | Resolved
+bugsTab.unresolvedOnly | Unresolved only
+bugsTab.unpostedOnly | Unposted only
+bugsTab.show | Show
+bugsTab.selectAll | Select all
+bugsTab.clearAll | Clear all
+bugsTab.notes | Notes
+bugsTab.empty | No findings match your search or filters.
+bugsTab.previousFinding | Previous finding
+bugsTab.nextFinding | Next finding
+autofix.autoFix | Auto-fix
+autofix.autoFixWithDevin | Auto-fix with Devin
+autofix.enableAutoFix | Enable auto-fix
+autofix.enabled | Enabled
+autofix.enabledTooltip | When enabled, Devin will automatically fix review feedback on all Devin PRs in this organization.
+autofix.enabling | Enabling...
+autofix.needAdminPermission | You need organization admin permissions to enable auto-fix.
+autofix.startingSession | Starting session…
+autofix.willFixBugsTooltip | Devin will open a session to fix the bugs found in this PR and automatically fix any future bugs.
+comments.clickToClose | Click to close comment
+comments.clickToExpand | Click to expand comment
+comments.closeComment | Close comment
+comments.collapseComment | Collapse comment
+comments.commentActions | Comment actions
+comments.expandComment | Expand comment
+comments.markRead | Mark read
+comments.markResolved | Mark resolved
+comments.markUnread | Mark unread
+comments.markUnresolved | Mark unresolved
+comments.resolveLoadingThreads | Loading review threads…
+comments.resolveRetry | Retry
+comments.resolveThreadsFailed | Couldn't load review threads — click to retry
+comments.resolved | Resolved
+devinCli.tryViaCli | Try it via Devin CLI, no account required
+fileOverlay.closeFileOverlay | Close file overlay
+fileOverlay.closeFileView | Close file view
+fileOverlay.failedToLoad | Failed to load file
+fileOverlay.fileMayNotExist | This file may not exist
+fileOverlay.loadingFile | Loading file...
+endCard.checksFailedTitle | Some checks were not successful
+endCard.checksPendingTitle | Some checks are still pending
+endCard.checksPassedOrSkippedTitle | All checks successful or skipped
+endCard.checksPassedTitle | All checks successful
+endCard.countPending | {{count}} pending
+endCard.countFailed | {{count}} failed
+endCard.countSkipped | {{count}} skipped
+endCard.countSuccessful | {{count}} successful
+endCard.diffFiles_one | {{count}} file
+endCard.diffFiles_other | {{count}} files
+endCard.diffAdditions | +{{count}}
+endCard.diffDeletions | -{{count}}
+endCard.pullRequestMerged | Pull request merged
+endCard.pullRequestClosed | Pull request closed
+endCard.showAll | Show all
+endCard.stackReady | {{count}} ready
+endCard.stackPendingChanges | {{count}} pending changes
+endCard.willAlsoMerge_one | Merging this PR will also merge {{count}} PR below it
+endCard.willAlsoMerge_other | Merging this PR will also merge {{count}} PRs below it
+footer.chatAboutPR | Chat about this PR
+footer.endOfChanges | End of changes
+orgAccess.canJoinDescription | You can join this organization to access its repositories.
+orgAccess.contactAdmin | Contact Admin
+orgAccess.enterpriseDescription | This organization is part of an enterprise. You need to be invited by an admin to access it.
+orgAccess.enterpriseOrg | Enterprise Organization
+orgAccess.joinOrg | Join Organization
+orgAccess.joining | Joining
+orgAccess.requestJoinDescription | Request to join this organization to access its repositories.
+orgAccess.requestToJoin | Request to Join
+orgAccess.switchToOrg | Switch to Organization
+prTitle.clickToEdit | Click to edit PR title
+prTitle.rename | Rename
+prTitle.emptyError | Title cannot be empty.
+stack.stackedCount | {{count}} stacked
+stack.stackedPullRequests_one | {{count}} stacked pull request
+stack.stackedPullRequests_other | {{count}} stacked pull requests
+stack.addToStack | Add to stack
+stack.status.merged | Merged
+stack.status.closed | Closed
+stack.status.draft | Draft
+stack.status.failingChecks | Failing checks
+stack.status.mergeConflicts | Merge conflicts
+stack.status.mergeBlocked | Merge blocked
+stack.status.unknown | Checking merge status
+stack.status.blockedDownstack | Not ready
+stack.status.readyToMerge | Ready to merge
+stack.status.notReadyToMerge | Not ready to merge
+stack.status.failingOrConflicting | Failing checks or merge conflicts
+stack.stackActions | Stack actions
+stack.openInGitHub | Open in GitHub
+privateAccess.appSuspended | GitHub App installation is suspended
+privateAccess.connectGithubOrg | Connect GitHub organization
+privateAccess.connectWithGithub | Connect with GitHub
+privateAccess.connectWithGithubHost | Connect with GitHub ({{host}})
+privateAccess.ensureIntegration | Ensure your organization has a {{provider}} integration with access to this repository.
+privateAccess.enterpriseSuborgAccess | An enterprise admin must add you to a sub-organization with access
+privateAccess.insufficientAccess | GitHub integration has insufficient repository access
+privateAccess.joinAnOrg | Join an organization
+privateAccess.manageAccess | Manage Access
+privateAccess.manageInGithub | Manage in GitHub
+privateAccess.manageIntegration | Manage {{provider}} Integration
+privateAccess.mergeRequest | Merge Request
+privateAccess.noGithubIntegration | No GitHub integration installed
+privateAccess.providerNotConnected | Your {{provider}} is not connected to Devin
+privateAccess.pullRequest | Pull Request
+privateAccess.relinkProvider | Re-link {{provider}}
+privateAccess.repoNotFoundOrNoAccess | This repository either does not exist or you do not have access to it
+privateAccess.requestAdminInvite | Request an admin to invite you
+privateAccess.ssoRequired | Your {{provider}} account requires SSO authorization to access this organization. Please re-link your {{provider}} account.
+privateAccess.toReviewPR | To review this pull request:
+privateAccess.installationSuspended | Installation suspended
+privateAccess.enterpriseAdminGrant | Enterprise - Admin must grant access
+privateAccess.configureRepoAccess | Configure repository access in {{provider}}
+privateAccess.ghesNotConfigured | This repository is on {{host}}. Ask your admin to configure the GitHub Enterprise Server integration.
+reference.and | and
+reference.based | based
+reference.copyPaste | Copy + paste
+reference.from | from
+reference.hideSideBySide | Hide Side-by-Side
+reference.move | Move
+reference.moved | moved
+reference.on | on
+reference.seemRelated | seem related
+reference.showSideBySide | Show Side-by-Side
+reference.similarCode | Similar code
+reference.to | to
+status.needsReview | Needs review
+status.outdated | Outdated
+status.pending | Pending
+status.previouslyFlagged | Previously flagged
+status.resolved | Resolved
+trial.dismissBanner | Dismiss trial banner
+trial.readPricingAnnouncement | Read our pricing announcement →
+trial.daysRemaining_one | {{count}} day left in your Devin Review free trial.
+trial.daysRemaining_other | {{count}} days left in your Devin Review free trial.
+trial.daysRemainingPaid_one | {{count}} day of free Devin Review remaining. Reviews will use credits after.
+trial.daysRemainingPaid_other | {{count}} days of free Devin Review remaining. Reviews will use credits after.

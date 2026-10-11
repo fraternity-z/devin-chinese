@@ -1,0 +1,1941 @@
+========== transcript
+transcript.codeScanStarted | Started a code scan
+transcript.codeScanViewFindings | View findings
+transcript.codeScanViewSession | View session
+transcript.codeScanSessionUnavailable | Session unavailable
+transcript.aFile | a file
+transcript.aPr | a PR
+transcript.aUser | A user
+transcript.acuAmount | {{value}} ACUs
+transcript.addedToAllowlist | Added to the allowlist
+transcript.adminRequired | Admin required
+transcript.allowForThisSession | Allow for this session
+transcript.allowing | Allowing…
+transcript.analyzedDirectory | Analyzed
+transcript.analyzingDirectory | Analyzing
+transcript.approve | Approve
+transcript.approveEditedCommand | Use edited command
+transcript.approvedDeployment | Approved deployment
+transcript.automationPermission.create | Devin wants to create an automation
+transcript.automationPermission.delete | Devin wants to delete an automation
+transcript.automationPermission.run | Devin wants to run an automation
+transcript.automationPermission.update | Devin wants to update an automation
+transcript.askedDeepwiki | Asked DeepWiki
+transcript.askingDeepwiki | Asking DeepWiki
+transcript.attachment | Attachment
+transcript.authorYou | you
+transcript.autoReview | Auto-review
+transcript.autoReviewSpendLimitReached | Auto-review spend limit reached, so auto-review was turned off. It can be re-enabled to resume automatic reviews.
+transcript.autoRoute.afterCompaction | after compaction
+transcript.autoRoute.afterUserFollowUp | after user follow-up
+transcript.autoRoute.decision | Switched agent
+transcript.autoRoute.onModeSwitch | on mode switch
+transcript.autoRoute.onStartup | on startup
+transcript.autoRoute.toAgent | Auto-routed to {{agent}}
+transcript.autoRoute.toAgentWithTrigger | Auto-routed to {{agent}} {{trigger}}
+transcript.autoRoutedTo | Auto-routed to {{agent}} {{trigger}}
+transcript.autofixIsEnabled | Autofix is enabled.
+transcript.beta | Beta
+transcript.botCommentsFrom_one | Bot comment from
+transcript.botCommentsFrom_other | Bot comments from
+transcript.botCommentsIgnored | ignored
+transcript.botCommentsIgnoredWithCount | ignored ({{count}})
+transcript.branch | branch
+transcript.branchForcePushed | {{branch}} was force-pushed ({{shortSha}})
+transcript.browserClickedElement | Clicked element on {{url}}
+transcript.browserExecutedJavascript | Executed JavaScript on {{url}}
+transcript.browserLoadedExtensions | Loaded extensions: {{extensions}}
+transcript.browserMovedMouse | Moved mouse on {{url}}
+transcript.browserNavigated | Navigated to {{url}}
+transcript.browserPressedKey | Pressed key: {{key}} on {{url}}
+transcript.browserRestarted | Restarted browser
+transcript.browserRestartedTo | Restarted browser to {{url}}
+transcript.browserScrolledDown | Scrolled down on {{url}}
+transcript.browserScrolledUp | Scrolled up on {{url}}
+transcript.browserSelectedFile | Selected file to upload: {{path}}
+transcript.browserSelectedOption | Selected option: {{option}}
+transcript.browserSetDesktop | Set browser to desktop mode
+transcript.browserSetMobile | Set browser to mobile mode
+transcript.browserTookScreenshot | Took screenshot of {{url}}
+transcript.browserTypedInTextbox | Typed in textbox on {{url}}
+transcript.browserViewed | Viewed browser at {{url}}
+transcript.browserViewedConsole | Viewed console on {{url}}
+transcript.byAuthor |  by {{authorName}}
+transcript.callEnded | Call ended
+transcript.callEndedWithDuration | Call ended · {{duration}}
+transcript.callStarted | Call started
+transcript.cancel | Cancel
+transcript.ciFailed | CI failed
+transcript.ciFailedCount | CI failed ({{count}})
+transcript.closePullRequest | Close pull request
+transcript.codeReportScanned | Scanned {{filesProcessed}} files in {{timeSpent}}
+transcript.codeReportScannedFallback | Scanned files
+transcript.codeReportScanning | Scanning... {{filesProcessed}} files processed in {{timeSpent}}
+transcript.codeReportScanningFallback | Scanning...
+transcript.codeReportStarted | Started code report
+transcript.codeReportStartedIn | Started code report in directory {{directory}}
+transcript.codebase | codebase
+transcript.commandCardTitle | Command {{names}}
+transcript.commentedOnPr | Commented on PR #{{pullNumber}} in {{repo}}
+transcript.commentedOnPrNoNumber | Commented on a PR in {{repo}}
+transcript.computerClicked | Clicked
+transcript.computerClickedAt | Clicked at {{coordinate}}
+transcript.computerDoubleClicked | Double-clicked
+transcript.computerDoubleClickedAt | Double-clicked at {{coordinate}}
+transcript.computerDragged | Dragged from {{start}} to {{end}}
+transcript.computerExecutedJavascript | Executed JavaScript
+transcript.computerGotCursorPosition | Got cursor position
+transcript.computerHeldKey | Held key: {{key}}
+transcript.computerMiddleClicked | Middle-clicked
+transcript.computerMiddleClickedAt | Middle-clicked at {{coordinate}}
+transcript.computerMouseButtonDown | Mouse button down
+transcript.computerMouseButtonUp | Mouse button up
+transcript.computerMovedMouse | Moved mouse to {{coordinate}}
+transcript.computerPressedKey | Pressed key: {{key}}
+transcript.computerReadPageDom | Read page DOM
+transcript.computerRightClicked | Right-clicked
+transcript.computerRightClickedAt | Right-clicked at {{coordinate}}
+transcript.computerScrolled | Scrolled {{direction}}
+transcript.computerScrolledBy | Scrolled {{direction}} by {{amount}}
+transcript.computerTookScreenshot | Took screenshot
+transcript.computerTripleClicked | Triple-clicked
+transcript.computerTripleClickedAt | Triple-clicked at {{coordinate}}
+transcript.computerTypedText | Typed text
+transcript.computerViewedConsole | Viewed console
+transcript.computerWaited | Waited
+transcript.computerWaitedFor | Waited {{duration}} s
+transcript.computerZoomedRegion | Zoomed region
+transcript.copied | Copied
+transcript.copy | Copy
+transcript.copyBranchName | Copy branch name
+transcript.copyLink | Copy link
+transcript.copyPrContext | Copy context about Devin's work and this PR to handoff to another agent
+transcript.createdFile | Created {{filename}}
+transcript.creatingFile | Creating {{filename}}
+transcript.deepwikiQuestionPrefix | Q:
+transcript.defaultPrDestination | Default
+transcript.deletedFile | Deleted {{filename}}
+transcript.deny | Deny
+transcript.describeChangeToCommand | Describe change to command
+transcript.detectedOn | detected on
+transcript.devin | Devin
+transcript.devinChoseToStop | Devin chose to stop working
+transcript.devinFixingIssuesFromReview | Devin is fixing issues from Devin Review
+transcript.devinReviewFeedback | Devin Review feedback
+transcript.devinReviewFeedbackWithCounts | Devin Review feedback ({{counts}})
+transcript.devinReviewFindingsIgnored | Devin Review findings ignored
+transcript.devinReviewFoundFindings | Devin Review found {{findings}}
+transcript.devinReviewFoundIssuesFixOrEnable | Devin Review found issues. Fix them for this PR, or enable auto-fix for all Devin PRs.
+transcript.devinReviewPlusFeedback | Devin Review + {{names}} feedback
+transcript.devinTookOverThisPr | Devin took over this PR
+transcript.discardCommandEdit | Discard edit
+transcript.dismiss | Dismiss
+transcript.dismissedSuggestions_one | Dismissed {{count}} suggestion
+transcript.dismissedSuggestions_other | Dismissed {{count}} suggestions
+transcript.editCommand | Edit command
+transcript.editMessage | Edit message
+transcript.editedFile | Edited {{filename}}
+transcript.editedFiles | Edited files
+transcript.editing | Editing
+transcript.editingFile | Editing {{filename}}
+transcript.editingFiles | Editing files
+transcript.enableAutoFix | Enable auto-fix
+transcript.enableAutoFixForAllPrs | Enable auto-fix for all PRs
+transcript.enabling | Enabling...
+transcript.enteredTestMode | Entered test mode
+transcript.enteredTestModeWithCitation | Entered test mode —
+transcript.eventPayload | Event payload
+transcript.explore.grepped | Grepped {{query}}
+transcript.explore.listed | Listed {{path}}
+transcript.explore.listedRecentCommits | Listed recent commits on {{query}}
+transcript.explore.matchedFiles | Matched files {{query}}
+transcript.explore.read | Read {{filename}}
+transcript.explore.readWiki | Read wiki {{query}}
+transcript.explore.searched | Searched {{query}}
+transcript.explore.searchedAcrossRepos | Searched {{query}} across repos
+transcript.explore.searchedRepos | Searched repos
+transcript.explore.searchedReposFor | Searched repos for {{query}}
+transcript.explore.searching | Searching {{query}}
+transcript.explore.searchingAcrossRepos | Searching {{query}} across repos
+transcript.explore.viewedBlame | Viewed blame for {{filename}}
+transcript.explore.viewedCommit | Viewed commit {{query}}
+transcript.explore.viewedPr | Viewed PR {{query}}
+transcript.exploredRepo | Explored the repo
+transcript.fastContext | Fast Context
+transcript.fastContextBadResult | Bad result
+transcript.fastContextDuration | in {{seconds}}s
+transcript.fastContextGoodResult | Good result
+transcript.fastContextNoResults | No relevant context found
+transcript.feedbackIgnoredTooltip | This feedback was ignored.
+transcript.fetchedWebPagesCount | Fetched web page content ({{count}} pages)
+transcript.fetchedWebPagesCount_one | Fetched web page content ({{count}} page)
+transcript.fetchedWebPagesCount_other | Fetched web page content ({{count}} pages)
+transcript.fileDeleted | deleted
+transcript.findingsBugs_one | {{count}} bug
+transcript.findingsBugs_other | {{count}} bugs
+transcript.findingsFindings_one | {{count}} finding
+transcript.findingsFindings_other | {{count}} findings
+transcript.findingsFlags_one | {{count}} flag
+transcript.findingsFlags_other | {{count}} flags
+transcript.findingsNotes_one | {{count}} note
+transcript.findingsNotes_other | {{count}} notes
+transcript.findingsSecurity_one | {{count}} security finding
+transcript.findingsSecurity_other | {{count}} security findings
+transcript.findingsVulnerabilities_one | {{count}} vulnerability
+transcript.findingsVulnerabilities_other | {{count}} vulnerabilities
+transcript.firstSession.connectGithub | <githubLink>Connect GitHub</githubLink> to create PRs in your repos
+transcript.firstSession.moreTips | More tips for first-time users
+transcript.firstSession.tryTaggingSlack | Try tagging @Devin in <slackLink>Slack</slackLink> for small bug fixes
+transcript.firstSession.tryTaggingSlackOrTeams | Try tagging @Devin in <slackLink>Slack</slackLink> or <teamsLink>Teams</teamsLink> for small bug fixes
+transcript.firstSessionCongratulations | Congrats on starting your first session!
+transcript.fixForThisPr | Fix for this PR
+transcript.fixForThisPrOnly | Fix for this PR only
+transcript.forkFromMessage | Fork from here
+transcript.gapOf | Gap of {{duration}}
+transcript.handingOverOwnership | by {{sender}}: handing over ownership until next user message
+transcript.iDisagree | I disagree
+transcript.ignoredFeedbackFrom | Ignored feedback from {{names}}
+transcript.ignoredFeedbackFromPrComments | Ignored feedback from PR comments
+transcript.in | in
+transcript.inRepo | in {{repo}}
+transcript.inRepoName | in {{repoName}}
+transcript.internalDebugging | Internal debugging
+transcript.jiraIssue | Jira issue · {{identifier}}
+transcript.keepingRepoUpToDate | Keeping {{repo}} up to date
+transcript.keepingReposUpToDate | Keeping repositories up to date
+transcript.languageTranslation | {{language}} Translation:
+transcript.launchedSubagent | Launched subagent
+transcript.linearIssue | Linear issue · {{identifier}}
+transcript.listedSuggestions | Listed {{returnedCount}} of {{totalCount}} suggestions{{filterStr}}
+transcript.manageGitSettings | Manage Git settings
+transcript.mergeConflict | Merge conflict
+transcript.mergeConflictOnPr | Merge conflict on PR #{{number}}
+transcript.mergeConflictOnPrTitled | Merge conflict on PR #{{number}}: {{title}}
+transcript.messageFlagged | Message flagged
+transcript.messageFlaggedUsagePolicies | This message was flagged for potentially violating your organization's usage policies.
+transcript.modelDegraded | Temporarily using a backup model
+transcript.modelDegradedRefusal | Request declined — using a backup model
+transcript.modelRecovered | Back on the primary model
+transcript.modelDegradedDetail | Primary model unavailable — Devin switched to a backup model and is still working. Results may be slightly different.
+transcript.modelDegradedRefusalDetail | The primary model declined this request — Devin switched to a backup model to continue.
+transcript.modelRecoveredDetail | Back on the primary model.
+transcript.modelViaProvider | {{model}} via {{modelProvider}}
+transcript.moreActions | More actions
+transcript.moreAllowOptions | More allow options
+transcript.morePrActions | More actions
+transcript.moreRejectOptions | More reject options
+transcript.moreTestingOptions | More testing options
+transcript.networkAllowInAutomation | Add to automation
+transcript.networkAllowInBoth | Add to profile and automation
+transcript.networkAllowInProfile | Add to profile
+transcript.networkBlockedByAutomation_one | This destination is blocked by the automation's network policy.
+transcript.networkBlockedByAutomation_other | These destinations are blocked by the automation's network policy.
+transcript.networkBlockedByBothGeneric_one | This destination is blocked by security profiles and the automation's network policy.
+transcript.networkBlockedByBothGeneric_other | These destinations are blocked by security profiles and the automation's network policy.
+transcript.networkBlockedByBoth_one | This destination is blocked by the security profile "{{name}}" and the automation's network policy.
+transcript.networkBlockedByBoth_other | These destinations are blocked by the security profile "{{name}}" and the automation's network policy.
+transcript.networkBlockedByProfileGeneric_one | This destination is blocked by security profiles.
+transcript.networkBlockedByProfileGeneric_other | These destinations are blocked by security profiles.
+transcript.networkBlockedByProfile_one | This destination is blocked by the security profile "{{name}}".
+transcript.networkBlockedByProfile_other | These destinations are blocked by the security profile "{{name}}".
+transcript.networkConfirmInAutomation_one | This will allow the requested destination for every session the automation's network policy applies to.
+transcript.networkConfirmInAutomation_other | This will allow the requested destinations for every session the automation's network policy applies to.
+transcript.networkConfirmInBoth_one | This will allow the requested destination for every session the security profile and the automation's network policy govern.
+transcript.networkConfirmInBoth_other | This will allow the requested destinations for every session the security profile and the automation's network policy govern.
+transcript.networkConfirmInProfileTitle | Confirm profile change
+transcript.networkConfirmInProfile_one | This allows this destination in every session governed by the security profile.
+transcript.networkConfirmInProfile_other | This allows these destinations in every session governed by the security profile.
+transcript.networkContactAdmin_one | Contact an admin to allow it.
+transcript.networkContactAdmin_other | Contact an admin to allow them.
+transcript.networkGovernedWriteScope_one | Allows this destination for every session the shared policy governs.
+transcript.networkGovernedWriteScope_other | Allows these destinations for every session the shared policy governs.
+transcript.networkManageProfiles | Manage security profiles
+transcript.networkReconcileFailed_one | The policy already allows this destination, but the request couldn't be resolved.
+transcript.networkReconcileFailed_other | The policy already allows these destinations, but the request couldn't be resolved.
+transcript.networkReconciling_one | The policy already allows this destination — resolving…
+transcript.networkReconciling_other | The policy already allows these destinations — resolving…
+transcript.newCommitsPushed | New commits pushed to {{branch}} ({{shortSha}})
+transcript.openInDesktopTab | Open in Desktop tab
+transcript.openInDevinReview | Open in Devin Review
+transcript.openInProvider | Open in {{provider}}
+transcript.openInSessionTab | Open in Session tab
+transcript.openLocally | Open locally
+transcript.original | Original:
+transcript.outpost.claimExpired | Outpost machine did not connect; waiting for your outpost again
+transcript.outpost.claimExpired_named | Outpost machine did not connect; waiting for outpost “{{name}}” again
+transcript.outpost.claimed | Outpost machine accepted the session, connecting
+transcript.outpost.connected | Outpost machine connected
+transcript.outpost.died | Outpost machine died; waiting for your outpost again
+transcript.outpost.died_named | Outpost machine died; waiting for outpost “{{name}}” again
+transcript.outpost.disconnected | Outpost machine disconnected
+transcript.outpost.queued | Waiting for your outpost to provide a machine
+transcript.outpost.queued_named | Waiting for outpost “{{name}}” to provide a machine
+transcript.outpost.released | Outpost machine released the session; waiting for your outpost again
+transcript.outpost.released_named | Outpost machine released the session; waiting for outpost “{{name}}” again
+transcript.outpost.update | Outpost queue update
+transcript.permissionApproved | {{title}} — approved
+transcript.permissionDenied | {{title}} — denied
+transcript.permissionNoLongerOpen | This request is no longer open
+transcript.permissionRequired | Allow this action?
+transcript.plan.completedTask | Completed task
+transcript.plan.createdTask | Created 1 task
+transcript.plan.createdTasks | Created {{count}} tasks
+transcript.plan.deletedTask | Deleted task
+transcript.plan.executionPlan | Execution plan
+transcript.plan.fallbackTitle | Plan
+transcript.plan.olderVersionAccepted | older version accepted
+transcript.plan.startedTask | Started task
+transcript.plan.updated | Updated the plan
+transcript.plan.updatedTask | Updated task
+transcript.plan.versionAccepted | v{{version}} accepted
+transcript.prNumber | PR #{{number}}
+transcript.prStacked | Stacked pull requests
+transcript.preApproveTestingFutureSessions | Pre-approve testing for future sessions
+transcript.pullingLatest | Pulling latest
+transcript.pullingLatestFor | Pulling latest for {{repo}}
+transcript.pushedBranch | Pushed branch
+transcript.pushedBranchTo | to
+transcript.pylonEventIssueCreated | Issue created
+transcript.pylonEventStatusChanged | Status changed
+transcript.pylonEventTagAdded | Tag added
+transcript.pylonIssueNumber | Pylon issue · #{{issueNumber}}
+transcript.questionSkipped | Question skipped
+transcript.questionsSkipped | {{count}} questions skipped
+transcript.quickReviewRequested | Quick review requested
+transcript.ranCommand | Ran command
+transcript.terminalOutput | Terminal output
+transcript.ranScriptedTools | Ran scripted tool
+transcript.read | Read
+transcript.readFile | Read {{filename}}
+transcript.readSubagentResults | Read subagent results
+transcript.readingFile | Reading {{filename}}
+transcript.receivedFeedbackFrom | Received feedback from {{names}}
+transcript.receivedFeedbackFromPrComments | Received feedback from PR comments
+transcript.recentHistory | Recent history
+transcript.remoteProvisioning.failedBody | Failed after {{elapsed}}. Start a new session to try again.
+transcript.remoteProvisioning.failedTitle | Setting up Devin's machine failed (staging)
+transcript.remoteProvisioning.readyBody | Devin's machine became ready after {{elapsed}}.
+transcript.remoteProvisioning.readyTitle | Machine provisioning and setup finished (staging)
+transcript.remoteProvisioning.slowBody | Waited {{elapsed}} so far. Devin will progress as soon as the machine is ready.
+transcript.remoteProvisioning.slowTitle | Setting up Devin's machine is taking longer than usual (staging)
+transcript.renamedFile | Renamed {{filename}}
+transcript.reportedResults | Reported results back to parent agent
+transcript.requestBlocked | Request blocked
+transcript.requestBlockedNonWork | This request was blocked as it appears unrelated to professional work. Contact your system administrator if you believe this is an error.
+transcript.requestDenied | Request denied
+transcript.requestDeniedSafeUsePolicy | Your request has been denied due to violating our safe use policy. Please contact your system administrator.
+transcript.requestFlaggedNonWork | This request was flagged as it appears unrelated to professional work.
+transcript.retry | Retry
+transcript.revertToMessage | Revert to this point
+transcript.revertToStep | Revert to step {{step}}
+transcript.reviseCommand | Revise
+transcript.reviseCommandPlaceholder | Tell Devin how to change the command
+transcript.rewritingCommand | Rewriting…
+transcript.runningMaintenance | Running maintenance
+transcript.runningMaintenanceFor | Running maintenance for {{repo}}
+transcript.runningScriptedTools | Running scripted tool
+transcript.scopeEnterprise | enterprise
+transcript.scopeOrg | org
+transcript.scriptedToolsRan_one | Ran {{count}} scripted tool event
+transcript.scriptedToolsRan_other | Ran {{count}} scripted tool events
+transcript.scriptedToolsRunning_one | Running {{count}} scripted tool event
+transcript.scriptedToolsRunning_other | Running {{count}} scripted tool events
+transcript.scrollToBottom | Scroll to bottom
+transcript.searchResultCount | {{count}} results
+transcript.searchResultCount_one | {{count}} result
+transcript.searchResultCount_other | {{count}} results
+transcript.searchedFiles | Searched files
+transcript.searchedLocationFor | Searched {{location}} for {{query}}
+transcript.searchedWebFor | Searched web for
+transcript.secret.provide | Provide Secret
+transcript.secret.provide2fa | Provide 2FA Secret
+transcript.secret.provided | Secret provided
+transcript.secret.qrDetected | QR code detected
+transcript.secret.qrNotFound | No QR code found in that image
+transcript.secret.repoPlaceholder | owner/repo
+transcript.secret.requested | Credentials requested:
+transcript.secret.resolved | Request resolved
+transcript.secret.save | Save secret:
+transcript.secret.saveAction | Save
+transcript.secret.saveFailed | Could not save the secret
+transcript.secret.saveFor | Save for
+transcript.secret.saveForFuture | Save for future sessions
+transcript.secret.saveForFutureSessions | Save for future Devin sessions.
+transcript.secret.saved | Secret saved
+transcript.secret.saving | Saving…
+transcript.secret.totpPlaceholder | TOTP secret or QR code
+transcript.secret.typeTotp | TOTP / 2FA secret
+transcript.secret.uploadQrCode | Upload a QR code
+transcript.sessionArchived | Session archived
+transcript.sessionIndex | Session index
+transcript.sessionRenamedTo | Session renamed to “{{title}}”
+transcript.sessionTerminated | Session terminated
+transcript.sessionTerminatedBy | Session terminated by {{username}}
+transcript.shellCwd | in {{cwd}}
+transcript.shellExitSignal | Process exited with signal {{signal}}
+transcript.shellTimeout | Times out after {{duration}}
+transcript.shellWaitingToRun | Waiting to run
+transcript.sideChat | Side chat
+transcript.slackMessage | Slack message
+transcript.slackSyncDisabled | Slack sync disabled
+transcript.slackSyncEnabled | Slack sync enabled
+transcript.slackSyncUpdated | Slack sync updated
+transcript.teamsSyncEnabled | Teams sync enabled
+transcript.teamsSyncDisabled | Teams sync disabled
+transcript.teamsSyncUpdated | Teams sync updated
+transcript.slackThread | Slack thread
+transcript.stackRestacked_one | Stack #{{stackNumber}} restacked: {{count}} branch updated
+transcript.stackRestacked_other | Stack #{{stackNumber}} restacked: {{count}} branches updated
+transcript.stackingPullRequests | Stacking pull requests
+transcript.stackingPullRequestsNamed | Stacking pull requests · {{stackName}}
+transcript.startNewSession | Start new session with this prompt
+transcript.startedRecording | Started recording
+transcript.statusCompleted | Check completed
+transcript.stopCommand | Stop command
+transcript.stoppedRecording | Stopped recording
+transcript.subagentEarlierActionsHidden | Earlier activity not shown
+transcript.subagentExploreLabel | Explore
+transcript.subagentFailedSuffix |  — failed
+transcript.subagentGenericLabel | Subagent
+transcript.submit | Submit
+transcript.suspended.contractExpired | Devin went to sleep because your organization's Devin contract has ended. Contact your account team to renew.
+transcript.suspended.error | Devin crashed. Send a message to attempt recovery.
+transcript.suspended.netPolicyUpdate | Devin went to sleep to apply the updated network config.
+transcript.suspended.noQuotaAllocation | Devin went to sleep because your account is on an individual plan but you are not the organization owner
+transcript.suspended.orgAcuLimitExceededAdmin | because your organization's ACU limit was exceeded. An enterprise admin must increase the ACU limit for your organization to continue.
+transcript.suspended.orgAcuLimitExceededRaised | because your organization's usage limit was exceeded. The limit has since been raised.
+transcript.suspended.orgAcuLimitExceededWithLink | because your organization's ACU limit was exceeded. <orgLink>Increase the ACU limit</orgLink> for your organization to continue.
+transcript.suspended.paymentDeclined | Devin went to sleep because your organization's last payment failed, please update your payment details
+transcript.suspended.perMessageUsageLimitPaused | Devin hit your per-message usage limit, so it automatically paused to prevent runaway spend. Want it to keep going? Send a message, or <limitButton>raise or remove the limit</limitButton> for this session. Raising the limit in settings only applies to new sessions.
+transcript.suspended.sleepBecauseReason | Devin went to sleep because {{reason}}
+transcript.suspended.totalSessionLimitExceeded | Devin went to sleep because this session exceeded the total session ACU limit. Acknowledge the limit to continue or start a new session.
+transcript.suspended.userAcuLimitExceededAskAdmin | because your per-user ACU limit was exceeded. Ask your account admin to increase your usage limit to continue.
+transcript.suspended.userAcuLimitExceededBare | because your per-user ACU limit was exceeded.
+transcript.suspended.userAcuLimitExceededGuidance | because your per-user ACU limit was exceeded. {{guidance}}.
+transcript.suspended.userAcuLimitExceededRaised | because your per-user usage limit was exceeded. The limit has since been raised.
+transcript.suspended.userAcuLimitExceededWithAction | because your per-user ACU limit was exceeded. <requestAction></requestAction> to continue.
+transcript.suspended.userAcuLimitExceededWithButton | because your per-user ACU limit was exceeded. <requestButton>Request more ACUs</requestButton> to continue.
+transcript.switchedToBranch | Switched to branch {{branch}}
+transcript.switchedToBranchInRepo | Switched to branch {{branch}} in {{repo}}
+transcript.switchedToVersion | Switched to {{name}}
+transcript.teamsGroupChat | Microsoft Teams group chat
+transcript.teamsMessage | Microsoft Teams message
+transcript.teamsThread | Microsoft Teams thread
+transcript.testAppBetaTooltip | This is a beta feature offered at 1/5 the normal cost. Success may vary depending on the complexity of the app.
+transcript.testTheApp | Test the app
+transcript.testingApproved | Testing approved
+transcript.thanksForTheFeedback | Thanks for the feedback
+transcript.thinking | Thinking
+transcript.thoughtForDuration | Thought for {{duration}}
+transcript.thoughts | Thoughts
+transcript.toolCallArguments | Arguments
+transcript.toolCallCanceled | Canceled
+transcript.toolCallOutput | Output
+transcript.toolCallRejected | Rejected
+transcript.translate | Translate
+transcript.translating | Translating
+transcript.unknownAction | Unknown action
+transcript.unknownEvent | Unknown event
+transcript.updatedAPr | Updated a PR in {{repo}}
+transcript.updatedAllowlist | Updated allowlist.
+transcript.updatedPr | Updated PR #{{number}} in {{repo}}
+transcript.usedPlaybook | Used playbook:
+transcript.user | User
+transcript.userActivity | User activity
+transcript.userMessage | User message
+transcript.viewInDeepwiki | View in DeepWiki
+transcript.viewedAPrPrefix | Viewed
+transcript.viewedCiJobLogsForJob | Viewed CI job logs for job {{jobId}} in {{repo}}
+transcript.viewedCiJobLogsInRepo | Viewed CI job logs in {{repo}}
+transcript.viewedCiStatusForPr | Viewed CI status for
+transcript.viewedKnowledgeSuggestion | Viewed knowledge suggestion: {{suggestionName}}
+transcript.viewedPr | Viewed pull request
+transcript.waitMessageWithSeconds | {{message}} ({{seconds}}s)
+transcript.waited | Waited
+transcript.waitedForSeconds | Waited for {{seconds}}s
+transcript.waitingForSeconds | Waiting for {{seconds}}s
+transcript.wentToSleep | Devin went to sleep
+transcript.wentToSleepShort | Went to sleep
+transcript.you | You
+transcript.yourModifiedFiles | Your modified files:
+transcript.yourRecentTerminalCommands | Your recent terminal commands:
+transcript.allowlist | Allowlist
+transcript.allowlistDomains_one | Allowlist {{count}} domain
+transcript.allowlistDomains_other | Allowlist {{count}} domains
+transcript.allowlisted | Allowlisted
+transcript.stackMemberMerged | Merged
+transcript.stackMemberClosed | Closed
+transcript.stackMemberDraft | Draft
+transcript.stackMemberFailing | Failing
+transcript.stackMemberConflicting | Conflicting
+transcript.stackMemberNotReady | Not ready
+transcript.stackMemberReady | Ready
+transcript.editorContextTitle | Context from your editor
+transcript.editorContextLines | lines {{from}}–{{to}}
+transcript.editorContextLine | line {{from}}
+transcript.editorContextUnsaved | unsaved edits
+transcript.editorContextFileLabel | File
+transcript.editorContextRepoLabel | Repository
+transcript.editorContextBranchLabel | Branch
+transcript.editorContextOpenFilesLabel | Open files
+transcript.editorContextKnowsFile | Devin knows you have {{file}} open
+transcript.editorContextKnows | Devin has context from your editor
+transcript.editorContextLinesSelected_one | {{count}} line selected
+transcript.editorContextLinesSelected_other | {{count}} lines selected
+transcript.editorContextHide | Hide editor context
+transcript.editorContextWorkspaceLabel | Workspace
+transcript.editorContextRoots | {{count}} roots
+transcript.editorContextMoreFiles | +{{count}} more
+transcript.editorContextBufferVersion | version {{version}}
+transcript.editorContextSelectedText | Selected text (lines {{from}}–{{to}})
+transcript.editorContextTruncated | truncated
+transcript.editorContextAroundCursor | Text around cursor (lines {{from}}–{{to}})
+transcript.editorContextBranchNoUpstream | Not pushed to remote yet
+transcript.editorContextBranchInSync | In sync with remote
+transcript.editorContextBranchAhead | Local commits not pushed (remote is out of date)
+transcript.editorContextBranchBehind | Remote has newer commits
+transcript.editorContextBranchDiverged | Diverged from remote
+transcript.editorContextBranchDiffers | Remote at a different revision
+transcript.editorContextUncommitted_one | {{count}} file with uncommitted changes
+transcript.editorContextUncommitted_other | {{count}} files with uncommitted changes
+========== progress
+progress.aBit | a bit
+progress.accessedKnowledge | Accessed knowledge
+progress.accessedKnowledgeCount | Accessed knowledge ({{count}})
+progress.actionCount | {{count}} action
+progress.actionCount_other | {{count}} actions
+progress.activatedSkill | Activated skill
+progress.approvedDeployment | Approved deployment
+progress.available | {{count}} available
+progress.blocker | Blocker
+progress.botCommentIgnored | Bot comment ignored
+progress.called | Called
+progress.ciFailed | CI failed
+progress.ciFailedCount | CI failed ({{count}})
+progress.clicked | Clicked
+progress.clickedAt | Clicked at ({{x}}, {{y}})
+progress.clickedElement | clicked element
+progress.commentedOnPR | Commented on PR
+progress.completedTask | Completed task
+progress.created | Created
+progress.createdPlan | Created plan
+progress.createdTask | Created {{count}} task
+progress.createdTask_other | Created {{count}} tasks
+progress.creating | Creating
+progress.deactivatedSkill | Deactivated skill
+progress.deleteKnowledge | Delete knowledge
+progress.deleted | Deleted
+progress.deletedTask | Deleted task
+progress.devinChoseToStopWorking | Devin chose to stop working
+progress.devinReviewFeedback | Devin Review feedback
+progress.dismissedSuggestions | Dismissed suggestions
+progress.doubleClicked | Double-clicked
+progress.doubleClickedAt | Double-clicked at ({{x}}, {{y}})
+progress.draggedFromTo | Dragged from ({{startX}}, {{startY}}) to ({{endX}}, {{endY}})
+progress.earlierActions | {{count}} earlier action
+progress.earlierActions_other | {{count}} earlier actions
+progress.edited | Edited
+progress.editing | Editing
+progress.executed | Executed
+progress.executedJavaScript | Executed JavaScript
+progress.executionPlan | Devin's execution plan
+progress.feedbackFrom | Feedback from {{username}}
+progress.fetchedWebPageContent | Fetched web page content
+progress.file | file
+progress.from | from
+progress.fromMCPServer | from MCP server
+progress.gapOf | Gap of {{duration}}
+progress.gotCursorPosition | Got cursor position
+progress.heldKey | Held key
+progress.importedKnowledge | Imported knowledge
+progress.importedKnowledgeCount | Imported Knowledge ({{count}})
+progress.in | in
+progress.injectedRule | Injected rule
+progress.injectedRulesCount | Injected rules ({{count}})
+progress.invokedSkill | Invoked skill
+progress.jumpToThisEvent | Jump to this event
+progress.keepingRepoUpToDate | Keeping {{repo}} up to date
+progress.keepingReposUpToDate | Keeping repositories up to date
+progress.knowledgeRetrievalReason.backgroundAgent | Background agent
+progress.knowledgeRetrievalReason.macro | Macro
+progress.knowledgeRetrievalReason.mentioned | Mentioned
+progress.knowledgeRetrievalReason.pinnedAll | Pinned (all)
+progress.knowledgeRetrievalReason.pinnedRepo | Pinned (repo)
+progress.knowledgeRetrievalReason.relevance | Relevance
+progress.knowledgeRetrievalReasonTooltip.assistantMention | The note's repository name appeared in Devin's message.
+progress.knowledgeRetrievalReasonTooltip.backgroundAgent | Devin looked up this note itself while working.
+progress.knowledgeRetrievalReasonTooltip.macro | This note was manually invoked with a !macro-name command.
+progress.knowledgeRetrievalReasonTooltip.pinnedAll | This note is pinned to every session in this organization.
+progress.knowledgeRetrievalReasonTooltip.pinnedRepo | This note is pinned to this session's repository.
+progress.knowledgeRetrievalReasonTooltip.pinnedRepoWithName | This note is pinned to the {{repoName}} repository.
+progress.knowledgeRetrievalReasonTooltip.promptMention | The note's repository name appeared in the user's prompt.
+progress.knowledgeRetrievalReasonTooltip.relevance | Knowledge search selected this note as relevant to the task.
+progress.listedKnowledgeSuggestions | Listed knowledge suggestions
+progress.listedMCPServers | Listed available MCP servers
+progress.listedSkills | Listed skills
+progress.listedToolsFor | Listed tools for
+progress.listedToolsOnMCP | Listed tools on MCP server
+progress.loadedExtensions | Loaded extensions: 
+progress.mcpAuthFailed | MCP auth failed for
+progress.mcpAuthSuccess | MCP auth successful for
+progress.mergeConflictOn | Merge conflict on
+progress.messageCount | {{count}} message
+progress.messageCount_other | {{count}} messages
+progress.middleClicked | Middle-clicked
+progress.middleClickedAt | Middle-clicked at ({{x}}, {{y}})
+progress.mouseDown | Mouse down
+progress.mouseUp | Mouse up
+progress.movedMouseTo | Moved mouse to ({{x}}, {{y}})
+progress.movedTheMouse | moved the mouse
+progress.navigatedTo | Navigated to
+progress.noChanges | no changes
+progress.on | on
+progress.onMCPServer | on MCP server
+progress.opened | Opened
+progress.openedPreview | Opened preview
+progress.pageCount | {{count}} page
+progress.pageCount_other | {{count}} pages
+progress.permissionRequestFor | Permission request for
+progress.prFeedback | PR feedback
+progress.prMerged | PR #{{number}} merged: {{title}}
+progress.prMergedWithoutTitle | PR #{{number}} merged
+progress.pressedKey | Pressed key
+progress.pressedKeyAction | pressed {{key}}
+progress.pullingLatest | Pulling latest
+progress.pullingLatestFor | Pulling latest for {{repo}}
+progress.pushedBranch | Pushed branch
+progress.ranCommandIn | Ran a command in
+progress.ranHook | Ran hook
+progress.ranJavaScript | ran JavaScript
+progress.ranScriptedTools | Ran scripted tool
+progress.read | Read
+progress.readPageDom | Read page DOM
+progress.readResource | Read resource
+progress.reading | Reading
+progress.reloadedSkills | Reloaded skills ({{summary}})
+progress.renamed | Renamed
+progress.reportedResults | Reported results back to parent agent
+progress.restartedBrowser | Restarted browser
+progress.retrievedPlaybook | Retrieved playbook
+progress.rewrotePlan | Rewrote plan
+progress.rightClicked | Right-clicked
+progress.rightClickedAt | Right-clicked at ({{x}}, {{y}})
+progress.runningMaintenance | Running maintenance
+progress.runningMaintenanceFor | Running maintenance for {{repo}}
+progress.scannedFiles | Scanned {{count}} files
+progress.scrolled | Scrolled {{direction}}
+progress.scrolledBy | Scrolled {{direction}} by {{amount}}
+progress.scrolledDown | scrolled down
+progress.scrolledUp | scrolled up
+progress.searchedForSkills | Searched for skills
+progress.searchedWebFor | Searched web for
+progress.searching | Searching
+progress.selectedFile | selected file {{file}}
+progress.selectedOption | selected option {{option}}
+progress.showLess | Show less
+progress.showMore | Show more
+progress.slackAction | Slack {{action}}
+progress.slackDownloadedFile | Downloaded file
+progress.slackListedUsers | Listed users
+progress.slackManagedReaction | Managed reaction
+progress.slackPostedMessage | Posted message
+progress.slackReadChannelHistory | Read channel history
+progress.slackReadThreadReplies | Read thread replies
+progress.slackReadUserProfile | Read user profile
+progress.startedRecording | Started recording
+progress.startedTask | Started task
+progress.stoppedRecording | Stopped recording
+progress.subagentEarlierActionsHidden | Earlier activity not shown
+progress.subagentExploreLabel | Explore
+progress.subagentGenericLabel | Subagent
+progress.suggestedKnowledge | Suggested knowledge
+progress.suggestedNewPlaybook | Suggested a new playbook
+progress.suggestedToUpdatePlaybook | Suggested to update playbook
+progress.switchedToBranch | Switched to branch
+progress.thought | Thought
+progress.tookScreenshot | Took screenshot
+progress.tookScreenshotOf | Took a screenshot of
+progress.tripleClicked | Triple-clicked
+progress.tripleClickedAt | Triple-clicked at ({{x}}, {{y}})
+progress.typed | typed
+progress.typedText | Typed text
+progress.updatedPR | Updated PR
+progress.updatedTask | Updated task
+progress.usedComputer | Used computer
+progress.usedComputerAction | Used computer - {{action}}
+progress.usedComputerActions | Used computer - {{count}} actions
+progress.usedSessionIntrospection | Used session introspection tool
+progress.viewChanges | View changes from this step
+progress.viewedBrowserConsole | Viewed browser console
+progress.viewedCIJobLogs | Viewed CI job logs for
+progress.viewedCIStatus | Viewed CI status for
+progress.viewedCIStatusForPR | Viewed CI status for PR #{{number}} in {{repo}}
+progress.viewedKnowledgeSuggestion | Viewed knowledge suggestion
+progress.viewedPage | Viewed page
+progress.viewedPullRequest | Viewed pull request
+progress.viewedPullRequestInRepo | Viewed pull request #{{number}} in {{repo}}
+progress.viewedTheConsole | viewed the console
+progress.waited | Waited
+progress.waitedDuration | Waited {{duration}}s
+progress.waitingFor | Waiting for {{seconds}}s
+progress.worked | Worked for
+progress.workedFor | Worked for {{time}}
+progress.working | Working for
+progress.youSaid | You said
+progress.zoomedRegion | Zoomed region
+========== agentTooltips
+agentTooltips.agent-preview:devin-agent-sidekick | Sidekick — internal agent sidekick preview
+agentTooltips.agent-preview:devin-fast-opus | Fast
+agentTooltips.agent-preview:devin-gpt-5-5 | Powered by GPT-5.5 Preview — OpenAI's most capable model
+agentTooltips.agent-preview:devin-gpt-5-6 | Powered by GPT-5.6 Sol — 70% off, available until Oct 3
+agentTooltips.agent-preview:devin-gpt-6-astra | Powered by GPT-6 Astra — preview available until Sept 22
+agentTooltips.agent-preview:devin-gpt-6-astra-fast | GPT-6 Astra Fast — internal GPT-6 Astra preview on priority models
+agentTooltips.agent-preview:devin-fable-5-1 | Powered by Fable 5.1 — preview available until Sept 22
+agentTooltips.agent-preview:devin-opus-4-8 | Opus 4.8 Preview — Good at instruction following
+agentTooltips.agent-preview:devin-research-preview | Research Preview — experimental research model
+agentTooltips.agent-preview:devin-swe-1-7 | Powered by SWE-1.7 Preview — Cognition's software engineering model
+agentTooltips.agent-preview:devin-swe-1-7-lightning | Powered by SWE-1.7 Lightning — SWE-1.7 served on Cerebras
+agentTooltips.agent-preview:devin-swe-1-7-paid | Powered by SWE-1.7 Priority — SWE-1.7 with priority capacity
+agentTooltips.agent-preview:devin-swe-2-preview | Powered by SWE-2 Preview — Cognition's next-generation software engineering model
+agentTooltips.agent-preview:devin-ultra | Ultra — Our most powerful and hardest thinking agent, significantly more expensive
+agentTooltips.agent-preview:devin_lite | Lite — Tuned for smaller, well-defined tasks. 60% cheaper
+agentTooltips.agent:dana | Created by Data Analyst agent
+agentTooltips.agent:explore | Created by Plan agent
+========== agentDescriptions
+agentDescriptions.dana | Fast and tuned for data analytics
+agentDescriptions.devin-2-5 | Fast and good at long-horizon planning
+agentDescriptions.devin-agent-sidekick | Internal agent sidekick preview
+agentDescriptions.devin-auto | Pairs frontier intelligence with cost-efficient execution to deliver frontier-level results at lower cost
+agentDescriptions.devin-fast-opus | 2.5x faster, 2x more expensive, same intelligence
+agentDescriptions.devin-gpt-5-5 | OpenAI's most capable model
+agentDescriptions.devin-gpt-5-6 | OpenAI's model for professional work
+agentDescriptions.devin-gpt-6-astra | OpenAI's most capable model
+agentDescriptions.devin-fable-5-1 | Anthropic's latest model
+agentDescriptions.devin-opus-4-8 | Good at instruction following
+agentDescriptions.devin-research-preview | Experimental research model
+agentDescriptions.devin-ultra | Our most powerful and hardest thinking agent, significantly more expensive
+agentDescriptions.devin_lite | Tuned for smaller, well-defined tasks. 60% cheaper
+agentDescriptions.explore | Interactive Q&A and planning
+========== agents
+agents.connectorUnavailable | {{name}} is not running. Start it to continue this session.
+agents.local | Local
+agents.connectorUnknown | {{name}} is not one of this window's agents.
+agents.connectorStarting | {{name}} is starting…
+agents.connectorNoAccount | Signing in…
+agents.failedToStartLocalSession | Failed to start the local session. Please try again.
+agents.failedToSendLocalMessage | Couldn't send your message to the local agent.
+agents.devinCloud | Devin Cloud
+agents.cloud | Cloud
+agents.chooseWhereToRun | Choose where the session runs
+agents.cloudDescription | Runs on a Devin-hosted machine, no local setup
+agents.localDescription | Work on your own machine
+agents.sessionFolder | Session folder
+agents.chooseFolder | Choose folder…
+agents.noFolderSelected | Choose a folder
+agents.chooseFolderToStart | Choose a folder to run the session in
+agents.model | Model
+agents.mode | Mode
+agents.searchModels | Search models
+agents.failedToPickFolder | Couldn't open the folder picker.
+agents.failedToUpdateConfig | Couldn't apply that setting to the local agent.
+========== agentPicker
+agentPicker.effortHigh | High
+agentPicker.effortMax | Max
+agentPicker.effortMedium | Medium
+agentPicker.effortSubmenuHeader | Effort
+agentPicker.effortSubmenuHeaderTooltipAvailability | 75% off — available until Oct 8
+agentPicker.effortSubmenuHeaderTooltipDescription | Cognition's latest model
+agentPicker.gpt | GPT
+agentPicker.gptAstraFastInternal | GPT-6 Astra Fast (Internal)
+agentPicker.lightning | Lightning
+agentPicker.modelsSubmenuHeader | Models
+agentPicker.priority | Priority
+agentPicker.swe17 | SWE-1.7
+agentPicker.swe2 | SWE-2
+========== modelSelect
+modelSelect.acuBalance | All models draw from your Devin ACU balance
+modelSelect.addToArena | Add models to run against each other
+modelSelect.arena | Arena
+modelSelect.clearFilter | Clear filter
+modelSelect.contextTokens | {{count}} context
+modelSelect.cost | Cost
+modelSelect.costTagApiLabel | API
+modelSelect.costTagApiPricing | Billed at API pricing
+modelSelect.costTagByok | Uses your API key
+modelSelect.costTagByokLabel | BYOK
+modelSelect.costTagCreditsMultiplier | Uses {{multiplier}}x credits
+modelSelect.costTagFreeAcu | No ACUs used
+modelSelect.costTagFreeCredits | No credits used
+modelSelect.costTagFreeQuota | No quota used
+modelSelect.costTagRelativeCost | Relative cost
+modelSelect.current | Current
+modelSelect.dimensionOff | Off
+modelSelect.dimensionOn | On
+modelSelect.free | Free
+modelSelect.groupAllModels | All Models
+modelSelect.groupBattleGroups | Battle Groups
+modelSelect.groupPinned | Pinned
+modelSelect.groupRecentlyUsed | Recently Used
+modelSelect.learnAboutModels | Learn about models
+modelSelect.modelIssueWarning | This model is currently experiencing some issues.
+modelSelect.noResults | No results found.
+modelSelect.noneSelected | None selected
+modelSelect.orderBy | Order by
+modelSelect.partnerProviderToggleFailed | Couldn’t update “{{label}}”
+modelSelect.pinVariant | Pin variant
+modelSelect.pinnedVariant | Pinned variant
+modelSelect.planWith | Plan with {{name}}
+modelSelect.priceChangedTooltip | The price of this model changed since you last used it
+modelSelect.promo | Promo
+modelSelect.promoActiveLimited | Promo pricing is active for a limited time
+modelSelect.promoActiveUntil | Promo pricing is active until {{date}}
+modelSelect.promoUntil | {{label}} until {{date}}
+modelSelect.removeFromSelection | Remove from selection
+modelSelect.retryFetchModels | Retry fetch available models.
+modelSelect.searchPlaceholder | Search all models
+modelSelect.seeMore | See more
+modelSelect.showAllMore | Show all ({{count}} more)
+modelSelect.showLess | Show less
+modelSelect.single | Single
+modelSelect.tagBeta | Beta
+modelSelect.tagFast | Fast
+modelSelect.tagNew | New
+modelSelect.tagPriceChanged | Price changed
+modelSelect.unpinToChangeVariant | Unpin to change variant
+========== auth
+auth.accountPicker.accountSectionAria | {{section}} accounts
+auth.accountPicker.assignFullSeat | Assign full seat
+auth.accountPicker.contractExpired | Your organization's Devin contract has ended
+auth.accountPicker.flexSeatTooltip | This account is on a flex seat. Flex seats only include Devin Cloud, Devin Review, and Devin CLI access. Ask your account administrator for a full seat to use {{productName}}.
+auth.accountPicker.fullSeatRequested | Full seat requested
+auth.accountPicker.logInOnWindsurfDotCom | Log in on windsurf.com
+auth.accountPicker.noActiveSubscription | No active subscription
+auth.accountPicker.noEligibleAccountsFound | No eligible accounts found
+auth.accountPicker.noLocalAgentAccess | No local agent access
+auth.accountPicker.noPermissionToUseProduct | You don't have permission to use {{productName}}
+auth.accountPicker.planSeatAssignedToAnotherUser | Plan seat assigned to another user
+auth.accountPicker.productAccessNotEnabled | {{productName}} access not enabled for this account
+auth.accountPicker.productOnly | {{productName}} only
+auth.accountPicker.requestFullSeat | Request full seat
+auth.accountPicker.requiresFullSeat | Requires a full seat
+auth.accountPicker.selectAccount | Select an account
+auth.accountPicker.signedInAs | Signed in as {{email}}
+auth.accountPicker.subscriptionCanceled | Subscription canceled
+auth.accountPicker.subscriptionInactive | Subscription inactive
+auth.accountPicker.windsurfEnterpriseLegacy | Windsurf enterprise (legacy)
+auth.authentication | Authentication
+auth.emailLogin.accountConnectionLabel | {{accountName}} ({{connectionName}})
+auth.emailLogin.accountConnectionsHeading | Choose an account
+auth.emailLogin.back | Back
+auth.emailLogin.checking | Checking...
+auth.emailLogin.continue | Continue
+auth.emailLogin.emailAddress | Email address
+auth.emailLogin.enterpriseHeading | Continue with your enterprise
+auth.emailLogin.errors.accountNotFound | No account found for this email
+auth.emailLogin.errors.authenticationFailed | Authentication failed. Please try again.
+auth.emailLogin.errors.differentSignInRequired | This domain requires a different sign-in. Please contact your team administrator.
+auth.emailLogin.errors.enterpriseSetupRequired | Your email domain requires enterprise setup. Please contact your IT administrator to configure Devin access for your organization.
+auth.emailLogin.errors.enterpriseSsoRequired | This email's domain uses enterprise SSO. Please sign in through your enterprise's devinenterprise.com domain.
+auth.emailLogin.errors.loginMethodCheckFailed | Unable to check login method. Please try again.
+auth.emailLogin.errors.somethingWentWrong | Something went wrong
+auth.emailLogin.errors.ssoConfigurationNotFound | No SSO configuration found for this email domain. Contact your administrator.
+auth.emailLogin.errors.ssoNotConfigured | SSO login isn't configured for this connection. Please refresh and try again, or use another sign-in method.
+auth.emailLogin.errors.ssoStartFailed | Failed to start SSO login. Please try again.
+auth.emailLogin.errors.ssoStartUnexpected | Something went wrong starting SSO login. Please try again or use another sign-in method.
+auth.emailLogin.errors.verificationUnavailable | Unable to verify your account right now. Please try again.
+auth.emailLogin.forgotPassword | Forgot password?
+auth.emailLogin.logInWithEmailCode | Alternatively, log in with email code
+auth.emailLogin.password | Password
+auth.emailLogin.passwordHeading | Enter your password
+auth.emailLogin.resendCode | Resend code
+auth.emailLogin.resendCodeIn | Resend code in {{seconds}}s
+auth.emailLogin.sending | Sending...
+auth.emailLogin.sendingCode | Sending code...
+auth.emailLogin.signIn | Sign in
+auth.emailLogin.signingIn | Signing in...
+auth.emailLogin.verificationCode | Verification code
+auth.emailLogin.verificationEmailSent | We've sent an email with your code to {{email}}
+auth.emailLogin.verificationHeading | Verify your identity
+auth.emailLogin.verifying | Verifying...
+auth.logIn | Log in
+auth.resetPassword | Reset your password
+auth.signUp | Sign up
+auth.universityBridgeRedirecting | Redirecting to Devin University…
+========== welcome
+welcome.addSessionLink | Add session link
+welcome.additionalDetails | Additional details
+welcome.advancedMcpBanner | Every Devin session has the <mcpLink>Devin MCP</mcpLink> built in and authenticated — no setup needed. Any Devin can inspect other sessions, manage <playbooksLink>playbooks</playbooksLink>, and start batch sessions.
+welcome.analyzeSessionPlaceholder | What would you like to learn from this session?
+welcome.askDevinAboutCode | Ask Devin questions about your code
+welcome.backToDevin | Back to Devin
+welcome.batchTasksPlaceholder | List your tasks or describe what sessions to create...
+welcome.community | Community
+welcome.connect | Connect
+welcome.connectCodebaseFree | Connect your codebase to try Devin for free
+welcome.createPlaybookPlaceholder | Describe the playbook you want to create...
+welcome.describeTask | Describe your task or ask a question
+welcome.describeTasksOrUpload | Describe your tasks or upload a file
+welcome.devinSessionLinks | Devin session links
+welcome.devinsMachine | Devin's Machine
+welcome.exampleBatchPrompts | Example batch prompts
+welcome.exploreAdvanced | Advanced capabilities
+welcome.freeTrialUpgrade | Free trial: upgrade plan
+welcome.handDevinPlaybook | Hand Devin a Playbook
+welcome.howCanIHelp | How can I help you get more value from Devin?
+welcome.improvePlaybookPlaceholder | How would you like to improve this playbook?
+welcome.manageKnowledgePlaceholder | Describe your knowledge management task...
+welcome.noResultsFound | No results found
+welcome.onlyImageFilesSupported | Only image files are supported (.png, .jpg, .jpeg, .gif, .webp)
+welcome.openSessionLinks | Open session links
+welcome.optionalSuffix | (optional)
+welcome.or | or
+welcome.organization | Organization
+welcome.playbookAppliesToAllSessions | If selected, all sessions will use this playbook
+welcome.playbookLabel | Playbook
+welcome.promptLabel | Prompt
+welcome.removeSessionLink | Remove session link
+welcome.saveTimeBySettingUp | Save up to 10 minutes per session by setting up
+welcome.schedulePlaceholder | Describe the task for this scheduled session...
+welcome.searchForPlaybook | Search for a playbook
+welcome.searchForSession | Search for a session...
+welcome.searchForSnapshot | Search for a snapshot
+welcome.selectPlaybook | Select a playbook
+welcome.selectPlaybookLabel | Select playbook
+welcome.selectSnapshot | Select a snapshot
+welcome.setUpRepo | Set up repository
+welcome.snapshotUpdateInProgress | An update to {{repos}} in Devin's dev environment is in progress and should complete within a few minutes. {{repos}} will not be set up in Devin's workspace until the update is complete.
+welcome.subscribe | Subscribe
+welcome.suggestedAnalysisPrompts | Suggested analysis prompts
+welcome.suggestedKnowledgeTasks | Suggested knowledge management tasks
+welcome.superchargeWorkflow | Supercharge your workflow with Devin
+welcome.tagsRequiredNotConfigured | Session tags are required but no allowed tags are configured for this organization. Contact your administrator.
+welcome.trialDisabled | Starting a free session is disabled because of high load. Please subscribe.
+welcome.trialDisabledHighLoad | Starting a free session is currently disabled because of high load. Sorry for the inconvenience.
+welcome.tryDevinOnCodebase | Try Devin on your codebase
+welcome.uploadPlaybook | Upload a playbook
+welcome.viewInSettings | View in Settings
+welcome.whatDoYouWant | What do you want to get done?
+welcome.whatInsights | What insights are you looking for today?
+welcome.whatWouldYouLikeToDo | What would you like to do?
+welcome.whatWouldYouLikeToKnow | What would you like to know about your code?
+welcome.writeYourOwnInSettings | Write your own in settings
+========== workspace
+workspace.mcpApp.unloaded | This app's tool call is not loaded.
+workspace.mcpApp.inProgress | Waiting for the app's tool call to finish.
+workspace.mcpApp.failed | The app's tool call failed.
+workspace.mcpApp.canceled | The app's tool call was canceled.
+workspace.mcpApp.unavailable | This app is not available.
+workspace.historyError | Failed to load workspace history.
+workspace.historyUnavailable | Workspace history is unavailable.
+workspace.noBrowserScreenshot | No screenshot is available at this point in history.
+workspace.allChanges | All changes
+workspace.collapseAllFiles | Collapse all files
+workspace.computerStats.boxFps | Box FPS
+workspace.computerStats.captureMs | Capture (ms)
+workspace.computerStats.decodeMs | Decode (ms)
+workspace.computerStats.encodeMs | Encode (ms)
+workspace.computerStats.fpsHistory | FPS · last 30s
+workspace.computerStats.jitterMs | Jitter (ms)
+workspace.computerStats.latencyHistory | Latency · last 30s
+workspace.computerStats.networkHistory | Network · last 30s
+workspace.computerStats.now | Now
+workspace.computerStats.nowShort | now
+workspace.computerStats.pacingMs | Pacing (ms)
+workspace.computerStats.rttMs | RTT (ms)
+workspace.computerStats.secondsAgo | {{count}}s ago
+workspace.computerStats.secondsShort | {{count}}s
+workspace.computerStats.tooltipBox | Box
+workspace.computerStats.tooltipCapture | Cap
+workspace.computerStats.tooltipDecode | Dec
+workspace.computerStats.tooltipEncode | Enc
+workspace.computerStats.tooltipJitter | Jitter
+workspace.computerStats.tooltipPacing | Pace
+workspace.computerStats.tooltipRtt | RTT
+workspace.computerStats.tooltipViewer | Viewer
+workspace.computerStats.viewerFps | Viewer FPS
+workspace.exitFullScreen | Exit full screen
+workspace.exitFullWidth | Exit full width
+workspace.expandAllFiles | Expand all files
+workspace.failedToLoadFileContents | Failed to load changes
+workspace.filesChangedCount_one | {{count}} file
+workspace.filesChangedCount_other | {{count}} files
+workspace.fullScreen | Full screen
+workspace.fullWidth | Full width
+workspace.hideFileTree | Hide file tree
+workspace.hideTabsPanel | Hide tabs panel
+workspace.lastAgentTurn | Last agent turn
+workspace.lastAgentTurnHint | Since your last message or PR comment
+workspace.live | Live
+workspace.loadingFileContents | Loading changes…
+workspace.noChangesYet | No changes yet
+workspace.noMatchingFiles | No matching files
+workspace.previewMarkdown | Preview markdown
+workspace.retry | Retry
+workspace.searchFiles | Search files...
+workspace.selectedRange | Selected range
+workspace.selectedRangeTimes | {{start}} – {{end}}
+workspace.sessionTimeline | Session timeline
+workspace.previousEvent | Previous event
+workspace.nextEvent | Next event
+workspace.showFileTree | Show file tree
+workspace.showFindingsPanel | Show findings
+workspace.showTabsPanel | Show tabs panel
+workspace.viewAsFlatList | View as flat list
+workspace.viewAsTree | View as tree
+workspace.wakeSplash.asleepTitle | Devin is asleep
+workspace.wakeSplash.startingTitle | Devin is starting up…
+workspace.wakeSplash.wakeUp | Wake up Devin
+workspace.wakeSplash.waking | Waking Devin…
+workspace.wakeSplash.previewAsleep | The preview runs on Devin's machine, which is currently suspended. Wake Devin to load it.
+workspace.wakeSplash.previewStarting | Devin's machine is coming online — the preview will load once it's ready.
+workspace.wakeSplash.desktopAsleep | Devin is asleep. Click anywhere to wake up and see live
+workspace.wakeSplash.desktopWaking | Devin's machine is coming online — the live desktop will connect once it's ready
+workspace.wakeSplash.desktopConnecting | Waking up Devin's computer…
+workspace.simulator.unavailable | {{displayName}} streaming is unavailable for this session.
+workspace.simulator.unavailableStatus | Unavailable
+workspace.simulator.noSession | {{displayName}} is unavailable for this session.
+workspace.simulator.endedTitle | Session has ended
+workspace.simulator.endedDescription | This session is over, so the {{displayName}} can no longer be streamed.
+workspace.simulator.machineUnavailableTitle | {{displayName}} not available on this machine
+workspace.simulator.machineUnavailableDescription | This machine has no display server, so the {{displayName}} can't be streamed.
+workspace.simulator.asleep | Asleep
+workspace.simulator.startingStatus | Starting…
+workspace.simulator.notRunning | Not running
+workspace.simulator.asleepDescription | The {{displayName}} runs on Devin's machine, which is currently suspended. Wake Devin to load it.
+workspace.simulator.startingDescription | Devin's machine is coming online — the {{displayName}} will load once it's ready.
+workspace.simulator.unsupported | This Devin remote does not support {{displayName}} display streaming.
+workspace.simulator.linkErrorTitle | Couldn't reach Devin's machine
+workspace.simulator.linkErrorDescription | Unable to get the {{displayName}} display link.
+workspace.simulator.retry | Retry
+workspace.simulator.sourceErrorTitle | No {{displayName}} is running
+workspace.simulator.sourceErrorDescription | Devin's machine is online, but no booted {{emulatorType}} was found. Ask Devin to boot one — this tab will reconnect automatically.
+workspace.simulator.retryNow | Retry now
+workspace.previewUrl.ariaLabel | Preview URL
+========== devinsWorkspace
+devinsWorkspace.add | Add
+devinsWorkspace.addMonorepoSubproject | Add Monorepo Subproject
+devinsWorkspace.addSubproject | Add Subproject
+devinsWorkspace.addSubprojectButton | Add subproject
+devinsWorkspace.addSubprojectDescription | Add a new subproject directory that requires its own setup steps.
+devinsWorkspace.advancedSetup | Advanced setup
+devinsWorkspace.back | Back
+devinsWorkspace.cancel | Cancel
+devinsWorkspace.cancelVerification | Cancel verification
+devinsWorkspace.checkingSetup | Checking setup
+devinsWorkspace.checkingSetupFor | Checking setup for {{repoName}}
+devinsWorkspace.checksFailed | Checks Failed
+devinsWorkspace.checksFailedDescription | The repository commands encountered an error or failed to complete within the time limit.
+devinsWorkspace.commandChanged | Command Changed
+devinsWorkspace.commandChangedDescription | Devin has updated the command or its metadata since you started verification. Please cancel and try again.
+devinsWorkspace.commandDescriptionPlaceholder | Add a description for these commands…
+devinsWorkspace.commandsMustFinish | (the commands must finish within 5 minutes)
+devinsWorkspace.commandsTested | Commands tested:
+devinsWorkspace.complete | Complete
+devinsWorkspace.defaultBranch | Default branch
+devinsWorkspace.delete | Delete
+devinsWorkspace.deleteProjectConfirm | Are you sure you want to delete this project? This will remove all associated commands and configurations.
+devinsWorkspace.deleteSubproject | Delete Subproject
+devinsWorkspace.deleteSubprojectConfirm | Are you sure you want to delete the subproject "{{projectPath}}"? This will remove all associated commands and configurations.
+devinsWorkspace.edit | Edit
+devinsWorkspace.mainProject | Main project
+devinsWorkspace.noClonedPathSet | No cloned path set
+devinsWorkspace.noDefaultBranchSet | No default branch set (will use remote's default)
+devinsWorkspace.noDescription | No description
+devinsWorkspace.projectCommands | Project Commands
+devinsWorkspace.projectCommandsDescription | Devin uses project commands to make sure projects can run and pass lint, tests, etc. after making changes to the repo.
+devinsWorkspace.repositoryConfiguration | Repository Configuration
+devinsWorkspace.repositoryConfigurationDescription | Basic information about where the repo is cloned
+devinsWorkspace.repositoryMaintenance | Repository Maintenance
+devinsWorkspace.repositoryMaintenanceDescription | Commands that keep Devin's workspace up to date and in a good Git state (on the right branch, etc.) when working on a new ticket
+devinsWorkspace.repositoryPath | Repository path
+devinsWorkspace.resetToLatest | Reset to Latest
+devinsWorkspace.returnToConfiguration | Return to Configuration
+devinsWorkspace.run | Run
+devinsWorkspace.save | Save
+devinsWorkspace.saving | Saving…
+devinsWorkspace.sectionChangedByDevin | This section has been changed by Devin since you started editing
+devinsWorkspace.setupPassedChecks | Setup passed all checks!
+devinsWorkspace.skip | Skip
+devinsWorkspace.skipCommandsDescription | Are you sure you want to skip these commands? This will remove all commands for this section.
+devinsWorkspace.skipCommandsTitle | Skip commands
+devinsWorkspace.subprojectPath | Subproject Path
+devinsWorkspace.subprojectPathPlaceholder | Enter path relative to repo root (e.g., ./packages/frontend)
+devinsWorkspace.testingCommands | Testing commands...
+devinsWorkspace.wakingUpMachine | Waking up machine
+devinsWorkspace.yesSkip | Yes, Skip
+========== machine
+machine.additionalOptions | Additional Options
+machine.all | All
+machine.connectGithub | Connect GitHub
+machine.default | Default
+machine.defaultTag | [Default]
+machine.description | Description
+machine.dontSeeRepo | Don't see your repository? Try
+machine.dontUseSnapshot | Don't use a machine snapshot
+machine.makeDefault | Make Default
+machine.noDescription | No description
+machine.noReposSelected | No repositories selected for this task
+machine.noStartupCommands | No startup commands
+machine.preinstallRepos | Pre-install repositories
+machine.preinstalledRepos | Devin's machine has {{count}} pre-installed repository
+machine.preinstalledRepos_other | Devin's machine has {{count}} pre-installed repositories
+machine.preinstallingHelp | Pre-installing repositories lets Devin start off with a dev environment that is already set up for success.
+machine.reposSelected | {{count}} repository selected for this task
+machine.reposSelected_other | {{count}} repositories selected for this task
+machine.searchRepos | Search repositories
+machine.startFromSnapshot | Start from a machine snapshot instead
+machine.startupCommands | Startup commands
+machine.startupCommandsTip1 | 1. Startup commands run in the home directory
+machine.startupCommandsTip2 | 2. They execute in the order listed
+machine.startupCommandsTip3 | 3. Each command has a 2 minute timeout
+machine.updatingGitConnections | updating your Git connections
+machine.usingCustomSnapshot | Using a custom machine snapshot
+machine.viewInSettings | View in settings
+========== customizeMcp
+customizeMcp.disconnectTooltip | Removes your authorization for this MCP. You can connect again later.
+customizeMcp.disconnectTitle | Disconnect {{name}}?
+customizeMcp.disconnectDescription | Devin will no longer be able to use your {{name}} account. You can connect again later.
+customizeMcp.disconnected | Disconnected {{name}}.
+customizeMcp.disconnectFailed | Could not disconnect {{name}}.
+customizeMcp.disconnectAll | Disconnect all members
+customizeMcp.disconnectAllTooltip | Removes every member's authorization; everyone will need to connect again.
+customizeMcp.disconnectAllTitle | Disconnect all members from {{name}}?
+customizeMcp.disconnectAllDescription | This removes every member's authorization for {{name}}. Everyone will need to connect again.
+customizeMcp.disconnectedAll | Disconnected all members from {{name}}.
+customizeMcp.disconnectAllFailed | Could not disconnect members from {{name}}.
+customizeMcp.uninstall | Uninstall
+customizeMcp.uninstallTooltip | Removes the installation and its configuration.
+customizeMcp.uninstallPluginTooltip | A session that meets the plugin again reinstalls it.
+customizeMcp.uninstallTitle | Uninstall {{name}}?
+customizeMcp.uninstallDescription | This permanently removes the {{name}} installation and its configuration.
+customizeMcp.uninstallOwnDescription | This permanently removes your {{name}} installation and its configuration. Other members are not affected.
+customizeMcp.uninstallFailed | Could not uninstall {{name}}.
+customizeMcp.enabledForYou | Devin loads this MCP in your sessions.
+customizeMcp.enabledForOrg | Devin loads this MCP for everyone in this org.
+customizeMcp.disabled | Devin will not load this MCP.
+customizeMcp.disabledState | Disabled
+customizeMcp.statusLabel | MCP status
+customizeMcp.needsOrgAdmin | You need org admin access to change this
+customizeMcp.updateFailed | Could not update {{name}}.
+customizeMcp.updated | {{name}} updated.
+customizeMcp.updating | Updating…
+customizeMcp.updateFromMarketplace | Update from marketplace
+customizeMcp.sharedConnectionTitle | Shared connection
+customizeMcp.sharedConnectionOAuth | Everyone in your organization shares this one {{name}} sign-in. Use a dedicated service account, not a personal one, when {{name}} asks you to authorize.
+customizeMcp.sharedConnectionCredential | Everyone in your organization shares these {{name}} credentials. Use credentials issued to a service account, not personal ones.
+customizeMcp.outOfDateTitle | Installation out of date
+customizeMcp.outOfDateBody | The marketplace definition has changed since this was installed. Updating syncs the connection settings; saved credentials are kept.
+customizeMcp.pluginManagedTitle | Managed by a plugin
+customizeMcp.pluginManagedBody | A plugin installed this MCP and owns its connection settings, so they are shown read-only below. You can still enable, disable, connect, or uninstall it.
+customizeMcp.setUpForOrg | Set up for the organization
+customizeMcp.setUpForOrgHint | This MCP is in the Devin marketplace. Install it once for the organization and connect it here, and plugins that declare it will use that connection instead of each member connecting their own.
+customizeMcp.setUpForOrgPerMemberHint | Members are connecting this one at a time, in their own personal scope. It is also in the Devin marketplace, so you can install it once for the organization and connect it here — plugins that declare it will use that connection instead.
+customizeMcp.perMemberHint | Set up per member. Each member connects this MCP from their own personal scope.
+customizeMcp.notConnectedTitle | Not connected yet
+customizeMcp.notConnectedNeedsCredentials | Connect to set this MCP up and enter its credentials.
+customizeMcp.notConnectedNoAuth | Connect to set this MCP up — there is nothing to authorize afterwards.
+customizeMcp.summaryTransport | Transport
+customizeMcp.summaryUrl | URL
+customizeMcp.summaryCommand | Command
+customizeMcp.summaryAuth | Auth
+customizeMcp.summaryAvailableTo | Available to
+customizeMcp.summaryAvailableToYou | You
+customizeMcp.summaryAvailableToOrg | Everyone in this org
+========== mcpMarketplace
+mcpMarketplace.testTools.label | Test tools
+mcpMarketplace.testTools.description | View tools available with this MCP
+mcpMarketplace.testTools.test | Test
+mcpMarketplace.testTools.testing | Testing…
+mcpMarketplace.writeOnlySecrets.add | Add secret
+mcpMarketplace.writeOnlySecrets.empty | No secrets added
+mcpMarketplace.writeOnlySecrets.nameLabel | Secret name
+mcpMarketplace.writeOnlySecrets.valueLabel | Secret value
+mcpMarketplace.writeOnlySecrets.namePlaceholder | SECRET_NAME
+mcpMarketplace.writeOnlySecrets.valuePlaceholder | Value (write-only)
+mcpMarketplace.writeOnlySecrets.linkedPlaceholder | Linked org secret. Enter a value to override.
+mcpMarketplace.writeOnlySecrets.configuredPlaceholder | ••••••••
+mcpMarketplace.writeOnlySecrets.configuredHint | Saved. Enter a new value to replace.
+mcpMarketplace.writeOnlySecrets.unlink | Unlink from this MCP (the org secret is not deleted)
+mcpMarketplace.writeOnlySecrets.delete | Delete secret
+mcpMarketplace.writeOnlySecrets.remove | Remove secret
+mcpMarketplace.writeOnlySecrets.sectionTitle | Secrets
+mcpMarketplace.writeOnlySecrets.declaredDescription | Write-only credentials for this server, stored encrypted and never shown after saving.
+mcpMarketplace.writeOnlySecrets.configurableDescription | Write-only credentials for this server, stored encrypted and never shown after saving. Reference one in the server's config as ${KEY}.
+mcpMarketplace.writeOnlySecrets.stdioDescription | Write-only credentials for this server, stored encrypted and never shown after saving. They are set as environment variables of the server process; the config can also reference one as ${KEY}.
+mcpMarketplace.writeOnlySecrets.placeholderDescription | Save the server first, then add write-only credentials for it here. Reference one in the server's config as ${KEY}.
+mcpMarketplace.setupUnavailable | Could not load {{name}} from the marketplace.
+mcpMarketplace.addAnotherInstallation | Add another installation
+mcpMarketplace.installationSectionTitle | Installation
+mcpMarketplace.installationSectionDescription | Devin uses the name and short description to tell MCP servers apart.
+mcpMarketplace.multipleInstallationsTitle | Devin will see multiple installations of this server
+mcpMarketplace.multipleInstallationsBody | Include details in the name and short description fields so Devin can tell it apart from these installations:
+mcpMarketplace.enterpriseBadge | Enterprise
+mcpMarketplace.marketplaceServerLabel | Marketplace server
+mcpMarketplace.installationNameLabel | Installation name
+mcpMarketplace.installationNamePlaceholder | e.g., {{name}} (EU)
+mcpMarketplace.nameRequired | Name is required
+mcpMarketplace.nameTaken | An installation named “{{name}}” already exists for this server
+mcpMarketplace.shortDescriptionLabel | Short description (optional)
+mcpMarketplace.shortDescriptionPlaceholder | e.g., {{name}} for the EU production account
+mcpMarketplace.serverIconAlt | {{name}} icon
+mcpMarketplace.oauthSetupRequiredTitle | OAuth setup required
+mcpMarketplace.oauthSetupRequiredBody | This provider cannot create an OAuth client automatically. For API-key authentication, select Authorization header. Use “Bearer ${MCP_API_KEY}” as the value. Then add a write-only secret named “MCP_API_KEY” in the Secrets section. Alternatively, add a pre-registered OAuth client ID under Advanced.
+mcpMarketplace.oauthCapabilityCheckingTitle | Checking OAuth setup
+mcpMarketplace.oauthCapabilityCheckingBody | Devin is checking whether this provider can start OAuth safely.
+mcpMarketplace.oauthCapabilityCheckFailedTitle | OAuth setup check failed
+mcpMarketplace.oauthCapabilityCheckFailedBody | Devin could not check this provider. Retry before connecting.
+mcpMarketplace.oauthCapabilityUnknownTitle | OAuth setup could not be verified
+mcpMarketplace.oauthCapabilityUnknownBody | Devin could not verify automatic OAuth setup. Check the provider documentation. If the provider uses an API key, select Authorization header. Use “Bearer ${MCP_API_KEY}” as the value. Then add a write-only secret named “MCP_API_KEY” in the Secrets section. Alternatively, add a pre-registered OAuth client ID under Advanced.
+mcpMarketplace.connectionIncompleteTitle | Connection incomplete
+mcpMarketplace.connectionIncompleteBody | Sign in to {{name}} to finish connecting this MCP server.
+mcpMarketplace.connect | Connect
+mcpMarketplace.connecting | Connecting…
+mcpMarketplace.retry | Retry
+========== pluginMarketplace
+pluginMarketplace.unknownPlugin | Unknown plugin
+pluginMarketplace.indexingStarted | Reindexing plugins
+pluginMarketplace.indexingFailed | Could not reindex plugins
+pluginMarketplace.showOfficialMarketplace | Show official marketplace plugins
+pluginMarketplace.officialMarketplaceDisabledByEnterprise | The official marketplace is disabled for every org by the enterprise configuration.
+pluginMarketplace.manifestSecretsNotice | Don’t include plaintext secrets. Use <docsLink>plugin secret references</docsLink> instead.
+pluginMarketplace.bundleSecretsNotice | Don’t include secrets.
+pluginMarketplace.deletePluginTitle | Delete {{name}}?
+pluginMarketplace.deletePluginDescription | This plugin was uploaded here, so it has no other copy. Its files are permanently deleted. This cannot be undone.
+pluginMarketplace.deletedPlugin | Deleted {{name}}
+pluginMarketplace.deletePluginFilesFailed | {{name}} was uninstalled, but deleting its files failed.
+pluginMarketplace.mcpSheetDescription | MCP servers Devin can call, keyed by name. Saved to {{filePath}} in this scope’s plugin. Reference secrets as <code>${NAME}</code> and members supply them from the server’s details — values written here are stripped.
+pluginMarketplace.browse | Browse
+pluginMarketplace.browseForPersonal | Browse for me
+pluginMarketplace.browseForOrganization | Browse for organization
+pluginMarketplace.browseForEnterprise | Browse for enterprise
+pluginMarketplace.browseDescriptionPersonal | Install a plugin for yourself.
+pluginMarketplace.browseDescriptionOrganization | Install a plugin for your organization.
+pluginMarketplace.browseDescriptionEnterprise | Install a plugin for your enterprise.
+pluginMarketplace.browseDescriptionAnyScope | Install a plugin for yourself or for a scope you manage.
+pluginMarketplace.suggested | Suggested
+pluginMarketplace.installedButBlocked | Installed but blocked
+pluginMarketplace.blockedDescription | Plugins marked as blocked by policy, including dependencies from the latest index.
+pluginMarketplace.installedTitle | Installed {{name}}
+pluginMarketplace.installedAtScope | Installed at {{scope}}
+pluginMarketplace.installedForMe | Installed for me
+pluginMarketplace.installedInPersonal | Now available in your personal plugins
+pluginMarketplace.installedInOrganization | Now available in organization plugins
+pluginMarketplace.installedInEnterprise | Now available in enterprise plugins
+pluginMarketplace.dismiss | Dismiss
+pluginMarketplace.connectMcp | Connect MCP
+pluginMarketplace.connectingMcp | Connecting…
+pluginMarketplace.mcpAwaitingAuthorization | {{pluginName}} is set up — connect it to grant access.
+pluginMarketplace.mcpConnectFailed | Could not connect {{pluginName}}.
+pluginMarketplace.mcpReady | {{pluginName}} is ready — nothing to connect.
+pluginMarketplace.mcpNeedsCredential | {{pluginName}} needs a credential before it can connect — enter it in its MCP's settings.
+pluginMarketplace.noMatches | No plugins match your search.
+pluginMarketplace.unavailableInCustomize | This plugin isn't available in Customize.
+pluginMarketplace.searchPlaceholder | Search plugin marketplace
+pluginMarketplace.viewMarketplaceRepo | View marketplace on GitHub
+pluginMarketplace.requiredBy | Required by
+pluginMarketplace.pluginNotListed | {{name}} is not listed in this view.
+pluginMarketplace.installFailed | Failed to install
+pluginMarketplace.installing | Installing…
+pluginMarketplace.viewDetails | View {{name}} details
+pluginMarketplace.installedInRepos | Installed in {{repos}}
+pluginMarketplace.moreRepos | +{{count}} more
+pluginMarketplace.sheet.enabled | Enabled
+pluginMarketplace.sheet.disabled | Disabled
+pluginMarketplace.sheet.mcpKind | MCP
+pluginMarketplace.sheet.notConnected | Not connected
+pluginMarketplace.sheet.disabledTools | Disabled tools: {{tools}}
+pluginMarketplace.sheet.backToPlugin | {{name}} plugin
+pluginMarketplace.sheet.viewMore | View {{count}} more
+pluginMarketplace.sheet.metadata | Metadata
+pluginMarketplace.sheet.ref | Ref
+pluginMarketplace.sheet.path | Path
+pluginMarketplace.sheet.installedIn | Installed in
+pluginMarketplace.sheet.pinnedSha | Pinned SHA
+pluginMarketplace.sheet.examplePrompts | Example prompts
+pluginMarketplace.sheet.officialPlugin | Devin official marketplace plugin
+pluginMarketplace.sheet.installFailedTitle | Failed to install
+pluginMarketplace.sheet.installedWithIssuesTitle | Installed with issues
+pluginMarketplace.sheet.noContentsFound | No skills, MCPs, hooks, rules, or subagent profiles were found in this plugin.
+pluginMarketplace.sheet.learnMore | Learn more
+pluginMarketplace.sheet.permissions | Permissions
+pluginMarketplace.sheet.uninstall | Uninstall
+pluginMarketplace.sheet.uninstallTitle | Uninstall {{name}}?
+pluginMarketplace.sheet.uninstallDescription | Removes {{name}} for this scope. Its skills, rules, hooks, and MCP servers will no longer apply.
+pluginMarketplace.sheet.remove | Remove
+pluginMarketplace.sheet.removeTitle | Remove {{name}}?
+pluginMarketplace.sheet.removeDescription | Stops offering {{name}} here. Anyone who already installed it keeps it.
+========== pluginMcp
+pluginMcp.title | Connect MCPs for {{name}}
+pluginMcp.description | Choose an MCP to connect at the {{scope}} scope. Each connection has its own setup.
+pluginMcp.connectMcps | Connect MCPs
+pluginMcp.manageMcps | Manage MCPs
+pluginMcp.connectMcp | Connect MCP
+pluginMcp.reconnectMcp | Reconnect MCP
+pluginMcp.connect | Connect MCP
+pluginMcp.configure | Connect MCP
+pluginMcp.notSetUp | Not set up
+pluginMcp.needsAuthorization | Needs authorization
+pluginMcp.installed | Installed
+pluginMcp.mcpConnected | {{name}} is connected.
+pluginMcp.needsCredential | {{name}} needs a credential before it can connect — enter it in its settings.
+pluginMcp.notIndexed | {{name}} hasn't been indexed yet — its MCP can be connected once indexing finishes.
+pluginMcp.missingAuthorizationUrl | {{name}} needs authorization but no sign-in URL was returned.
+pluginMcp.connectFailed | Could not connect {{name}}.
+pluginMcp.enterprisePermission | You need enterprise MCP admin access to connect this
+pluginMcp.orgPermission | You need org MCP admin access to connect this
+========== pluginMcpConnect
+pluginMcpConnect.needsOrgAdmin | You need org MCP admin access to connect this
+pluginMcpConnect.needsEnterpriseAdmin | You need enterprise MCP admin access to connect this
+pluginMcpConnect.pendingIndexUnread | {{name}} hasn't finished installing.
+pluginMcpConnect.pendingIndexRunningReason | Its MCP can be connected once installation finishes.
+pluginMcpConnect.pendingIndexSoonReason | Installation is scheduled, and its MCP can be connected after that.
+pluginMcpConnect.pendingIndexAtReason | Installation is scheduled for {{time}}, and its MCP can be connected after that.
+pluginMcpConnect.pendingIndexFailedReason | The last installation attempt failed.
+pluginMcpConnect.pendingIndexWaitingReason | Its MCP can be connected once the plugin has been installed.
+========== omniTools
+omniTools.searching | Searching
+omniTools.searched | Searched
+omniTools.inValue | in <value>{{value}}</value>
+omniTools.acrossValue | across <value>{{value}}</value>
+omniTools.atValue | at <value>{{value}}</value>
+omniTools.inRepo | <prefix>in</prefix><repo>{{repo}}</repo>
+omniTools.forFile | <prefix>for</prefix><file>{{file}}</file>
+omniTools.allRepos | all repos
+omniTools.manyRepos | many repos
+omniTools.repoCount_one | {{count}} repo
+omniTools.repoCount_other | {{count}} repos
+omniTools.used | Used {{tool}}
+omniTools.using | Using {{tool}}
+omniTools.thinking | Thinking
+omniTools.attributedEdits | Attributed edits for
+omniTools.attributingEdits | Attributing edits for
+omniTools.lookedUpCommit | Looked up commit
+omniTools.lookingUpCommit | Looking up commit
+omniTools.fetchedPrEvents | Fetched events for PR
+omniTools.fetchingPrEvents | Fetching events for PR
+omniTools.checkedCommitHistory | Checked commit history
+omniTools.checkingCommitHistory | Checking commit history
+omniTools.foundFiles | Found files
+omniTools.findingFiles | Finding files
+omniTools.grepped | Grepped
+omniTools.grepping | Grepping
+omniTools.listed | Listed
+omniTools.listing | Listing
+omniTools.read | Read
+omniTools.reading | Reading
+omniTools.readWiki | Read wiki
+omniTools.readingWiki | Reading wiki
+========== notificationInbox
+notificationInbox.title | Notifications
+notificationInbox.filter | Filter notifications
+notificationInbox.collapse | Collapse notifications
+notificationInbox.unread | Unread
+notificationInbox.more | More actions
+notificationInbox.pinSidebar | Pin sidebar
+notificationInbox.unpinSidebar | Unpin sidebar
+notificationInbox.markRead | Mark read
+notificationInbox.markUnread | Mark unread
+notificationInbox.markDone | Mark done
+notificationInbox.actions | Actions
+notificationInbox.showDetails | Show details
+notificationInbox.hideDetails | Hide details
+notificationInbox.empty.title | You're all caught up
+notificationInbox.empty.description | New notifications will show up here.
+notificationInbox.feed.label | Recent notifications
+notificationInbox.announcements.label | Announcements
+notificationInbox.announcements.navigation | Browse announcements
+notificationInbox.announcements.position | {{index}} of {{total}}
+notificationInbox.announcements.previous | Previous announcement
+notificationInbox.announcements.next | Next announcement
+notificationInbox.announcements.dismiss | Dismiss announcement
+notificationInbox.queues.title | Needs review
+notificationInbox.queues.billingTagsReview | Billing tags review
+notificationInbox.queues.pendingRequests | Pending requests
+notificationInbox.queues.empty | None
+notificationInbox.queues.review | Review {{title}}
+notificationInbox.markAllAsRead | Mark all as read
+========== migrations
+migrations.describeTask | In one sentence, describe your migration task. We'll guide you through the rest
+migrations.startFailed | Failed to start migration
+migrations.openBoardFailed | Migration board created, but could not open it
+migrations.tryAnotherExample | Try another example
+migrations.promptPrefix | Hi Devin, I want to migrate 
+migrations.examples.javaSpringBoot | our order service from Java 8 and Spring Boot 2.7 to Java 21 and Spring Boot 3.3, including the javax to jakarta namespace change.
+migrations.examples.oracleToPostgres | our on-prem Oracle 12c reporting database (about 40 schemas, 2 TB) to Amazon Aurora PostgreSQL, including the PL/SQL packages and nightly jobs.
+migrations.examples.reactHooks | our React 16 class-component frontend to React 19 with hooks and TypeScript, keeping the existing Redux store working.
+migrations.examples.python3 | our Python 2.7 data pipelines to Python 3.12 and move from Celery 3 to Celery 5 without changing the task schedule.
+migrations.examples.angularJs | our AngularJS 1.x admin portal to Angular 18, one module at a time behind a hybrid router.
+migrations.examples.hadoopToDatabricks | our ETL from an on-prem Hadoop and Hive cluster to Databricks on AWS, converting the Hive scripts to Spark SQL.
+migrations.examples.cobolToJava | our COBOL batch jobs from the mainframe to Java services, starting with the nightly billing run.
+migrations.examples.jenkinsToGitHubActions | our Jenkins pipelines to GitHub Actions across about 60 repositories, keeping the same deploy approval gates.
+migrations.examples.expressToNest | our REST APIs from Express 4 in JavaScript to NestJS in TypeScript without breaking existing API clients.
+migrations.examples.mongoAtlas | our self-hosted MongoDB 4.4 cluster to MongoDB Atlas 7 and update the drivers in our Node.js services.
+migrations.examples.dotnetFramework | our .NET Framework 4.8 web app to .NET 8, including the WCF services and the Entity Framework 6 data layer.
+migrations.examples.terraform | our Terraform 0.12 modules to Terraform 1.9 and current provider versions without recreating any resources.
+========== appUpdate
+appUpdate.title | New update available
+appUpdate.description | Restart the app to get the latest updates
+appUpdate.download | Download update
+appUpdate.downloading | Downloading update
+appUpdate.install | Install update
+appUpdate.installing | Installing update
+appUpdate.restart | Restart to update
+========== errors
+errors.goToHomepage | Go to homepage
+errors.logIn | Log in
+errors.pageCouldNotBeFound | This page could not be found.
+errors.pageNotFound | Page not found
+errors.retry | Retry
+errors.signUp | Sign up
+========== doneToast
+doneToast.markedDone | Session marked done
+doneToast.markedDoneDescription | Session moved to done folder in sidebar
+doneToast.stopped | Session stopped
+doneToast.stoppedDescription | Stopped VM
+doneToast.stoppedPrsClosedDescription_one | Closed PR and stopped VM
+doneToast.stoppedPrsClosedDescription_other | Closed PRs and stopped VM
+========== confirmation
+confirmation.cancel | Cancel
+confirmation.confirm | Confirm
+========== toast
+toast.dismissNotification | Dismiss notification
+toast.undo | Undo
+toast.undoFailed | Failed to undo last action
+========== systemNotifications
+systemNotifications.needsAttention | Devin needs your attention
+systemNotifications.blocked | Devin has stopped and is waiting for your input
+systemNotifications.waiting | Devin is waiting for your input to proceed
+========== liteFeedback
+liteFeedback.previewLong | You're using a preview version of Devin Lite.
+liteFeedback.previewShort | Devin Lite preview
+liteFeedback.shareFeedback | Share feedback
+========== state
+state.bulkCloseHint.title | Closing a lot of tabs?
+state.bulkCloseHint.description | Right-click any tab for Close All, Close Others, or Close to the Right.
+state.bulkCloseHint.dontShowAgain | Don't show again
+========== selectionBar
+selectionBar.analyse | Analyse
+selectionBar.analyseSessions | Analyse {{count}} session
+selectionBar.analyseSessions_other | Analyse {{count}} sessions
+selectionBar.archive | Archive
+selectionBar.asksExcluded | {{count}} ask excluded — only sessions can be analysed
+selectionBar.asksExcluded_other | {{count}} asks excluded — only sessions can be analysed
+selectionBar.clearSelection | Clear selection
+selectionBar.createPlaybook | Create Playbook
+selectionBar.createPlaybookFromSessions | Create playbook from {{count}} session
+selectionBar.createPlaybookFromSessions_other | Create playbook from {{count}} sessions
+selectionBar.selectFirstSessions | Select first {{max}} sessions
+selectionBar.selected | {{count}} selected
+selectionBar.tooManySessions | Maximum {{max}} sessions ({{count}} selected)
+selectionBar.unarchive | Unarchive
+========== tagSelector
+tagSelector.noTags | No tags
+tagSelector.noTagsFound | No tags found
+tagSelector.searchTags | Search tags…
+tagSelector.selectATag | Select a tag
+tagSelector.selectATagEllipsis | Select a tag…
+tagSelector.selectTags | Select tags
+tagSelector.tagsSelected_one | {{count}} tag selected
+tagSelector.tagsSelected_other | {{count}} tags selected
+========== tagModal
+tagModal.noPtsCodesFound | No PTS Codes found
+tagModal.noTagsFound | No tags found
+tagModal.organizationGroup | Organization
+tagModal.otherTagsFreeform | Other tags are freeform. Required tags are selected above.
+tagModal.otherTagsFreeformPtsCodes | Other tags are freeform. Required PTS Codes are selected above.
+tagModal.requiredPtsCode | Required PTS Code
+tagModal.requiredPtsCodesManagedAsOther | Required PTS Codes are managed above and can't be added as other tags.
+tagModal.requiredTag | Required tag
+tagModal.requiredTagsManagedAsOther | Required tags are managed above and can't be added as other tags.
+tagModal.reservedTagNotAllowed | This tag is reserved for system use and can't be added.
+tagModal.searchPtsCodes | Search PTS Codes…
+tagModal.searchTags | Search tags…
+tagModal.selectExactlyOneRequiredPtsCode | Select exactly one required PTS Code for this session
+tagModal.selectExactlyOneRequiredTag | Select exactly one required tag for this session
+tagModal.selectRequiredPtsCode | Select required PTS Code
+tagModal.selectRequiredTag | Select required tag
+tagModal.userGroup | User
+========== notes
+notes.chartLegend.retrieved | Retrieved
+notes.chartLegend.retrievedTip | Times knowledge was accessed as potentially relevant but not necessarily used
+notes.chartLegend.used | Used
+notes.chartLegend.usedTip | Times knowledge was actually utilized in sessions based on usage analysis
+notes.usageChart.empty | No usage data available for the last 30 days
+notes.usageChart.last30Days | Last 30 days
+notes.usageChart.retrievedCount | Retrieved: {{count}}
+notes.usageChart.usedCount | Used: {{count}}
+notes.utils.corruptedData | The local data is corrupted. Please refresh the page.
+========== memoryDrive
+memoryDrive.files | Memory drive files
+memoryDrive.refresh | Refresh
+memoryDrive.loading | Loading memory drive files
+memoryDrive.loadError | Couldn't load memory drive files. Try refreshing.
+memoryDrive.empty | No memory files yet. Ask Devin in a session to remember something.
+memoryDrive.binaryFile | Binary file ({{size}}) — preview unavailable.
+memoryDrive.fileContents | {{path}} (read-only)
+memoryDrive.viewSource | View source
+========== stopSession
+stopSession.titleShared | Stop shared session
+stopSession.title | Stop session
+stopSession.descriptionActive | Devin is actively working on your task. Stopping the session puts the session and its children to sleep.
+stopSession.descriptionActiveChildren | A child session is still working. Stopping the session puts the session and all of its child sessions to sleep.
+stopSession.descriptionActiveAndChildren | Devin is actively working on your task and has active child sessions. Stopping the session puts the session and all of its child sessions to sleep.
+stopSession.subscribersNote_one | {{count}} other person is subscribed to this session. Stopping the session stops it for everyone; they will still see it in their sidebar.
+stopSession.subscribersNote_other | {{count}} other people are subscribed to this session. Stopping the session stops it for everyone; they will still see it in their sidebar.
+stopSession.confirm | Stop session
+========== fileTree
+fileTree.deleteFile | Delete file
+fileTree.deleteFileAria | Delete file {{name}}
+fileTree.deleteFolder | Delete folder
+fileTree.deleteFolderAria | Delete folder {{name}}
+fileTree.renameFile | Rename file
+fileTree.renameFileAria | Rename file {{name}}
+fileTree.renameFolder | Rename folder
+fileTree.renameFolderAria | Rename folder {{name}}
+========== fileSearch
+fileSearch.accountSkills | Account skills
+fileSearch.authoredBy | Authored by {{name}}
+fileSearch.commands | Commands
+fileSearch.enterpriseSkills | Enterprise skills
+fileSearch.noMatchesFound | No matches found
+fileSearch.noRepositoriesIndexed | No repositories indexed. Please complete your repository setup first.
+fileSearch.organizationSkills | Organization skills
+fileSearch.personalSkills | Personal skills
+fileSearch.pluginSkills | Plugin skills
+fileSearch.skillFrom | From {{source}}
+fileSearch.skillPluginNotActivated | This skill's plugin was not activated in this session. Start a new session to use it.
+fileSearch.skillSourceYou | You
+fileSearch.slashCommands | Slash commands
+fileSearch.typeToSearch | Type to search
+fileSearch.unknownAuthor | unknown
+========== landmarks
+landmarks.adminSidebar | Admin navigation
+landmarks.marketingSidebar | Marketing navigation
+landmarks.sessionSidebar | Session navigation
+landmarks.wikiSidebar | Wiki navigation
+========== windowChrome
+windowChrome.openEditorWindow | Editor
+windowChrome.openEditorWindowTooltip | Switch to the editor window
+windowChrome.minimize | Minimize
+windowChrome.maximize | Maximize
+windowChrome.restore | Restore
+windowChrome.close | Close
+========== editorBreadcrumbs
+editorBreadcrumbs.empty | No entries
+editorBreadcrumbs.filterPlaceholder | Go to file or folder…
+editorBreadcrumbs.loading | Loading…
+========== embeddedSurface
+embeddedSurface.back | Go back
+embeddedSurface.forward | Go forward
+embeddedSurface.reload | Reload
+========== windsurf
+windsurf.codemapSharing.label | Sharing
+windsurf.codemapSharing.ariaLabel | Codemap sharing
+windsurf.codemapSharing.modePrivate | Only me
+windsurf.codemapSharing.modeTeam | Team
+windsurf.codemapSharing.modePublic | Anyone with the link
+windsurf.codemapSharing.updated | Sharing updated
+windsurf.codemapSharing.updateFailed | Failed to update sharing
+========== find
+find.invalidRegex | Invalid regular expression
+========== desktop
+desktop.title | Devin Desktop
+========== onboarding
+onboarding.assistantRequiresTriageV2 | Assistants aren't available for your organization yet. Contact Cognition to enable them.
+onboarding.attributionCoworker | Coworker
+onboarding.attributionDeepWiki | DeepWiki
+onboarding.attributionFriend | Friend
+onboarding.attributionGoogle | Google
+onboarding.attributionLinkedin | LinkedIn
+onboarding.attributionOther | Other
+onboarding.attributionSweModels | SWE models
+onboarding.attributionTwitter | Twitter
+onboarding.attributionYoutube | YouTube
+onboarding.autoTriageCreated | Auto-triage automation created
+onboarding.autoTriageCreateFailed | Failed to create auto-triage automation
+onboarding.acusAmount | {{amount}} ACUs
+onboarding.addRepos | Add repos
+onboarding.allowTeammatesAutoJoin | Allow teammates to auto-join account
+onboarding.askAboutCodebase | Ask Devin about your codebase
+onboarding.assignWorkFromApps | Assign work to <devin>@Devin</devin> from<br/> your favorite productivity apps
+onboarding.assignWorkToDevinInSlack | Assign work to <devin>@Devin</devin> in Slack
+onboarding.autoJoinDescription | Members of <orgName>{{githubOrgName}}</orgName> will be allowed to join without waiting for your approval.
+onboarding.autoTriageDemoAlt | Auto-triage demo
+onboarding.automaticReviewMode | Automatic review mode
+onboarding.backToOptions | ← Back to options
+onboarding.behavior | Behavior
+onboarding.canSetUpMoreLater | You can set up more repositories later
+onboarding.cancel | Cancel
+onboarding.completedChecklistItem | Completed checklist item
+onboarding.connect | Connect
+onboarding.connectIntegration | Connect an integration
+onboarding.connectJiraDescription | Connect your organization's Jira site
+onboarding.connectLinear | Connect Linear
+onboarding.connectLinearDescription | Connect your organization's workspace
+onboarding.connectPylonDescription | Connect your organization's Pylon account
+onboarding.connectSlack | Connect Slack
+onboarding.connectSlackWorkspaceDescription | Connect your team's workspace
+onboarding.connectTeamsConsent | Connecting requires a Microsoft Entra ID Global Administrator to approve tenant-wide access, once.
+onboarding.connectTeamsDescription | Connect your Microsoft Teams workspace
+onboarding.connectToGit | Connect to Git
+onboarding.connected | Connected
+onboarding.continue | Continue
+onboarding.continueWith | Continue with {{repo}}
+onboarding.copy | Copy
+onboarding.couldNotFindRepo | Could not find selected repository.
+onboarding.couldNotJoinChannel | Devin couldn't join the channel. <reconnectButton>Reconnect Slack</reconnectButton> to grant permission to join channels.
+onboarding.countOfTotal | {{count}} of {{total}}
+onboarding.createAutomation | Create automation
+onboarding.createPlaybook | Create a playbook
+onboarding.createSchedule | Create a schedule
+onboarding.creating | Creating…
+onboarding.deepWikiIndexFailed | Failed to turn on DeepWiki. Please try again.
+onboarding.enterAtLeastOneEmail | Enter at least one email address.
+onboarding.failedStartRepoSetupSession | Failed to start the repository setup session.
+onboarding.devinHelpsPickUpTasks | <devin>Devin</devin> helps pick up tasks in Slack
+onboarding.devinReviewAlt | Devin Review
+onboarding.devinStartedWorking_one | Devin started working on <highlight><ticker></ticker> task</highlight>
+onboarding.devinStartedWorking_other | Devin started working on <highlight><ticker></ticker> tasks</highlight>
+onboarding.devinWillJoin | Devin will join {{channel}}
+onboarding.dismiss | Dismiss
+onboarding.dismissChecklist | Dismiss checklist
+onboarding.dismissChecklistTitle | Dismiss checklist?
+onboarding.dismissDescription | This will hide the onboarding checklist. You can bring it back from your account settings.
+onboarding.dollarsInCredits | ${{amount}} in credits
+onboarding.earnAcus_one | Earn {{count}} ACU
+onboarding.earnAcus_other | Earn {{count}} ACUs
+onboarding.earnDollars | Earn ${{amount}}
+onboarding.earnJustByTrying | Earn {{credits}} — just by trying Devin
+onboarding.earnedAcus_one | Earned {{count}} ACU
+onboarding.earnedAcus_other | Earned {{count}} ACUs
+onboarding.earnedDollars | Earned ${{amount}}
+onboarding.emailAddresses | Email addresses
+onboarding.exploreAdvanced | Explore advanced capabilities
+onboarding.exploreEachSession | Explore each session to see how Devin works.
+onboarding.failedToIndex | Failed to index repository. Please try again.
+onboarding.failedToStart | Failed to start sessions. Please try again or skip for now.
+onboarding.fetchReposFailed | Fetching repositories from your git connection failed.
+onboarding.findRepository | Find a repository…
+onboarding.freeCredits | Free credits
+onboarding.freeCreditsDescription | Already added to your team. Use them for PRs, bug fixes, refactors, migrations — whatever you need to ship.
+onboarding.getDollarsFreeCredits | Get ${{amount}} in free credits
+onboarding.getFreeAcus_one | Get {{count}} free ACU
+onboarding.getFreeAcus_other | Get {{count}} free ACUs
+onboarding.getStarted | Get started
+onboarding.getStartedWithDevin | Get started with Devin
+onboarding.githubAutoJoinDisabled | GitHub auto-joining disabled
+onboarding.githubAutoJoinEnabled | GitHub auto-joining enabled
+onboarding.githubAutoJoinUpdateFailed | Failed to update GitHub auto-joining setting
+onboarding.githubIntegrationLink | GitHub integration grants sufficient repository permissions
+onboarding.hideTips | Hide {{label}} tips
+onboarding.howDidYouHear | How did you hear about us?
+onboarding.inChannel | in channel
+onboarding.inDevinCredits | in Devin credits
+onboarding.inMatchingGrants | in matching grants
+onboarding.inTeam | in team
+onboarding.incompleteChecklistItem | Incomplete checklist item
+onboarding.indexed | Indexed
+onboarding.indexing | Indexing…
+onboarding.instruction | Instruction
+onboarding.instructionDescription | Let Devin know how to handle tasks on the above channel.
+onboarding.invalidEmail | {{email}} is not a valid email address.
+onboarding.inviteEmailsPlaceholder | alex@example.com, sam@example.com
+onboarding.invitedTeamMembers_one | Invited {{count}} team member
+onboarding.invitedTeamMembers_other | Invited {{count}} team members
+onboarding.kickOffSessions_one | Kick off these <highlight>{{count}} session</highlight>
+onboarding.kickOffSessions_other | Kick off these <highlight>{{count}} sessions</highlight>
+onboarding.labeled | labeled
+onboarding.linearMonitor | Linear monitor
+onboarding.link | Link
+onboarding.linkLinearUser | Link your Linear user
+onboarding.linkLinearUserDescription | Lets Devin act as you in Linear
+onboarding.linkPylonUserDescription | Lets Devin act as you in Pylon
+onboarding.linkSlackAccount | Link Slack account
+onboarding.linkSlackUser | Link your Slack user
+onboarding.linkSlackUserDescription | Lets Devin DM you in Slack
+onboarding.linkTeamsUserDescription | Lets Devin DM you in Microsoft Teams
+onboarding.makeFirstSession | Make your first session
+onboarding.manageIndexedInWiki | Indexed repositories can be managed from their wiki.
+onboarding.matchDescription | We dollar-match every dollar you reload — up to {{matchCap}} in grants on your next {{totalUsage}} of usage. You spend {{matchCap}}, you get {{totalUsage}}.
+onboarding.messageForAdmin | Message for your admin
+onboarding.newSession | New session
+onboarding.noReposConnectOrg | No repositories found. Connect a git organization to set up repos.
+onboarding.noReposFoundCheckGithub | No repositories found. Please check that your
+onboarding.noRepositoriesFound | No repositories found
+onboarding.onboardingProgress | Onboarding progress
+onboarding.oneToOneMatch | 1:1 match
+onboarding.onlyAdminsCanChange | Only admins can change this setting.
+onboarding.openSlackAnd | Open Slack and
+onboarding.orgConnection | Organization
+onboarding.otherSourcePlaceholder | e.g. Billboard, Conference, Podcast, etc.
+onboarding.otherStepPlaceholder | Other, e.g. Billboard, Conference, Podcast
+onboarding.personalConnection | Personal
+onboarding.plgPanelAlt | Preview of Devin Review, DeepWiki, and automations
+onboarding.preparingTasks | Devin is preparing tasks...
+onboarding.processing | Processing…
+onboarding.prompt | Prompt
+onboarding.reconnectSlack | Reconnect Slack
+onboarding.requestPermissionFromAdmin | Request permission from admin
+onboarding.reposSelectedForIndexing_one | {{count}} repo selected for indexing
+onboarding.reposSelectedForIndexing_other | {{count}} repos selected for indexing
+onboarding.retry | Retry
+onboarding.retrySync | Retry sync
+onboarding.reviewModeAllRepos | Auto-review all PRs in repos
+onboarding.reviewModeAllReposDescription | Devin reviews every PR opened in the repos you choose.
+onboarding.reviewModeManual | Manually select PRs to review
+onboarding.reviewModeManualDescription | Devin won't auto-review your PRs. Trigger reviews as needed.
+onboarding.reviewModeMyPrs | Auto-review only PRs opened by me
+onboarding.reviewModeMyPrsDescription | Devin reviews every PR you open. Doesn't affect teammates.
+onboarding.searchRepositories | Search repositories...
+onboarding.sectionAdvanced | advanced
+onboarding.sectionStarter | starter
+onboarding.selectChannel | Select a channel
+onboarding.selectLabel | Select label…
+onboarding.selectRepo | Select a repository
+onboarding.selectRepositories | Select repositories
+onboarding.selectTeam | Select team…
+onboarding.selectedRepos_one | {{count}} repo selected
+onboarding.selectedRepos_other | {{count}} repos selected
+onboarding.separateEmailsWithCommas | Separate multiple email addresses with commas.
+onboarding.setupAutomations | Set up automations
+onboarding.setupWiki | Set up your wiki
+onboarding.showLessTips | Show fewer tips
+onboarding.showMoreTips | Show more tips
+onboarding.showTips | Show {{label}} tips
+onboarding.skip | Skip
+onboarding.slackJoinChannelFailed | Devin couldn't join the Slack channel
+onboarding.slackJoinChannelMissingScope | Reconnect Slack in settings to grant Devin permission to join channels.
+onboarding.slackJoinChannelUnavailable | The channel may be private or unavailable. Invite Devin manually or pick another channel.
+onboarding.slackMonitor | Slack monitor
+onboarding.startSessions | Start sessions
+onboarding.startingSessions | Starting sessions...
+onboarding.stepAttributionBody | Help us understand where you found Devin.
+onboarding.stepAttributionTitle | How did you hear about us?
+onboarding.stepConnectGitBody | Required to review comments, request changes, and approve pull requests.
+onboarding.stepConnectGitTitle | Link your git user
+onboarding.stepConnectGithubBody | Connect your organization's repositories so Devin can start working.
+onboarding.stepConnectGithubTitle | Connect your Git provider
+onboarding.stepConnectJiraBody | Assign Jira issues to Devin to get pull requests.
+onboarding.stepConnectJiraTitle | Connect Jira
+onboarding.stepConnectLinearBody | Assign Linear issues to Devin to get pull requests.
+onboarding.stepConnectLinearTitle | Connect Linear
+onboarding.stepConnectPylonBody | Escalate Pylon tickets to Devin to investigate.
+onboarding.stepConnectPylonTitle | Connect Pylon
+onboarding.stepConnectSlackBody | Tag Devin in any channel to assign work.
+onboarding.stepConnectTeamsBody | Tag Devin in chats and channels to assign work.
+onboarding.stepConnectTeamsTitle | Connect Microsoft Teams
+onboarding.stepDeepWikiBody | Configure how DeepWiki indexes your repository source code for Wiki and Ask Devin.
+onboarding.stepDeepWikiTitle | DeepWiki
+onboarding.stepExploreDevinBody | Devin is the AI software engineer built for teams. Devin autonomously plans, codes, tests, and ships.
+onboarding.stepExploreDevinTitle | Say hello to Devin, your
+ new engineering collaborator
+onboarding.stepInviteTeamBody | Devin works best with your whole team. Invite teammates to collaborate.
+onboarding.stepInviteTeamTitle | Invite your team
+onboarding.stepLinearTriageBody | Devin auto-triages Linear issues when a label is added. Edit the prompt it runs.
+onboarding.stepLinearTriageTitle | Configure auto-triage
+onboarding.stepPickWorkflowsBody | Pick the integrations to set up — you can add more later.
+onboarding.stepPickWorkflowsTitle | How do you want to use Devin?
+onboarding.stepReposBody | Devin has its own laptop with a browser and a terminal. Pick the main repos Devin will be working on — you can add more later.
+onboarding.stepReposTitle | Set up your repos
+onboarding.stepReviewBody | Code review that organizes diffs, detects moved code, and flags potential bugs.
+onboarding.stepReviewTitle | Devin Review
+onboarding.stepSlackTriageBody | Choose a channel Devin should monitor, and tell it what to work on
+onboarding.stepStartupProgramBody | Your startup offer is active on this team.
+onboarding.stepStartupProgramTitle | Welcome to the Devin Startup Program
+onboarding.suggestedTasks | Suggested tasks
+onboarding.triageLinearPlaceholder | Triage the incoming Linear issue…
+onboarding.triageSlackPlaceholder | Triage the incoming Slack message...
+onboarding.tryOutRealWork | Try out real work on your connected repositories
+onboarding.unableToLoadRepositories | Unable to load your repositories.
+onboarding.unexpectedErrorIndexing | Unexpected error indexing repositories.
+onboarding.upToAmount | Up to {{amount}}
+onboarding.validateInReview | Validate in Devin Review
+onboarding.viewPr | View PR
+onboarding.viewSession | View session
+onboarding.viewSessions | View sessions
+onboarding.welcomeFeaturesAlt | Index your codebase to create wikis, run multiple agents, and schedule recurring sessions
+onboarding.workflowDeepWikiDescription | Index your repos for Wiki and Ask Devin
+onboarding.workflowJiraDescription | Turn Jira issues into pull requests
+onboarding.workflowLinearDescription | Turn Linear issues into pull requests
+onboarding.workflowPylonDescription | Turn escalations into pull requests
+onboarding.workflowReviewDescription | Review pull requests and flag bugs
+onboarding.workflowSlackDescription | Tag @Devin in any Slack channel
+onboarding.workflowTeamsDescription | Tag @Devin in chats and channels
+========== limitSuspendedRestart
+limitSuspendedRestart.bannerText_one | One of your sessions was stopped by a usage limit that has since been raised.
+limitSuspendedRestart.bannerText_other | {{count}} of your sessions were stopped by a usage limit that has since been raised.
+limitSuspendedRestart.cancel | Cancel
+limitSuspendedRestart.dialogDescription | These sessions were stopped by a usage limit that has since been raised.
+limitSuspendedRestart.dialogTitle | Resume stopped sessions
+limitSuspendedRestart.done | Done
+limitSuspendedRestart.empty | No stopped sessions to resume
+limitSuspendedRestart.loading | Loading stopped sessions…
+limitSuspendedRestart.restart | Resume
+limitSuspendedRestart.restartAll | Resume all {{count}} stopped sessions
+limitSuspendedRestart.restartCount_one | Resume {{count}} session
+limitSuspendedRestart.restartCount_other | Resume {{count}} sessions
+limitSuspendedRestart.restartRequestFailed | Failed to resume sessions. Please try again.
+limitSuspendedRestart.restarted | Resumed
+limitSuspendedRestart.restarting | Resuming…
+limitSuspendedRestart.reviewAndRestart | Review & resume
+limitSuspendedRestart.selectAll | Select all
+limitSuspendedRestart.selectSession | Select {{title}}
+limitSuspendedRestart.stopped | Stopped
+limitSuspendedRestart.stoppedOn | Stopped {{date}}
+========== creditsExhausted
+creditsExhausted.contactAccountTeam | Contact your account team to renew.
+creditsExhausted.contactAdmin | Contact your account admin to increase it.
+creditsExhausted.contractExpired | Your Devin contract has ended
+creditsExhausted.increaseLimit | Increase usage limit
+creditsExhausted.increaseOrgLimit | Increase enterprise organization usage limit
+creditsExhausted.increaseUserLimit | Increase your per-user usage limit
+creditsExhausted.individualPlan | Your account is on an individual plan
+creditsExhausted.lastPaymentFailed | Your last payment failed
+creditsExhausted.subscribeToUse | Subscribe to use Devin
+========== billingBanner
+billingBanner.assignToDevin | Assign to Devin
+billingBanner.deepwiki | DeepWiki
+billingBanner.deepwikiDescription | Auto-generated documentation
+billingBanner.devinReview | Devin Review
+billingBanner.devinReviewDescription | AI-powered PR reviews
+billingBanner.payInvoiceDirectly | Want to pay your invoice directly?
+billingBanner.planAndReview | Plan and review with Devin
+billingBanner.tryTheseTools | Try these tools without a subscription:
+billingBanner.viewInvoices | View invoices
+========== archiveWithPRs
+archiveWithPRs.title | Stop session & close pull requests
+archiveWithPRs.activePrefix | Devin is actively working on your task.
+archiveWithPRs.description_one | Stopping the session puts the session and its children to sleep. Do you want to close the session’s pull request?
+archiveWithPRs.description_other | Stopping the session puts the session and its children to sleep. Do you want to close the session’s pull requests?
+archiveWithPRs.descriptionSessions_one | Stopping the sessions puts them and their children to sleep. Do you want to close the pull request for these {{sessionCount}} sessions?
+archiveWithPRs.descriptionSessions_other | Stopping the sessions puts them and their children to sleep. Do you want to close the pull requests for these {{sessionCount}} sessions?
+archiveWithPRs.keepOpen | Keep open
+archiveWithPRs.prNumber | PR #{{number}}
+archiveWithPRs.close_one | Close PR
+archiveWithPRs.close_other | Close PRs
+archiveWithPRs.closing_one | Closing 1 pull request…
+archiveWithPRs.closing_other | Closing {{count}} pull requests…
+archiveWithPRs.closed_one | Pull request closed
+archiveWithPRs.closed_other | Pull requests closed
+archiveWithPRs.closedCount_one | 1 pull request
+archiveWithPRs.closedCount_other | {{count}} pull requests
+archiveWithPRs.closeFailed_one | Failed to close 1 pull request
+archiveWithPRs.closeFailed_other | Failed to close {{count}} pull requests
+archiveWithPRs.closePartial_one | Closed 1 pull request, {{failed}} failed
+archiveWithPRs.closePartial_other | Closed {{count}} pull requests, {{failed}} failed
+archiveWithPRs.archiveFailed | Session not archived
+========== archiveActiveSession
+archiveActiveSession.titleShared | Archive shared session?
+archiveActiveSession.titleActiveChildren | Archive session with active child sessions?
+archiveActiveSession.titleActive | Archive active session?
+archiveActiveSession.descriptionActive | Devin is currently working on your task. Archiving will put this session and any child sessions to sleep. You can access this session later from your archived sessions.
+archiveActiveSession.descriptionActiveChildren | A child session of this session is still working. Archiving will put this session and all of its child sessions (including nested ones) to sleep. You can access them later from your archived sessions.
+archiveActiveSession.descriptionActiveAndChildren | Devin is currently working on your task and has active child sessions. Archiving will put this session and all of its child sessions (including nested ones) to sleep. You can access them later from your archived sessions.
+archiveActiveSession.subscribersNote_one | {{count}} other person is subscribed to this session. Archiving stops the session for everyone; they will still see it in their sidebar.
+archiveActiveSession.subscribersNote_other | {{count}} other people are subscribed to this session. Archiving stops the session for everyone; they will still see it in their sidebar.
+archiveActiveSession.cancel | Cancel
+archiveActiveSession.archive | Archive
+========== timeEstimate
+timeEstimate.amount | Amount
+timeEstimate.unit | Unit
+timeEstimate.unitPlaceholder | unit
+========== timeEstimateSurvey
+timeEstimateSurvey.cancel | Cancel
+timeEstimateSurvey.custom | Custom
+timeEstimateSurvey.dismissSurvey | Dismiss survey
+timeEstimateSurvey.helpCalibrate | Help us calibrate Devin
+timeEstimateSurvey.howLongQuestion |  — how long would this session have taken without any AI?
+timeEstimateSurvey.save | Save
+timeEstimateSurvey.saving | Saving…
+timeEstimateSurvey.thanksSaved | Thanks — saved.
+========== uploadLogLabel
+========== callDevin
+callDevin.addContact | Add contact
+callDevin.description | Call {{number}} from your linked phone to talk to your Devin. Your phone number and an 8-digit PIN identify you; the PIN is stored in the contact card you add here.
+callDevin.phoneNumberLabel | Your phone number
+callDevin.phoneNumberPlaceholder | +1 415 555 0100
+callDevin.qrDescription | Scan this code with your phone's camera to add the Devin contact, or use Add contact to download it. Then call Devin once to finish linking.
+callDevin.qrDone | Done
+callDevin.qrHint | The contact contains your PIN and is shown only once. Keep it private.
+callDevin.qrTitle | Add Devin to your phone
+callDevin.setup | Create contact card
+callDevin.setupAgain | Create a new contact card
+callDevin.setupFailed | Failed to set up phone calls
+callDevin.setupHint | Creates a contact card with the PIN filled in. Add it to your phone and call once within 7 days to finish linking.
+callDevin.setupHintReplace | Replaces the current link and PIN. Add the new contact card to your phone and call once within 7 days to finish linking.
+callDevin.stateExpired | Setup expired. Create a new contact card to try again.
+callDevin.stateLinked | Linked
+callDevin.stateLinkedVerified | Linked, caller ID verification required
+callDevin.statePending | Waiting for your first call
+callDevin.statusLoadFailed | Couldn't load your phone settings.
+callDevin.title | Call Devin
+callDevin.unlink | Unlink
+callDevin.unlinkConfirmDescription | This phone will no longer be able to call your Devin, and any call in progress ends. You can set up a new link at any time.
+callDevin.unlinkConfirmTitle | Unlink this phone?
+callDevin.unlinkFailed | Failed to unlink phone
+callDevin.vcardSaveFailed | The contact card could not be saved. Create a new one to get a new PIN.
+callDevin.vcardSaved | Contact card downloaded. Add it to your phone and call Devin once to finish linking.
+========== workflowRuns
+workflowRuns.paused | Paused
+workflowRuns.agentDetails | {{agent}} details
+workflowRuns.agentResultsDescription | Agent calls made by this workflow run will appear here.
+workflowRuns.agentResultsEmpty | No agent results yet
+workflowRuns.completedCount_one | {{formattedCount}} completed
+workflowRuns.completedCount_other | {{formattedCount}} completed
+workflowRuns.copyLink | Copy link to run
+workflowRuns.copyOutput | Copy output
+workflowRuns.copyScript | Copy script
+workflowRuns.duration | Duration
+workflowRuns.durationSinceRequested | {{duration}} since requested
+workflowRuns.earlierActionsHidden | Earlier actions hidden
+workflowRuns.failed | Failed
+workflowRuns.failedCount_one | {{formattedCount}} failed
+workflowRuns.failedCount_other | {{formattedCount}} failed
+workflowRuns.failedToCopyLink | Failed to copy link
+workflowRuns.finished | Finished
+workflowRuns.hideAgents | Hide agents
+workflowRuns.jumpToFailures | Jump to failures
+workflowRuns.noAgentsYet | No agents yet
+workflowRuns.noOutputYet | No output yet
+workflowRuns.notStarted | Not started
+workflowRuns.openRun | Open workflow run
+workflowRuns.orchestratorSession | Orchestrator session
+workflowRuns.outdated | Outdated
+workflowRuns.overview | Overview
+workflowRuns.phases | Phases
+workflowRuns.product | Product:
+workflowRuns.queued | Queued
+workflowRuns.queuedCount_one | {{formattedCount}} queued
+workflowRuns.queuedCount_other | {{formattedCount}} queued
+workflowRuns.requested | Requested
+workflowRuns.requestedAgo | Requested {{duration}} ago
+workflowRuns.runFailedAcrossPhases_one | Run failed — {{formattedCount}} agent did not complete across {{formattedPhaseCount}} phases.
+workflowRuns.runFailedAcrossPhases_other | Run failed — {{formattedCount}} agents did not complete across {{formattedPhaseCount}} phases.
+workflowRuns.runFailedInPhase_one | Run failed — {{formattedCount}} agent did not complete in phase {{phase}}.
+workflowRuns.runFailedInPhase_other | Run failed — {{formattedCount}} agents did not complete in phase {{phase}}.
+workflowRuns.runProgress | Run progress
+workflowRuns.runProgressAriaValue_one | {{formattedSettled}} of {{formattedTotal}} agent settled
+workflowRuns.runProgressAriaValue_other | {{formattedSettled}} of {{formattedTotal}} agents settled
+workflowRuns.runStarted | Started {{date}}
+workflowRuns.running | Running
+workflowRuns.runningCount_one | {{formattedCount}} running
+workflowRuns.runningCount_other | {{formattedCount}} running
+workflowRuns.script | Script
+workflowRuns.settledCount_one | {{formattedSettled}} / {{formattedTotal}} settled
+workflowRuns.settledCount_other | {{formattedSettled}} / {{formattedTotal}} settled
+workflowRuns.sharedVm | Shared VM
+workflowRuns.sharedVmBilling_one | {{formattedCount}} shared-VM agent bills to the orchestrator session
+workflowRuns.sharedVmBilling_other | {{formattedCount}} shared-VM agents bill to the orchestrator session
+workflowRuns.sharedVmTooltip | No separate session — this agent runs as a subagent on the orchestrator session's machine and bills to it
+workflowRuns.showAgents | Show agents
+workflowRuns.showPullRequests | Show pull requests
+workflowRuns.sidebarProgress | {{formattedSettled}}/{{formattedTotal}}
+workflowRuns.sinceRequested | Since requested
+workflowRuns.started | Started
+workflowRuns.starting | Starting
+workflowRuns.statusSummary | {{status}} · {{progress}}
+workflowRuns.totalAcus | {{acus}} total
+workflowRuns.viewSession | View session
+workflowRuns.workflowRun | Workflow run
+workflowRuns.workflowTitle | Workflow: {{title}}
+workflowRuns.working | Working
